@@ -5,6 +5,8 @@
 # Stilgar - Placeholder Map, Monster placeholder
 
 [lumps]
+HEHACKED # GeorgePieVG (lump) & Stilgar (strings)
+HHEVER
 DECORATE # Stilgar
 PLAYPAL  # Da Werecat 
 COLORMAP # Da Werecat 
