@@ -18,13 +18,13 @@ TXT_ARTIFLY = "Wings of the Fallen";
 TXT_ARTIINVULNERABILITY = "Shield of the Immortal";
 TXT_ARTITOMEOFPOWER = "Black Grimoire";
 TXT_ARTIINVISIBILITY = "Wraith Cloak";
-TXT_ARTIEGG = "Egg Artifac";
+TXT_ARTIEGG = "Jinxmorpher";
 TXT_ARTISUPERHEALTH = "Grail of Lifeblood";
-TXT_ARTITORCH = "Lamp";
+TXT_ARTITORCH = "Lantern";
 TXT_ARTIFIREBOMB = "Sigil of Death";
 TXT_ARTITELEPORT = "Mirrorgate";
 
-TXT_ITEMHEALTH = "Healing vial";
+TXT_ITEMHEALTH = "Healing Phial";
 TXT_ITEMBAGOFHOLDING = "Pocket O'Stuff";
 TXT_ITEMSHIELD1 = "Plate Armor";
 TXT_ITEMSHIELD2 = "Warlord's Armor";
@@ -117,22 +117,29 @@ HE3TEXT = "Episode 3 story text";
 HE4TEXT = "Episode 4 story text";
 HE5TEXT = "Episode 5 story text";
 
-RAVENQUITMSG = "Giving up and leaving the game, aren't you?";
+RAVENQUITMSG = "You're leaving already?";
 
 // Skibbi's Obituaries
 //Grunts
-OB_MUMMY = "%o was slaughtered by a grunt";
-OB_MUMMYLEADER = "%o pissed off the grunt leader";
+OB_MUMMY = "%o was slaughtered by a ghoul";
+OB_MUMMYLEADER = "%o pissed off the ghoul leader";
+OB_WIZARD = "%o was scourged by the sourcerer";
 OB_WIZARDHIT = "%o was scourged by the sourcerer";
-OB_BONEKNIGHT = "%o was no match for the jack of all trades"; 
-OB_BONEKNIGHTHIT = "%o was bashed by a jack of all trades";
-OB_HERETICIMP = "%o was burned by a flying grunt";
-OB_HERETICIMPHIT = "%o was ripped by a flying grunt";
+OB_BONEKNIGHT = "%o was drained dry by a strigoi";
+OB_BONEKNIGHTHIT = "%o was bashed by a strigoi";
+OB_HERETICIMP = "%o was spat on by a harpy";
+OB_HERETICIMPHIT = "%o was pecked by a harpy";
+
+OB_CHICKEN = "%o was hugged to death by a shoggoth";
+OB_BEAST = "%o was burned to a crisp by a merewif";
+OB_CLINK = "%o was torn apart by a cawibouk";
+OB_SNAKE = "%o was scorched by a serpentipede";
+
 //Bosses
-//OB_IRONLICH
-//OB_IRONLICHHIT 
+OB_IRONLICH = "%o was held back by a keepyr";
+OB_IRONLICHHIT = "%o was unlucky to be too close to a keepyr";
 
 OB_DSPARIL1 = "%o was no match for gyte's steed";
 OB_DSPARIL1HIT = "%o was bitten by gyte's steed";
-OB_DSPARIL2 = "%o was smote by gyte";
-OB_DPSARIL2HIT = "%o was no match for gyte's melee";
+OB_DSPARIL2 = "%o couldn't escape the Graf's vengeance";
+OB_DPSARIL2HIT = "%o felt the Graf's firm handshake";
