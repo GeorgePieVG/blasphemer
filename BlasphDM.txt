@@ -285,9 +285,9 @@ INVGEML1 FONTA10 0 0 # * PLACE HOLDER *
 INVGEMR1 FONTA10 0 0 # * PLACE HOLDER *  
 INVGEML2 FONTA03 0 0 # * PLACE HOLDER *  
 INVGEMR2 FONTA03 0 0 # * PLACE HOLDER *  
-BKEYICON 0 0 # Stilgar
-GKEYICON 0 0 # Stilgar 
-YKEYICON 0 0 # Stilgar
+BKEYICON 0 0 # Stilgar & GeorgePieVG (shape edit)
+GKEYICON 0 0 # Stilgar & GeorgePieVG (shape edit)
+YKEYICON 0 0 # Stilgar & GeorgePieVG (shape edit)
 IN0      0 0 # Stilgar  
 IN1      0 0 # Stilgar 
 IN2      0 0 # Stilgar 
