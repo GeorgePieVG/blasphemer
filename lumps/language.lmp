@@ -195,7 +195,7 @@ TXT_AMMOMACE1 = "Некросталь";
 TXT_AMMOMACE2 = "Мрачная Некросталь";
 TXT_AMMOGOLDWAND1 = "Проклятый Камень";
 TXT_AMMOGOLDWAND2 = "Проклятая Печать";
-TXT_AMMOBLASTER1 = "Осколок Льда";
+TXT_AMMOBLASTER1 = "Ледяной Осколок";
 TXT_AMMOBLASTER2 = "Ледяной Камень";
 TXT_AMMOPHOENIXROD1 = "Огненный Зуб";
 TXT_AMMOPHOENIXROD2 = "Огненные Челюсти";
@@ -284,7 +284,7 @@ RAVENQUITMSG = "Уже уходишь?";
 
 // Obituaries
 //Grunts
-OB_MUMMY = "%o был зверски убил гулем";
+OB_MUMMY = "%o был зверски убит гулем";
 OB_MUMMYLEADER = "%o выбесил лидера гулей";
 OB_WIZARD = "%o was scourged by the sourcerer";
 OB_WIZARDHIT = "%o was scourged by the sourcerer";
@@ -294,13 +294,13 @@ OB_HERETICIMP = "%o был заплёван гарпией";
 OB_HERETICIMPHIT = "%o был заклёван гарпией";
 
 OB_CHICKEN = "%o был объят шоггот до смерти";
-OB_BEAST = "%o был поджарен до хрустящей корочки меревифом";
+OB_BEAST = "%o был поджарен меревифом до хрустящей корочки";
 OB_CLINK = "%o был разорван на части кавибоуком";
 OB_SNAKE = "%o был подпалён змееножкой";
 
 //Bosses
-OB_IRONLICH = "%o был задержан храпиром";
-OB_IRONLICHHIT = "%o был перекушен пополам храпиром";
+OB_IRONLICH = "%o был задержан хранителем";
+OB_IRONLICHHIT = "%o был перекушен пополам хранителем";
 
 OB_MINOTAUR = "%o был тепло принят огром";
 OB_MINOTAURHIT = "%o был раздавлен огром";
