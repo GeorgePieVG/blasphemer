@@ -21,9 +21,9 @@ TXT_ARTIFLY = "Wings of the Fallen";
 TXT_ARTIINVULNERABILITY = "Shield of the Immortal";
 TXT_ARTITOMEOFPOWER = "Black Grimoire";
 TXT_ARTIINVISIBILITY = "Wraith Cloak";
-TXT_ARTIEGG = "Jinxmorpher";
+TXT_ARTIEGG = "Cursing Amulet";
 TXT_ARTISUPERHEALTH = "Grail of Lifeblood";
-TXT_ARTITORCH = "Lantern";
+TXT_ARTITORCH = "Explorer's Lamp";
 TXT_ARTIFIREBOMB = "Sigil of Death";
 TXT_ARTITELEPORT = "Mirrorgate";
 
@@ -82,18 +82,18 @@ HHUSTR_E2M5 = "E2M5";
 HHUSTR_E2M6 = "E2M6";
 HHUSTR_E2M7 = "E2M7";
 HHUSTR_E2M8 = "E2M8";
-HHUSTR_E2M9 = "E2M9";
+HHUSTR_E2M9 = "The Drought";
 
 // Episode 3 map names
 HHUSTR_E3M1 = "E3M1";
-HHUSTR_E3M2 = "E3M2";
-HHUSTR_E3M3 = "E3M3";
+HHUSTR_E3M2 = "The Shipwreck";
+HHUSTR_E3M3 = "Temple of the Elements";
 HHUSTR_E3M4 = "E3M4";
 HHUSTR_E3M5 = "E3M5";
 HHUSTR_E3M6 = "E3M6";
 HHUSTR_E3M7 = "E3M7";
 HHUSTR_E3M8 = "E3M8";
-HHUSTR_E3M9 = "E3M9";
+HHUSTR_E3M9 = "The Old Town";
 
 // Episode 4 map names
 HHUSTR_E4M1 = "Black Thrones";
@@ -128,31 +128,31 @@ RAVENQUITMSG = "You're leaving already?";
 
 // Obituaries
 //Grunts
-OB_MUMMY = "%o was slaughtered by a ghoul";
-OB_MUMMYLEADER = "%o pissed off the ghoul leader";
+OB_MUMMY = "%o was slaughtered by a sluagh";
+OB_MUMMYLEADER = "%o pissed off the sluagh leader";
 OB_WIZARD = "%o was scourged by the sourcerer";
 OB_WIZARDHIT = "%o was scourged by the sourcerer";
-OB_BONEKNIGHT = "%o was drained dry by a strigoi";
-OB_BONEKNIGHTHIT = "%o was bashed by a strigoi";
-OB_HERETICIMP = "%o was spat on by a harpy";
-OB_HERETICIMPHIT = "%o was pecked by a harpy";
+OB_BONEKNIGHT = "%o was haunted by a vampire";
+OB_BONEKNIGHTHIT = "%o was drained by a vampire";
+OB_HERETICIMP = "%o was melted by a harpy"; 
+OB_HERETICIMPHIT = "%o was ripped by a harpy";
 
 OB_CHICKEN = "%o was hugged to death by a shoggoth";
-OB_BEAST = "%o was burned to a crisp by a merewif";
+OB_BEAST = "%o was incinerated by a saurian";
 OB_CLINK = "%o was torn apart by a cawibouk";
 OB_SNAKE = "%o was scorched by a serpentipede";
 
 //Bosses
-OB_IRONLICH = "%o was held back by a keepyr";
-OB_IRONLICHHIT = "%o was bitten in half by a keepyr";
+OB_IRONLICH = "%o was tormented by a False Idol";
+OB_IRONLICHHIT = "%o was consumed by a False Idol";
 
 OB_MINOTAUR = "%o received a warm welcome from the ogre";
 OB_MINOTAURHIT = "%o was smashed by an ogre";
 
-OB_DSPARIL1 = "%o was no match for gyte's steed";
-OB_DSPARIL1HIT = "%o was bitten by gyte's steed";
-OB_DSPARIL2 = "%o couldn't escape the Graf's retribution";
-OB_DPSARIL2HIT = "%o felt the Graf's firm handshake";
+OB_DSPARIL1 = "%o was devastated by Gyte's steed";
+OB_DSPARIL1HIT = "%o was slashed by Gyte's steed";
+OB_DSPARIL2 = "%o was charred by Gyte";
+OB_DPSARIL2HIT = "%o was no match for Gyte";
 
 [ru]
 // Weapons
