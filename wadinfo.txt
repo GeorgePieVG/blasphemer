@@ -125,7 +125,7 @@ ARTIUP   # Jute Gyte
 ARTIUSE  # Jute Gyte
 BLSHIT   # SuperSomariDX
 BLSSHT   # SuperSomariDX
-BOUNCE   # SuperSomariDX
+BOUNCE   # Craneo
 BOWSHT   # Jute Gyte
 BSTACT   # Jute
 BSTATK   BURN	# * PLACE HOLDER *
