@@ -9,7 +9,7 @@ DECORATE # Stilgar
 PLAYPAL  # Da Werecat 
 COLORMAP # Da Werecat 
 TINTTAB  # Da Werecat 
-LOADING  # * PLACE HOLDER *
+LOADING  # Georgy Samoilov
 TITLE    # Jute Gyte
 HELP1    README	# * PLACE HOLDER *  
 HELP2    README	# * PLACE HOLDER *
