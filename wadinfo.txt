@@ -699,6 +699,10 @@ FLTTELE3  # Stilgar
 FLTTELE4  # Stilgar
 
 [patches]
+TOMB1	# Georgy Samoilov
+TOMB2	# Georgy Samoilov
+TOMB3	# Georgy Samoilov
+TOMB4	# Georgy Samoilov
 WOODBOOK	# Craneo
 CRTREA		# Craneo
 CRTREB		# Craneo

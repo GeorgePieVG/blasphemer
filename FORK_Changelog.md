@@ -1,6 +1,7 @@
 #######
 0.1.9-fork-005
 
+New Tomb Patches - Georgy Samoilov
 New Firemace Offsets - Craneo
 New loading.lmp - Georgy Samoilov
 
