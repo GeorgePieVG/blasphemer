@@ -1,6 +1,7 @@
 #######
 0.1.9-fork-005
 
+New Patches - deadbody4_icewall.wad - Craneo
 New Tomb Patches - Georgy Samoilov
 New Firemace Offsets - Craneo
 New loading.lmp - Georgy Samoilov

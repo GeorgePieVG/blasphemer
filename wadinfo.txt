@@ -699,6 +699,8 @@ FLTTELE3  # Stilgar
 FLTTELE4  # Stilgar
 
 [patches]
+ICEWLL		# Craneo
+WLDEAD04	# Craneo
 TOMB1	# Georgy Samoilov
 TOMB2	# Georgy Samoilov
 TOMB3	# Georgy Samoilov
