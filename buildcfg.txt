@@ -569,6 +569,8 @@ FONTB58  0 0 ; Mechadon
 FONTB_E  0 0 ; * Marker *
 
 [flats]
+FLXTR001	; Georgy Samoilov
+FLXTR002	; Georgy Samoilov
 CRFSTON	; Craneo
 CRROAD	; Craneo
 CRFLEF1  	; Craneo
@@ -615,7 +617,7 @@ FLOOR09   ; Esselfortium (Recolored)
 FLOOR10   ; Stilgar
 FLOOR11   ; Stilgar
 FLOOR12   ; Stilgar
-FLOOR16   ; Stilgar
+FLOOR16   ; Georgy Samoilov
 FLOOR17   ; Airraid (FreeDoom) (Recolored)
 FLOOR18   ; Stilgar
 FLOOR19   ; Stilgar
@@ -759,6 +761,7 @@ FLTTELE3  ; Stilgar
 FLTTELE4  ; Stilgar
 
 [patches]
+WALL508	# Georgy Samoilov
 ICEWLL		# Craneo
 WLDEAD04	# Craneo
 TOMB1	# Georgy Samoilov
