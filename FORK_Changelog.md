@@ -1,6 +1,8 @@
 #######
 0.1.9-fork-005
-New loading.lmp # Georgy Samoilov
+
+New Firemace Offsets - Craneo
+New loading.lmp - Georgy Samoilov
 
 #######
 0.1.9-fork-004

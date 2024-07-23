@@ -2150,12 +2150,12 @@ LVASH0    # * PLACE HOLDER *
 LVASI0   # * PLACE HOLDER *
 LVASJ0    # * PLACE HOLDER *
 LVASK0    # * PLACE HOLDER *
-MACEA0	-109	-100 # Eriance
-MACEB0	-109	-100 # Eriance
-MACEC0	-109	-95  # Eriance
-MACED0	-109	-90  # Eriance
-MACEE0	-109	-95  # Eriance
-MACEF0	-109	-100 # Eriance
+MACEA0	-70	-100	# Eriance
+MACEB0	-81	-100	# Eriance
+MACEC0	-81	-95		# Eriance
+MACED0	-92	-90		# Eriance
+MACEE0	-93	-95		# Eriance
+MACEF0	-93	-100	# Eriance
 PHNXA0   -92 -86 # Eriance
 PHNXB0   -92 -86 # Eriance
 PHNXC0   -61 -76 # Eriance
