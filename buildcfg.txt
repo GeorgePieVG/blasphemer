@@ -242,13 +242,13 @@ KGTSIT	; AntonR - CC0/public domai﻿n
 LOBHIT   		; SuperSomariDX
 LOBPOW   		; SuperSomariDX
 LOBSHT   		; Jute Gyte
-MINACT   HEDACT	; * PLACE HOLDER *
+MINACT   ; undead003 (FreeDoom)
 MINAT1   		; * PLACE HOLDER *
 MINAT2   BURN	 	; * PLACE HOLDER *
 MINAT3   BSTACT  	; * PLACE HOLDER *
-MINDTH   HEDDTH	; * PLACE HOLDER *
-MINPAI   MUMPAI	; * PLACE HOLDER *
-MINSIT   ; * PLACE HOLDER *
+MINDTH   ; undead003 & Goji (FreeDoom)
+MINPAI   ; undead003 (FreeDoom)
+MINSIT   ; undead003 (FreeDoom)
 MUMAT1   ; SuperSomariDX
 MUMAT2   ; * PLACE HOLDER *
 MUMDTH   ; SuperSomariDX
@@ -279,14 +279,14 @@ SNKATK   ; AntonR - CC0/public domai﻿n
 SNKDTH   ; AntonR - CC0/public domai﻿n
 SNKPAI   ; AntonR - CC0/public domai﻿n
 SNKSIT   ; AntonR - CC0/public domai﻿n
-SORACT   WIZACT	; * PLACE HOLDER *
-SORATK   WIZATK	; * PLACE HOLDER *
+SORACT   ; hyena (FreeDoom attic)
+SORACT   ; hyena (FreeDoom attic)
 SORDBON  RIPSLOP	; * PLACE HOLDER *
 SORDEXP  BURN		; * PLACE HOLDER *
-SORDSPH  ; * PLACE HOLDER *
-SORPAI   ; * PLACE HOLDER *
+SORDSPH  ; hyena (FreeDoom attic)
+SORPAI   ; hyena (FreeDoom attic)
 SORRISE  RESPAWN	; * PLACE HOLDER *
-SORSIT   ; * PLACE HOLDER *
+SORSIT   ; hyena (FreeDoom attic)
 SORZAP   ; * PLACE HOLDER *
 STFCRK   ; Craneo/Freedoom
 STFHIT   ; SuperSomariDX
