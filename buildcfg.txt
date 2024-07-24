@@ -280,7 +280,7 @@ SNKDTH   ; AntonR - CC0/public domai﻿n
 SNKPAI   ; AntonR - CC0/public domai﻿n
 SNKSIT   ; AntonR - CC0/public domai﻿n
 SORACT   ; hyena (FreeDoom attic)
-SORACT   ; hyena (FreeDoom attic)
+SORATK   ; muffins.exe (FreeDoom)
 SORDBON  RIPSLOP	; * PLACE HOLDER *
 SORDEXP  BURN		; * PLACE HOLDER *
 SORDSPH  ; hyena (FreeDoom attic)
