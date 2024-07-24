@@ -201,14 +201,20 @@ STNGLS2			128	128
 *	WALL513		0	0
 STNGLS3     		128	128
 *	WALL518     	0	0
-SW1OFF			64	128
-*	WALL63		0	0
-*	WALL63		0	64
-*	WALL46		16	48
-SW1ON                   64      128
-*       WALL63          0       0  
-*       WALL63          0       64 
-*       WALL45          16      48
+SW1OFF      		128	128
+*	WALL63      	0	0
+*	WALL63      	64	0
+*	WALL63      	0	64
+*	WALL63      	64	64
+*	WALL46      	16	48
+*	NSW146      	81	48
+SW1ON       		128	128
+*	WALL63      	0	0
+*	WALL63      	64	0
+*	WALL63      	0	64
+*	WALL63      	64	64
+*	WALL45      	16	48
+*	NSW145      	81	48
 SW2OFF                  192      128
 *       WALL63          0       0  
 *       WALL63          0       64 

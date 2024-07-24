@@ -761,6 +761,8 @@ FLTTELE3  ; Stilgar
 FLTTELE4  ; Stilgar
 
 [patches]
+NSW145 	# Georgy Samoilov
+NSW146		# Georgy Samoilov
 WALL508	# Georgy Samoilov
 ICEWLL		# Craneo
 WLDEAD04	# Craneo
