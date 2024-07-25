@@ -58,6 +58,7 @@ MUS_TITL BLAS21  ; Jute Gyte
 MUS_CPTD BLAS22X  ; Jute Gyte (Episode complete music)
 MUS_INTR BLAS14X  ; Jute Gyte (Level complete music)
 
+
 [levels]
 
 ; Blasphemer levels
@@ -446,7 +447,7 @@ M_SLDRT 0	0	; MrFlibble - CC-BY-SA 3.0/GPL
 M_SLDKB  6	6 	; MrFlibble - CC-BY-SA 3.0/GPL
 M_FSLOT  -1	-1	; MrFlibble - CC-BY-SA 3.0/GPL
 PAUSED   21 0 ; * PLACE HOLDER *
-FONTA_S  0 0 ; * Marker *
+FONTA_S  0 0 ;  Mechadon
 FONTA01  0 0 ; Mechadon
 FONTA02  0 0 ; Mechadon
 FONTA03  0 0 ; Mechadon
@@ -506,19 +507,19 @@ FONTA56  0 0 ; Mechadon
 FONTA57  0 0 ; Mechadon
 FONTA58  0 0 ; Mechadon
 FONTA59  0 0 ; Mechadon
-FONTA_E  0 0 ; * Marker *
-FONTB_S  0 0 ; * Marker *
+FONTA_E  0 0 ; Mechadon
+FONTB_S  0 0 ; Mechadon
 FONTB01  0 0 ; Mechadon
 FONTB02  0 0 ; Mechadon
 FONTB03  0 0 ; Mechadon
 FONTB04  0 0 ; Mechadon
 FONTB05  0 0 ; Mechadon
-FONTB06  0 0 ; * PLACE HOLDER *
+FONTB06  0 0 ; Mechadon
 FONTB07  0 0 ; Mechadon
-FONTB08  0 0 ; * PLACE HOLDER *
-FONTB09  0 0 ; * PLACE HOLDER *
-FONTB10  0 0 ; * PLACE HOLDER *
-FONTB11  0 0 ; * PLACE HOLDER *
+FONTB08  0 0 ; Mechadon
+FONTB09  0 0 ; Mechadon
+FONTB10  0 0 ; Mechadon
+FONTB11  0 0 ; Mechadon
 FONTB12  0 0 ; Mechadon
 FONTB13  0 0 ; Mechadon
 FONTB14  0 0 ; Mechadon
@@ -534,12 +535,12 @@ FONTB23  0 0 ; Mechadon
 FONTB24  0 0 ; Mechadon
 FONTB25  0 0 ; Mechadon
 FONTB26  0 0 ; Mechadon
-FONTB27  0 0 ; * PLACE HOLDER *
-FONTB28  0 0 ; * PLACE HOLDER *
-FONTB29  0 0 ; * PLACE HOLDER *
-FONTB30  0 0 ; * PLACE HOLDER *
+FONTB27  0 0 ; Mechadon
+FONTB28  0 0 ; Mechadon
+FONTB29  0 0 ; Mechadon
+FONTB30  0 0 ; Mechadon
 FONTB31  0 0 ; Mechadon
-FONTB32  0 0 ; * PLACE HOLDER *
+FONTB32  0 0 ; Mechadon
 FONTB33  0 0 ; Mechadon
 FONTB34  0 0 ; Mechadon
 FONTB35  0 0 ; Mechadon
@@ -566,7 +567,7 @@ FONTB55  0 0 ; Mechadon
 FONTB56  0 0 ; Mechadon
 FONTB57  0 0 ; Mechadon
 FONTB58  0 0 ; Mechadon
-FONTB_E  0 0 ; * Marker *
+FONTB_E  0 0 ; Mechadon
 
 [flats]
 FLXTR001	; Georgy Samoilov
