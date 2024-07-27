@@ -1,6 +1,7 @@
 #######
 0.1.9-fork-005
 
+Map updates Craneo
 New Projectile Sprites - Talon1024, apophis
 New Projectile Sprites - Nmn, Amuscaria, apophis
 New Pillar - Craneo, Cascade, Freedoom
