@@ -1,6 +1,7 @@
 #######
 0.1.9-fork-005
 
+New Pillar - Craneo
 New Mechadon Font
 New Music Cemetary - ax34
 New Sounds from Freedoom Attic

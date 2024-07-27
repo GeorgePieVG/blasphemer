@@ -1023,7 +1023,7 @@ WLLWTFL3  ; Craneo
 ; Floating Item offsets - 10 above ground seems good
 [sprites]
 BARLA0   16 32 ; Warfare
-BRPLA0   15 128 ; Stilgar
+BRPLA0	15	127 ; Craneo
 MOS1A0   20 26 ; Warfare
 MOS2A0   15 29 ; Warfare
 STCLA0   19 76 ; Warfare
