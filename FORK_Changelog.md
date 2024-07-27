@@ -1,8 +1,9 @@
 #######
 0.1.9-fork-005
 
+New Projectile Sprites - Talon1024, apophis
 New Projectile Sprites - Nmn, Amuscaria, apophis
-New Pillar - Craneo
+New Pillar - Craneo, Cascade, Freedoom
 New Mechadon Font
 New Music Cemetary - ax34
 New Sounds from Freedoom Attic

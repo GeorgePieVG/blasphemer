@@ -1095,7 +1095,7 @@ ARTIEGGC -3 -3 ; * PLACE HOLDER *
 ARTIFBMB -1 -4 ; * PLACE HOLDER *
 ARTIINVS -2 -1 ; Stilgar
 ARTIINVU -6 -4 ; Stilgar
-ARTIPTN2 -6 -5   ; Stilgar
+ARTIPTN2	-5	-10	; apophis
 ARTIPWBK -3 -3 ; Stilgar
 ARTISOAR 1 -9 ; * PLACE HOLDER *
 ARTISPHL -5 -5 ; Stilgar
@@ -1866,12 +1866,12 @@ FRB1E0  	12 13 ; Espi
 FRB1F0   	12 11 ; Espi
 FRB1G0   	12 11 ; Espi
 FRB1H0   	12 11 ; Espi
-FX00A0   3 6 ; Printz
-FX00B0   6 4 ; Printz
-FX00C0    ; * PLACE HOLDER *
-FX00D0    ; * PLACE HOLDER *
-FX00E0    ; * PLACE HOLDER *
-FX00F0    ; * PLACE HOLDER *
+FX00A0	7	7	; Talon1024
+FX00B0	7	7	; Talon1024	
+FX00C0	7	9	; Talon1024
+FX00D0	10	9	; Talon1024
+FX00E0	9	7	; Talon1024
+FX00F0	9	10	; Talon1024
 FX00G0    ; * PLACE HOLDER *
 FX00H0   9 9 ; Leilei
 FX00I0   12 15 ; Leilei
@@ -2301,9 +2301,9 @@ PPODM0   23 40 ; Stilgar
 PPODN0   23 40 ; Stilgar
 PPODO0   23 40 ; Stilgar
 PPODP0   23 40 ; Stilgar
-PTN2A0   8 30 ; Stilgar
-PTN2B0   8 30 ; Stilgar
-PTN2C0   8 30 ; Stilgar
+PTN2A0	9	24	; apophis
+PTN2B0	9	24	; apophis
+PTN2C0	9	24	; apophis
 PUF1A0   5 4  ; * PLACE HOLDER *
 PUF1B0   5 4 ; * PLACE HOLDER *
 PUF1C0   2 5 ; * PLACE HOLDER *
