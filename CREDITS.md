@@ -1,3 +1,6 @@
+
+CREDITS.md
+
 G. "Stilgar" Wessner - Graphics, Former Project Lead
 Jute Gyte - Music and Sound, Level Design, Former Project Lead
 Sodaholic - Sounds and Graphics, Former Project Maintainer, Former Project Lead
@@ -39,3 +42,5 @@ EttinGrinder - Level Design
 
 For detailed credits regarding who made which resources, refer to the file
 wadinfo.txt.
+
+

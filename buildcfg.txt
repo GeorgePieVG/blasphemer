@@ -349,17 +349,17 @@ INVGEMR2 FONTA03 0 0 ; * PLACE HOLDER *
 BKEYICON 0 0 ; Stilgar
 GKEYICON 0 0 ; Stilgar 
 YKEYICON 0 0 ; Stilgar
-IN0      0 0 ; Stilgar  
-IN1      0 0 ; Stilgar 
-IN2      0 0 ; Stilgar 
-IN3      0 0 ; Stilgar 
-IN4      0 0 ; Stilgar 
-IN5      0 0 ; Stilgar 
-IN6      0 0 ; Stilgar 
-IN7      0 0 ; Stilgar 
-IN8      0 0 ; Stilgar 
-IN9      0 0 ; Stilgar
-NEGNUM   0 0 ; Stilgar
+IN0      0 0 ; Craneo
+IN1      0 0 ; Craneo
+IN2      0 0 ; Craneo
+IN3      0 0 ; Craneo
+IN4      0 0 ; Craneo
+IN5      0 0 ; Craneo
+IN6      0 0 ; Craneo
+IN7      0 0 ; Craneo
+IN8      0 0 ; Craneo
+IN9      0 0 ; Craneo
+NEGNUM   0 0 ; Craneo
 LAME     0 0 ; * PLACE HOLDER *  
 SMALLIN0 1 0 ; Stilgar
 SMALLIN1 1 0 ; Stilgar  
@@ -371,12 +371,12 @@ SMALLIN6 1 0 ; Stilgar
 SMALLIN7 1 0 ; Stilgar  
 SMALLIN8 1 0 ; Stilgar  
 SMALLIN9 1 0 ; Stilgar  
-INAMGLD  0 0 ; Stilgar 
-INAMBOW  0 0 ; Stilgar  
-INAMBST  0 0 ; Stilgar 
-INAMRAM  0 0 ; Stilgar 
-INAMPNX  0 0 ; Stilgar 
-INAMLOB  0 0 ; Stilgar 
+INAMGLD  0 0 ; Craneo
+INAMBOW  0 0 ; Craneo
+INAMBST  0 0 ; Craneo
+INAMRAM  0 0 ; Craneo
+INAMPNX  0 0 ; Craneo
+INAMLOB  0 0 ; Craneo
 BORDL    0 0 ; * PLACE HOLDER *
 BORDR    0 0 ; * PLACE HOLDER *
 BORDT    0 0 ; * PLACE HOLDER *

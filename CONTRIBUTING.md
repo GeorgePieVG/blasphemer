@@ -1,3 +1,6 @@
+
+CONTRIBUTING.md
+
 # Premise #
 
 Submitting resources to blasphemer can be done using pull requests on github, or just posting your work to the forums or on discord. 
