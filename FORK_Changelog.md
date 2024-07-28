@@ -4,6 +4,7 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-005
 
+New Imp and Wizard Sounds - MoonDeLaAxel
 Lots of new sounds - MoonDeLaAxel
 HUD Updates - Craneo
 Map updates - Craneo

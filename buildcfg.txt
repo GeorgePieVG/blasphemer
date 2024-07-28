@@ -231,9 +231,9 @@ HRNPOW   ; SuperSomariDX
 HRNSHT   ; SuperSomariDX
 IMPAT1   ; SuperSomariDX
 IMPAT2   ; Jute
-IMPDTH   ; SuperSomariDX
-IMPPAI   IMPPAI2 	; SuperSomariDX
-IMPSIT   ; SuperSomariDX
+IMPDTH   ; MoonDeLaAxel
+IMPPAI 	; MoonDeLaAxel
+IMPSIT   ; MoonDeLaAxel
 ITEMUP   ;  MoonDeLaAxel 
 KEYUP    ;  MoonDeLaAxel 
 KGTAT2   ; AntonR - CC0/public domai﻿n
@@ -302,7 +302,7 @@ WIZACT   ; * PLACE HOLDER *
 WIZATK   ; Jute Gyte
 WIZDTH   ; * PLACE HOLDER *
 WIZPAI   ; * PLACE HOLDER *
-WIZSIT   ; SuperSomariDX
+WIZSIT   ; MoonDeLaAxel
 WPNUP    ; Artisticdude
 
 [graphics]
