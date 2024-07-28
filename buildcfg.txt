@@ -54,7 +54,7 @@ MUS_E2M8 BLAS17  ; Jute Gyte
 MUS_E2M9 BLAS18X  ; Jute Gyte
 MUS_E3M2 BLAS19X  ; Jute Gyte
 MUS_E3M3 BLAS20X  ; Jute Gyte
-MUS_TITL  ; MoonDeLaAxel 
+MUS_TITL  BLAS20X  ; Jute Gyte
 MUS_CPTD BLAS22X  ; Jute Gyte (Episode complete music)
 MUS_INTR BLAS14X  ; Jute Gyte (Level complete music)
 

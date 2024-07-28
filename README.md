@@ -1,4 +1,7 @@
-### Note: The official Blasphemer data pack is downloadable free of charge.  Any profits made from third party sales of the data or modifications thereof do not go to the original Blasphemer developers. ###
+
+README.md:
+
+Note: The official Blasphemer data pack is downloadable free of charge.  Any profits made from third party sales of the data or modifications thereof do not go to the original Blasphemer developers. ###
 
 Blasphemer aims to create a free content package for the Heretic engine, with a theme of metal-inspired dark fantasy.
 
@@ -32,3 +35,5 @@ Screenshots:
 ![http://www.jeshimoth.com/blas01304.png](http://www.jeshimoth.com/blas01304.png)
 ![http://www.jeshimoth.com/blas01305.png](http://www.jeshimoth.com/blas01305.png)
 ![http://www.jeshimoth.com/blas01306.png](http://www.jeshimoth.com/blas01306.png)
+
+#######

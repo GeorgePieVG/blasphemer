@@ -1,4 +1,5 @@
 
+
 CREDITS.md
 
 G. "Stilgar" Wessner - Graphics, Former Project Lead
@@ -43,4 +44,4 @@ EttinGrinder - Level Design
 For detailed credits regarding who made which resources, refer to the file
 wadinfo.txt.
 
-
+#######

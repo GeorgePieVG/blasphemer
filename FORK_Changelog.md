@@ -1,3 +1,6 @@
+
+FORK_Changelog.md:
+
 #######
 0.1.9-fork-005
 
@@ -40,17 +43,6 @@ New sound Craneo and Freedoom
 New E2M9 - Craneo
 New Craneo Flats and Textures
 Updated sounds AntonR
-
-kgtat2.wav
-kgtatk.wav
-kgtdth.wav
-kgtpai.wav
-kgtsit.wav
-snkact.wav
-snkatk.wav
-snkdth.wav
-snkpai.wav
-snksit.wav
 
 #######
 0.1.9-fork-003
