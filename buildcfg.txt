@@ -231,7 +231,7 @@ HRNPOW   ; SuperSomariDX
 HRNSHT   ; SuperSomariDX
 IMPAT1   ; SuperSomariDX
 IMPAT2   ; Jute
-IMPDTH   ; MoonDeLaAxel
+IMPDTH    ; MoonDeLaAxel
 IMPPAI 	; MoonDeLaAxel
 IMPSIT   ; MoonDeLaAxel
 ITEMUP   ;  MoonDeLaAxel 
