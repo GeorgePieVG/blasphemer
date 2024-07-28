@@ -1,6 +1,7 @@
 #######
 0.1.9-fork-005
 
+Lots of new sounds - MoonDeLaAxel
 HUD Updates - Craneo
 Map updates - Craneo
 New Projectile Sprites - Talon1024, apophis

@@ -54,7 +54,7 @@ MUS_E2M8 BLAS17  ; Jute Gyte
 MUS_E2M9 BLAS18X  ; Jute Gyte
 MUS_E3M2 BLAS19X  ; Jute Gyte
 MUS_E3M3 BLAS20X  ; Jute Gyte
-MUS_TITL BLAS21  ; Jute Gyte
+MUS_TITL  ; MoonDeLaAxel 
 MUS_CPTD BLAS22X  ; Jute Gyte (Episode complete music)
 MUS_INTR BLAS14X  ; Jute Gyte (Level complete music)
 
@@ -171,6 +171,7 @@ TEXTURE1
 TEXTURE2
 
 [sounds]
+DSSECRET ; MoonDeLaAxel 
 AMB1     ; Jute Gyte
 AMB10    ; Jute Gyte
 AMB11    ; Jute Gyte
@@ -205,19 +206,19 @@ CHICPK3  ; Jute
 CLKACT   ; Artisticdude
 CLKATK   ; Artisticdude
 CLKDTH   ; Artisticdude
-CLKPAI   ; Artisticdude
-CLKSIT   ; Artisticdude
+CLKPAI   ;  MoonDeLaAxel 
+CLKSIT   ; MoonDeLaAxel 
 DORCLS   ; Jute Gyte
 DORMOV   ; Jute Gyte
 DOROPN   ; Jute Gyte
 GIBDTH   ; Jute
-GLDHIT   ; Jute
+GLDHIT   ;  MoonDeLaAxel 
 GLOOP    ; Jute Gyte
 GNTACT   ; * PLACE HOLDER *
 GNTFUL   ; * PLACE HOLDER *
-GNTHIT   ; * PLACE HOLDER *
-GNTPOW   ; * PLACE HOLDER *
-GNTUSE   ; * PLACE HOLDER *
+GNTHIT   ;  MoonDeLaAxel 
+GNTPOW   ;  MoonDeLaAxel 
+GNTUSE   ;  MoonDeLaAxel 
 HEDACT   ; Jute
 HEDAT1   ; SuperSomariDX
 HEDAT2   ; SuperSomariDX
@@ -233,14 +234,14 @@ IMPAT2   ; Jute
 IMPDTH   ; SuperSomariDX
 IMPPAI   IMPPAI2 	; SuperSomariDX
 IMPSIT   ; SuperSomariDX
-ITEMUP   ; Jute Gyte
-KEYUP    ; Jute Gyte
+ITEMUP   ;  MoonDeLaAxel 
+KEYUP    ;  MoonDeLaAxel 
 KGTAT2   ; AntonR - CC0/public domai﻿n
 KGTATK   ; AntonR - CC0/public domai﻿n
 KGTDTH	; AntonR - CC0/public domai﻿n
 KGTPAI   ; AntonR - CC0/public domai﻿n
 KGTSIT	; AntonR - CC0/public domai﻿n
-LOBHIT   		; SuperSomariDX
+LOBHIT   		;  MoonDeLaAxel 
 LOBPOW   		; SuperSomariDX
 LOBSHT   		; Jute Gyte
 MINACT   ; undead003 (FreeDoom)
@@ -253,12 +254,12 @@ MINSIT   ; undead003 (FreeDoom)
 MUMAT1   ; SuperSomariDX
 MUMAT2   ; * PLACE HOLDER *
 MUMDTH   ; SuperSomariDX
-MUMHED   ; SuperSomariDX
+MUMHED   ;  MoonDeLaAxel 
 MUMPAI   ; SuperSomariDX
 MUMSIT   ; SuperSomariDX
 NEWPOD   ; Jute
 PHOHIT   ; SuperSomariDX
-PHOPOW   ; SuperSomariDX
+PHOPOW   ;  MoonDeLaAxel 
 PHOSHT   ; SuperSomariDX
 PLRCDTH  ; Jute
 PLRDTH   ; RottKing
@@ -268,8 +269,8 @@ PLRWDTH  ; Jute
 PODEXP   ; Jute
 PSTART   ; Jute Gyte
 PSTOP    ; Jute Gyte
-RAMPHIT  ; SuperSomariDX
-RAMRAIN  ; SuperSomariDX
+RAMPHIT  ;  MoonDeLaAxel 
+RAMRAIN  ;  MoonDeLaAxel 
 RESPAWN  ; Jute Gyte
 RIPSLOP  ; Jute
 SBTACT   HEDACT	; * PLACE HOLDER *
@@ -288,9 +289,9 @@ SORDSPH  ; hyena (FreeDoom attic)
 SORPAI   ; hyena (FreeDoom attic)
 SORRISE  RESPAWN	; * PLACE HOLDER *
 SORSIT   ; hyena (FreeDoom attic)
-SORZAP   ; * PLACE HOLDER *
+SORZAP   ;  MoonDeLaAxel 
 STFCRK   ; Craneo/Freedoom
-STFHIT   ; SuperSomariDX
+STFHIT   ;  MoonDeLaAxel 
 STFPOW   ; Jute
 STNMOV   ; Jute Gyte
 SWITCH   ; Jute Gyte
