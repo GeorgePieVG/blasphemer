@@ -441,12 +441,12 @@ M_SKL14	 GOD1	-11	-4	;  * PLACE HOLDER *
 M_SKL15	 GOD1	-12	-4	;  * PLACE HOLDER *   
 M_SKL16	 GOD1	-11	-4	;  * PLACE HOLDER *   
 M_SKL17	 GOD1	-10	-4	;  * PLACE HOLDER *   
-M_SLDLT	  GOD1	-9 0		;   * PLACE HOLDER *   
-M_SLDMD1  GOD1	0	0	; * PLACE HOLDER *   
-M_SLDMD2 	 GOD1	0	0	; * PLACE HOLDER *   
-M_SLDRT  GOD1		0	0	; * PLACE HOLDER *   
-M_SLDKB   FONTA10		6	6 	; * PLACE HOLDER *   
-M_FSLOT   GOD1		-1	-1	; * PLACE HOLDER *   
+M_SLDLT	-9	0	; MrFlibble 
+M_SLDMD1	0	-1 ; MrFlibble 
+M_SLDMD2	0	-1	; MrFlibble 
+M_SLDRT	0	0	; MrFlibble 
+M_SLDKB	6	6	; MrFlibble, Freedoom
+M_FSLOT	-1	-1	; MrFlibble 
 PAUSED   21 0 ; * PLACE HOLDER *
 FONTA_S  0 0 ;  Mechadon
 FONTA01  0 0 ; Mechadon

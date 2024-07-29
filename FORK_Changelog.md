@@ -2,6 +2,11 @@
 FORK_Changelog.md:
 
 #######
+0.1.9-fork-006
+
+New Sliders MrFlibble 
+
+#######
 0.1.9-fork-005
 
 New Imp and Wizard Sounds - MoonDeLaAxel
