@@ -446,7 +446,7 @@ M_SLDMD1	0	-1 ; MrFlibble
 M_SLDMD2	0	-1	; MrFlibble 
 M_SLDRT	0	0	; MrFlibble 
 M_SLDKB	6	6	; MrFlibble, Freedoom
-M_FSLOT	-1	-1	; MrFlibble 
+M_FSLOT		-1	-1	; MrFlibble 
 PAUSED   21 0 ; * PLACE HOLDER *
 FONTA_S  0 0 ;  Mechadon
 FONTA01  0 0 ; Mechadon
