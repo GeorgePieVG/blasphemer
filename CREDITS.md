@@ -1,6 +1,6 @@
 
 
-CREDITS.md
+CREDITS.md:
 
 G. "Stilgar" Wessner - Graphics, Former Project Lead
 Jute Gyte - Music and Sound, Level Design, Former Project Lead

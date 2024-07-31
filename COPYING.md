@@ -1,6 +1,6 @@
+COPYING.md:
 
-
-Copyright (c) 2021
+Copyright (c) 2024
 Contributors to the Blasphemer project.  All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
