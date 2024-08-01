@@ -4,8 +4,9 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-006
 
-Readd Amuscaria/Freedoom M_SKL
-New Sliders MrFlibble 
+New Vampire Projectiles - AntonR
+Readd M_SKL - Amuscaria/Freedoom 
+New Sliders - MrFlibble 
 
 #######
 0.1.9-fork-005

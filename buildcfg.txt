@@ -2328,16 +2328,16 @@ PUF4C0   6 6 ; * PLACE HOLDER *
 PUF4D0   6 6 ; * PLACE HOLDER *
 PUF4E0   6 6 ; * PLACE HOLDER *
 PUF4F0   6 6 ; * PLACE HOLDER *
-RAXEA1   ; BigProjectAlone
-RAXEA2A8    ; BigProjectAlone 
-RAXEA3A7    ; BigProjectAlone 
-RAXEA4A6    ; BigProjectAlone 
-RAXEA5    ; BigProjectAlone 
-RAXEB1    ; BigProjectAlone
-RAXEB2B8    ; BigProjectAlone 
-RAXEB3B7    ; BigProjectAlone 
-RAXEB4B6    ; BigProjectAlone 
-RAXEB5    ; BigProjectAlone 
+RAXEA1	12	12	;  AntonR
+RAXEA2A8	13	8	;  AntonR
+RAXEA3A7	25	8	;  AntonR
+RAXEA4A6	14	8	;  AntonR
+RAXEA5	10	9	;  AntonR
+RAXEB1	12	12	;  AntonR
+RAXEB2B8	13	8	;  AntonR
+RAXEB3B7	25	8	;  AntonR
+RAXEB4B6	14	8	;  AntonR
+RAXEB5	10	9	;  AntonR
 RAXEC0    ; BigProjectAlone
 RAXED0    ; BigProjectAlone
 RAXEE0    ; BigProjectAlone
@@ -2395,9 +2395,21 @@ SNFXL0	26	40	; apophis (LibTech1)
 SNFXM0	30	59	; apophis (LibTech1)
 SNFXN0	32	67	; apophis (LibTech1)
 SNFXO0	32	65	; apophis (LibTech1)
-SPAXA0    ; Protox
-SPAXB0    ; Protox
-SPAXC0    ; Protox
+SPAXA1	9	10	;  AntonR
+SPAXA2A8	13	5	;  AntonR
+SPAXA3A7	20	6	;  AntonR
+SPAXA4A6	13	6	;  AntonR
+SPAXA5	7	8	;  AntonR
+SPAXB1	9	10	;  AntonR
+SPAXB2B8	13	5	;  AntonR
+SPAXB3B7	20	6	;  AntonR
+SPAXB4B6	13	6	;  AntonR
+SPAXB5	7	8	;  AntonR
+SPAXC1	9	10	;  AntonR	
+SPAXC2C8	13	5	;  AntonR
+SPAXC3C7	20	6	;  AntonR
+SPAXC4C6	13	6	;  AntonR
+SPAXC5	7	8	;  AntonR
 SPAXD0    ; Protox
 SPAXE0    ; Protox
 SPAXF0    ; Protox
