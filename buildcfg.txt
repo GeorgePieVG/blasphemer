@@ -347,9 +347,9 @@ INVGEML1 FONTA10 0 0 ; * PLACE HOLDER *
 INVGEMR1 FONTA10 0 0 ; * PLACE HOLDER *  
 INVGEML2 FONTA03 0 0 ; * PLACE HOLDER *  
 INVGEMR2 FONTA03 0 0 ; * PLACE HOLDER *  
-BKEYICON 0 0 ; Stilgar
-GKEYICON 0 0 ; Stilgar 
-YKEYICON 0 0 ; Stilgar
+BKEYICON 0 0	; Stilgar, Georgy Samoilov
+GKEYICON 0 0	; Stilgar, Georgy Samoilov
+YKEYICON 0 0		; Stilgar, Georgy Samoilov 
 IN0      0 0 ; Craneo
 IN1      0 0 ; Craneo
 IN2      0 0 ; Craneo
@@ -1787,35 +1787,35 @@ BSKLF0    ; Reinaldo "Horror Movie Guy"
 CHDLA0   28 60 ; Warfare
 CHDLB0   28 60 ; Warfare
 CHDLC0   28 60 ; Warfare
-AKYYA0   6 25 ; Stilgar
-AKYYB0   6 25 ; Stilgar
-AKYYC0   6 25 ; Stilgar
-AKYYD0   6 25 ; Stilgar
-AKYYE0   6 25 ; Stilgar
-AKYYF0   6 25 ; Stilgar
-AKYYG0   6 25 ; Stilgar
-AKYYH0   6 25 ; Stilgar
-AKYYI0   6 25 ; Stilgar
-AKYYJ0   6 25 ; Stilgar
-BKYYA0   6 25 ; Stilgar
-BKYYB0   6 25 ; Stilgar
-BKYYC0   6 25 ; Stilgar
-BKYYD0   6 25 ; Stilgar
-BKYYE0   6 25 ; Stilgar
-BKYYF0   6 25 ; Stilgar
-BKYYG0   6 25 ; Stilgar
-BKYYH0   6 25 ; Stilgar
-BKYYI0   6 25 ; Stilgar
-BKYYJ0   6 25 ; Stilgar
-CKYYA0   6 25 ; Stilgar
-CKYYB0   6 25 ; Stilgar
-CKYYC0   6 25 ; Stilgar
-CKYYD0   6 25 ; Stilgar
-CKYYE0   6 25 ; Stilgar
-CKYYF0   6 25 ; Stilgar
-CKYYG0   6 25 ; Stilgar
-CKYYH0   6 25 ; Stilgar
-CKYYI0   6 25 ; Stilgar
+AKYYA0   6 25 ; Stilgar, Georgy Samoilov
+AKYYB0   6 25 ; Stilgar, Georgy Samoilov
+AKYYC0   6 25 ; Stilgar, Georgy Samoilov
+AKYYD0   6 25 ; Stilgar, Georgy Samoilov
+AKYYE0   6 25 ; Stilgar, Georgy Samoilov
+AKYYF0   6 25 ; Stilgar, Georgy Samoilov
+AKYYG0   6 25 ; Stilgar, Georgy Samoilov
+AKYYH0   6 25 ; Stilgar, Georgy Samoilov
+AKYYI0   6 25 ; Stilgar, Georgy Samoilov
+AKYYJ0   6 25 ; Stilgar, Georgy Samoilov
+BKYYA0   6 25 ; Stilgar, Georgy Samoilov
+BKYYB0   6 25 ; Stilgar, Georgy Samoilov
+BKYYC0   6 25 ; Stilgar, Georgy Samoilov
+BKYYD0   6 25 ; Stilgar, Georgy Samoilov
+BKYYE0   6 25 ; Stilgar, Georgy Samoilov
+BKYYF0   6 25 ; Stilgar, Georgy Samoilov
+BKYYG0   6 25 ; Stilgar, Georgy Samoilov
+BKYYH0   6 25 ; Stilgar, Georgy Samoilov
+BKYYI0   6 25 ; Stilgar, Georgy Samoilov
+BKYYJ0   6 25 ; Stilgar, Georgy Samoilov
+CKYYA0   6 25 ; Stilgar, Georgy Samoilov
+CKYYB0   6 25 ; Stilgar, Georgy Samoilov
+CKYYC0   6 25 ; Stilgar, Georgy Samoilov
+CKYYD0   6 25 ; Stilgar, Georgy Samoilov
+CKYYE0   6 25 ; Stilgar, Georgy Samoilov
+CKYYF0   6 25 ; Stilgar, Georgy Samoilov
+CKYYG0   6 25 ; Stilgar, Georgy Samoilov
+CKYYH0   6 25 ; Stilgar, Georgy Samoilov
+CKYYI0   6 25 ; Stilgar, Georgy Samoilov
 EGGCA0   13 36 ; * PLACE HOLDER *
 EGGCB0   13 36 ; * PLACE HOLDER *
 EGGCC0   13 36 ; * PLACE HOLDER *
@@ -2209,8 +2209,8 @@ KFR1F0   20 77 ; Warfare & Stilgar
 KFR1G0   20 77 ; Warfare & Stilgar
 KFR1H0   20 77 ; Warfare & Stilgar
 KGZ1A0   22 61 ; Stilgar
-KGZBA0   13 25 ; Stilgar
-KGZGA0   13 25 ; Stilgar
+KGZBA0   13 25 ; Stilgar, Georgy Samoilov
+KGZGA0   13 25 ; Stilgar, Georgy Samoilov
 KGZYA0   13 25 ; Stilgar
 LVASA0    ; * PLACE HOLDER *
 LVASB0    ; * PLACE HOLDER *
