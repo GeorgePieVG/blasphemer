@@ -1096,7 +1096,7 @@ ARTIEGGC -3 -3 ; * PLACE HOLDER *
 ARTIFBMB -1 -4 ; * PLACE HOLDER *
 ARTIINVS -2 -1 ; Stilgar
 ARTIINVU -6 -4 ; Stilgar
-ARTIPTN2	-5	-10	; apophis
+ARTIPTN2	-5	-2	; apophis, Craneo
 ARTIPWBK -3 -3 ; Stilgar
 ARTISOAR 1 -9 ; * PLACE HOLDER *
 ARTISPHL -5 -5 ; Stilgar
@@ -2302,9 +2302,9 @@ PPODM0   23 40 ; Stilgar
 PPODN0   23 40 ; Stilgar
 PPODO0   23 40 ; Stilgar
 PPODP0   23 40 ; Stilgar
-PTN2A0	9	24	; apophis
-PTN2B0	9	24	; apophis
-PTN2C0	9	24	; apophis
+PTN2A0	9	31	; apophis, Craneo
+PTN2B0	9	31	; apophis, Craneo
+PTN2C0	9	31	; apophis, Craneo
 PUF1A0   5 4  ; * PLACE HOLDER *
 PUF1B0   5 4 ; * PLACE HOLDER *
 PUF1C0   2 5 ; * PLACE HOLDER *

@@ -4,6 +4,7 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-006
 
+Update Potion Sprites - Craneo
 New Vampire Projectiles - AntonR
 Readd M_SKL - Amuscaria/Freedoom 
 New Sliders - MrFlibble 
