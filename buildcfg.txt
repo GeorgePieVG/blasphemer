@@ -338,11 +338,11 @@ RTFACE   -17 0 ; * PLACE HOLDER *
 LTFCTOP  0 1 ; Stilgar
 RTFCTOP  0 0 ; * PLACE HOLDER *   
 SELECTBO 0 29 ; Stilgar   
-USEARTIA 0 0 ; * PLACE HOLDER *   
-USEARTIB 0 0 ; * PLACE HOLDER *   
-USEARTIC 0 0 ; * PLACE HOLDER *   
-USEARTID 0 0 ; * PLACE HOLDER *   
-USEARTIE 0 0 ; * PLACE HOLDER *   
+USEARTIA	-2	-3	; Georgy Samoilov
+USEARTIB	-2	-3	; Georgy Samoilov
+USEARTIC	0	0	; Georgy Samoilov
+USEARTID	3	0	; Georgy Samoilov
+USEARTIE	2	0	; Georgy Samoilov
 INVGEML1 FONTA10 0 0 ; * PLACE HOLDER *  
 INVGEMR1 FONTA10 0 0 ; * PLACE HOLDER *  
 INVGEML2 FONTA03 0 0 ; * PLACE HOLDER *  
@@ -1074,10 +1074,10 @@ WPHXA0 10 57   ; Eriance
 WSKLA0 18 45   ; Stilgar
 SOARB0 SOARA0 23 25 ; Stilgar (Unanimated!)
 SOARC0 SOARA0 23 25 ; Stilgar (Unanimated!)
-ACLOA0 6 38  ; * PLACE HOLDER *
-ACLOB0 6 38  ; * PLACE HOLDER *
-ACLOC0 6 38  ; * PLACE HOLDER *
-ACLOD0 6 38  ; * PLACE HOLDER *
+ACLOA0	4	34	; Georgy Samoilov
+ACLOB0	6	37	; Georgy Samoilov
+ACLOC0	9	41	; Georgy Samoilov
+ACLOD0	11	41	; Georgy Samoilov
 ACLOE0 GOD1 0 0  ; * PLACE HOLDER *
 AMB2A0 8 13  ; * PLACE HOLDER *
 AMB2B0 8 13  ; * PLACE HOLDER *
@@ -2000,13 +2000,13 @@ FX10D0    ; Protox
 FX10E0    ; Protox
 FX10F0    ; Protox
 FX10G0    ; Protox
-FX11A0	6	6	; Printz
-FX11B0	9	9	; Printz
-FX11C0	11	12	; Printz
-FX11D0	15	16	; Printz
-FX11E0	16	17	; Printz
-FX11F0	4	4	; Printz
-FX11G0	2	2	; Printz
+FX11A0	9	9	; Georgy Samoilov
+FX11B0	7	7	; Georgy Samoilov
+FX11C0	11	12	; Georgy Samoilov
+FX11D0	11	12	; Georgy Samoilov
+FX11E0	7	7	; Georgy Samoilov
+FX11F0	5	5	; Georgy Samoilov
+FX11G0	3	3	; Georgy Samoilov
 FX12A1   	; * PLACE HOLDER *
 FX12A2A8   	; * PLACE HOLDER *
 FX12A3A7   	; * PLACE HOLDER *
