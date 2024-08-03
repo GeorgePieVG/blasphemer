@@ -4,6 +4,8 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-006
 
+New Freedoom lava flat, new lava ball -  Georgy Samoilov
+Added HHE support - GeorgePieVG
 Use artifact/wizard projectile-  Georgy Samoilov
 Keys and Pillars - Georgy Samoilov
 Update Potion Sprites - Craneo

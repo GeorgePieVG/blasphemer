@@ -13,16 +13,13 @@
 
 ### Dev, Release, and DM packaging ###
 
-# cat FORK_Changelog.md README.md CONTRIBUTING.md COPYING.md CREDITS.md > wads/blasphem.txt
+# cat FORK_Changelog.md README.md CONTRIBUTING.md COPYING.md CREDITS.md > wads/blasphem.txt && cp lumps/hehacked.lmp wads/
 
-# 7za a blasphemer-fork-005-dev4.7z blasphem.wad blasphem.txt
-# zip blasphemer-fork-005.zip blasphem.wad blasphem.txt
-# 7za a blasphemer-fork-dm-005-dev3.7z blasphdm.wad blasphem.txt
+# 7za a blasphemer-fork-005-dev4.7z blasphem.wad blasphem.txt hehacked.lmp
+# zip blasphemer-fork-005.zip blasphem.wad blasphem.txt hehacked.lmp
+# 7za a blasphemer-fork-dm-005-dev3.7z blasphdm.wad blasphem.txt hehacked.lmp
 
 
 
-# 7za a blasphemer-fork-005-dev4.7z wads/blasphem.wad FORK_Changelog.md CONTRIBUTING.md COPYING.md 
-# zip blasphemer-fork-005.zip wads/blasphem.wad FORK_Changelog.md CONTRIBUTING.md COPYING.md 
-# 7za a blasphemer-fork-dm-005-dev3.7z wads/blasphdm.wad FORK_Changelog.md CONTRIBUTING.md COPYING.md 
 
 

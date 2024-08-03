@@ -7,6 +7,8 @@
 ; Stilgar - Placeholder Map, Monster placeholder
 
 [lumps]
+#HEHACKED ; GeorgePieVG (lump) & Stilgar (strings)
+#HHEVER ; 
 DECORATE ; Stilgar
 PLAYPAL  ; Da Werecat 
 COLORMAP ; Da Werecat 
@@ -635,10 +637,10 @@ FLOOR28   ; Esselfortium
 FLOOR29   ; Esselfortium (Edit by Stilgar)
 FLOOR30   ; Esselfortium (Edit by Stilgar)
 FLOOR31   ; unknown (Extra)
-FLATHUH1  ; Mellow (FreeDoom) 
-FLATHUH2  ; Mellow (FreeDoom) 
-FLATHUH3  ; Mellow (FreeDoom) 
-FLATHUH4  ; Mellow (FreeDoom) 
+FLATHUH1	 ; Blastfrog/Freedoom
+FLATHUH2	 ; Blastfrog/Freedoom
+FLATHUH3	 ; Blastfrog/Freedoom
+FLATHUH4	 ; Blastfrog/Freedoom
 FLTLAVA1	; Stilgar - Craneo
 FLTLAVA2	; Stilgar - Craneo
 FLTLAVA3	; Stilgar - Craneo
@@ -1062,8 +1064,8 @@ SHD2A0 14 43   ; Stilgar
 SHLDA0 15 41   ; Stilgar
 SOARA0 23 25   ; Stilgar
 SPMPA0 12 28   ; Stilgar
-VFBLA0 13 12   ; Stilgar
-VFBLB0 12 13   ; Stilgar
+VFBLA0	12	12	 ; Georgy Samoilov
+VFBLB0	12	12	 ; Georgy Samoilov
 VTFBA0 6 6 ; Stilgar
 VTFBB0 6 6 ; Stilgar
 WBLSA0 11  45   ; Eriance
