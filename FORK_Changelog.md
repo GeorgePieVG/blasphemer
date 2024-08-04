@@ -1,9 +1,13 @@
 
 FORK_Changelog.md:
 
+# Make sure to use "-deh blasphem.hhe -hhever 1.3" with crispy-heretic.
+# Will need to use "-heretic" with dsda-heretic.
+
 #######
 0.1.9-fork-006
 
+New Pickup sprites - Nmn, Stilgar
 Fix buildcfg - Georgy Samoilov
 New Freedoom lava flat, new lava ball -  Georgy Samoilov
 Added HHE support - GeorgePieVG
