@@ -4,6 +4,7 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-006
 
+Fix buildcfg - Georgy Samoilov
 New Freedoom lava flat, new lava ball -  Georgy Samoilov
 Added HHE support - GeorgePieVG
 Use artifact/wizard projectile-  Georgy Samoilov
