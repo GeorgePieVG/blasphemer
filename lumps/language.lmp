@@ -1,14 +1,21 @@
 [enu default]
+// Weapons
 TXT_WPNMACE = "Necrocannon";
 TXT_WPNBLASTER = "Frostfang";
 TXT_WPNCROSSBOW = "Plaguewielder";
-TXT_WPNPHOENIXROD = "Firebreather";
+TXT_WPNPHOENIXROD = "Spiritridge";
 TXT_WPNSKULLROD = "Blood Sceptre";
 TXT_WPNGAUNTLETS = "Vampyric Claws";
 
+// Keys
+TXT_GOTBLUEKEY = "Azure Key";
+TXT_NEEDBLUEKEY = "Can't open this without the azure key";
 TXT_GOTYELLOWKEY = "Gold Key";
-TXT_NEEDYELLOWKEY = "You need a gold key to open this door";
+TXT_NEEDYELLOWKEY = "Can't open this without the gold key";
+TXT_GOTGREENKEY = "Jade Key";
+TXT_NEEDGREENKEY = "Can't open this without the jade key";
 
+// Artifacts
 TXT_ARTIHEALTH = "Healing Elixir";
 TXT_ARTIFLY = "Wings of the Fallen";
 TXT_ARTIINVULNERABILITY = "Shield of the Immortal";
@@ -16,66 +23,176 @@ TXT_ARTITOMEOFPOWER = "Black Grimoire";
 TXT_ARTIINVISIBILITY = "Wraith Cloak";
 TXT_ARTIEGG = "Cursing Amulet";
 TXT_ARTISUPERHEALTH = "Grail of Lifeblood";
-TXT_ARTITORCH = "Explorer's Lamp";
-TXT_ARTIFIREBOMB = "Sigil of Death";
+TXT_ARTITORCH = "Explorer's Lantern";
+TXT_ARTIFIREBOMB = "Flesh Bomb";
 TXT_ARTITELEPORT = "Mirrorgate";
 
+// Regular powerups
+TXT_ITEMHEALTH = "Healing Phial";
+TXT_ITEMBAGOFHOLDING = "Pocket O'Stuff";
 TXT_ITEMSHIELD1 = "Plate Armor";
 TXT_ITEMSHIELD2 = "Warlord's Armor";
+TXT_ITEMSUPERMAP = "Map Canvas";
 
+// Ammo pickups
 TXT_AMMOMACE1 = "Necrosteel";
 TXT_AMMOMACE2 = "Grim Necrosteel";
 TXT_AMMOGOLDWAND1 = "Accursed Jewel";
 TXT_AMMOGOLDWAND2 = "Accursed Seal";
 TXT_AMMOBLASTER1 = "Ice Shard";
-TXT_AMMOBLASTER2 = "Ice Jewel";
-TXT_AMMOPHOENIXROD1 = "Flame Tooth";
-TXT_AMMOPHOENIXROD2 = "Flame Jaws";
+TXT_AMMOBLASTER2 = "Ice Chunk";
+TXT_AMMOPHOENIXROD1 = "Haze Capsule";
+TXT_AMMOPHOENIXROD2 = "Haze Sphere";
 TXT_AMMOCROSSBOW1 = "Plague Bolts";
 TXT_AMMOCROSSBOW2 = "Quiver of Plague Bolts";
 TXT_AMMOSKULLROD1 = "Bloodstone";
 TXT_AMMOSKULLROD2 = "Royal Bloodstone";
 
+// Episode names
+MNU_COTD = "Mark of Blasphemer";
+MNU_HELLSMAW = "Witherlands";
+MNU_DOME = "Gruesome Demise";
+MNU_OSSUARY = "Exhausted Exodus";
+MNU_DEMESNE = "Unforgiving Cold";
+
+// Skill names
 MNU_WETNURSE = "Whimpering Craven";
 MNU_YELLOWBELLIES = "Still a Novice";
-MNU_BRINGEST = "Experienced Warrior";
+MNU_BRINGEST = "Hardened Warrior";
 MNU_SMITE = "Grim and Morbid";
 MNU_BLACKPLAGUE = "Death's Right Hand";
 
-HHUSTR_E1M1 = "noname";
-HHUSTR_E1M2 = "noname";
+// Episode 1 map names
+HHUSTR_E1M1 = "Blasphemer's Tomb";
+HHUSTR_E1M2 = "E1M2";
 HHUSTR_E1M3 = "Forgotten Stronghold";
+HHUSTR_E1M4 = "E1M4";
+HHUSTR_E1M5 = "E1M5";
+HHUSTR_E1M6 = "E1M6";
 HHUSTR_E1M7 = "The White Citadel";
+HHUSTR_E1M8 = "E1M8";
+HHUSTR_E1M9 = "E1M9";
+
+// Episode 2 map names
 HHUSTR_E2M1 = "The Remote Outpost";
+HHUSTR_E2M2 = "E2M2";
+HHUSTR_E2M3 = "E2M3";
+HHUSTR_E2M4 = "E2M4";
+HHUSTR_E2M5 = "E2M5";
+HHUSTR_E2M6 = "E2M6";
+HHUSTR_E2M7 = "E2M7";
+HHUSTR_E2M8 = "E2M8";
 HHUSTR_E2M9 = "The Drought";
+
+// Episode 3 map names
+HHUSTR_E3M1 = "E3M1";
 HHUSTR_E3M2 = "The Shipwreck";
 HHUSTR_E3M3 = "Temple of the Elements";
+HHUSTR_E3M4 = "E3M4";
+HHUSTR_E3M5 = "E3M5";
+HHUSTR_E3M6 = "E3M6";
+HHUSTR_E3M7 = "E3M7";
+HHUSTR_E3M8 = "E3M8";
 HHUSTR_E3M9 = "The Old Town";
+
+// Episode 4 map names
 HHUSTR_E4M1 = "Black Thrones";
 HHUSTR_E4M2 = "Desolate Ways";
 HHUSTR_E4M3 = "Spilling Holy Blood";
 HHUSTR_E4M4 = "Megaliths";
-HHUSTR_E4M5 = "noname";
-HHUSTR_E4M6 = "noname";
-HHUSTR_E4M7 = "noname";
-HHUSTR_E4M8 = "noname";
-HHUSTR_E4M9 = "noname";
+HHUSTR_E4M5 = "E4M5";
+HHUSTR_E4M6 = "E4M6";
+HHUSTR_E4M7 = "E4M7";
+HHUSTR_E4M8 = "E4M8";
+HHUSTR_E4M9 = "E4M9";
 
+// Episode 5 map names
+HHUSTR_E5M1 = "E5M1";
+HHUSTR_E5M2 = "E5M2";
+HHUSTR_E5M3 = "E5M3";
+HHUSTR_E5M4 = "E5M4";
+HHUSTR_E5M5 = "E5M5";
+HHUSTR_E5M6 = "E5M6";
+HHUSTR_E5M7 = "E5M7";
+HHUSTR_E5M8 = "E5M8";
+HHUSTR_E5M9 = "E5M9";
 
-// Skibbi's Obituaries
+// Story texts
+HE1TEXT = "Episode 1 story text";
+HE2TEXT = "Episode 2 story text";
+HE3TEXT = "Episode 3 story text";
+HE4TEXT = "Episode 4 story text";
+HE5TEXT = "Episode 5 story text";
+
+RAVENQUITMSG = "You're leaving already?";
+
+// Friendly names
+FN_CHICKEN = "Shoggoth";
+FN_BEAST = "Saurian";
+FN_CLINK = "Cawibouk";
+FN_DSPARIL = "Gyte";
+FN_HERETICIMP = "Harpy";
+FN_IRONLICH = "False Idol";
+FN_BONEKNIGHT = "Vampire";
+FN_MINOTAUR = "Ogre";
+FN_MUMMY = "Sluagh";
+FN_MUMMYLEADER = "Sluagh leader";
+FN_SNAKE = "Snake";
+FN_WIZARD = "Geist";
+
+// Obituaries
 //Grunts
 OB_MUMMY = "%o was slaughtered by a sluagh";
 OB_MUMMYLEADER = "%o pissed off the sluagh leader";
-OB_WIZARDHIT = "%o was scourged by the sourcerer";
+OB_WIZARD = "%o was scourged by the geist";
+OB_WIZARDHIT = "%o was scourged by the geist";
 OB_BONEKNIGHT = "%o was haunted by a vampire";
 OB_BONEKNIGHTHIT = "%o was drained by a vampire";
-OB_HERETICIMP = "%o was melted by a harpy"; 
+OB_HERETICIMP = "%o was melted by a harpy";
 OB_HERETICIMPHIT = "%o was ripped by a harpy";
+
+OB_CHICKEN = "%o was hugged to death by a shoggoth";
 OB_BEAST = "%o was incinerated by a saurian";
+OB_CLINK = "%o was torn apart by a cawibouk";
+OB_SNAKE = "%o was scorched by a snake";
+
 //Bosses
-OB_IRONLICH= "%o was tormented by a False Idol";
+OB_IRONLICH = "%o was tormented by a False Idol";
 OB_IRONLICHHIT = "%o was consumed by a False Idol";
+
+OB_MINOTAUR = "%o received a warm welcome from the ogre";
+OB_MINOTAURHIT = "%o was smashed by an ogre";
+
 OB_DSPARIL1 = "%o was devastated by Gyte's steed";
 OB_DSPARIL1HIT = "%o was slashed by Gyte's steed";
 OB_DSPARIL2 = "%o was charred by Gyte";
 OB_DPSARIL2HIT = "%o was no match for Gyte";
+
+// Weapons
+OB_MPSTAFF = "%o got slashed by %k.";
+OB_MPGAUNTLETS = "%o got a shock from %k's vampyric claws.";
+OB_MPGOLDWAND = "%o waved goodbye to %k's accursed wand.";
+OB_MPCROSSBOW = "%o was pegged by %k's plaguewielder.";
+OB_MPBLASTER = "%o was frozen by %k's frostfang.";
+OB_MPSKULLROD = "%o got sent down under by %k's blood scepter.";
+OB_MPPHOENIXROD = "%o was scorched to cinders by %k's spiritridge.";
+OB_MPMACE = "%o was bounced by %k's necrocannon.";
+
+// Powered weapons
+OB_MPPSTAFF = "%o got burned by %k's charged sword.";
+OB_MPPGAUNTLETS = "%o was bled dry by %k's vampyric claws.";
+OB_MPPGOLDWAND = "%o was assaulted by %k's accursed wand.";
+OB_MPPCROSSBOW = "%o was shafted by %k's plaguewielder.";
+OB_MPPBLASTER = "%o was ripped apart by %k's frostfang.";
+OB_MPPSKULLROD = "%k poured %p blood scepter on %o.";
+OB_MPPPHOENIXROD = "%o was burned down by %k's spiritridge.";
+OB_MPPMACE = "%o was squished by %k's grim necrosteel ball.";
+
+// Ammo names
+AMMO_GOLDWAND		= "Wand Jewels";
+AMMO_CROSSBOW		= "Plague Bolts";
+AMMO_BLASTER		= "Frost shards";
+AMMO_MACE			= "Necrosteel balls";
+AMMO_SKULLROD		= "Blood Stones";
+AMMO_PHOENIXROD		= "Haze";
+

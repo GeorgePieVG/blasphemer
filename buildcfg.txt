@@ -2290,10 +2290,10 @@ PLAYX0   	24 13	; Reinaldo "Horror Movie Guy"
 PLAYY0   	26 13	; Reinaldo "Horror Movie Guy"
 PPODA0   23 40 ; Stilgar
 PPODB0   23 40 ; Stilgar
-PPODC0   23 40 ; (FreeDoom Team)
-PPODD0   23 40 ; (FreeDoom Team)
-PPODE0   23 40 ; (FreeDoom Team)
-PPODF0   23 40 ; (FreeDoom Team)
+PPODC0	24	42	; Amuscaria/Freedoom
+PPODD0	36	60	; Amuscaria/Freedoom
+PPODE0	38	61	; Amuscaria/Freedoom
+PPODF0	44	64	; Amuscaria/Freedoom
 PPODG0   23 40 ; Stilgar
 PPODH0   23 40 ; Stilgar
 PPODI0   23 40 ; Stilgar

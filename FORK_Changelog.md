@@ -7,6 +7,9 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-006
 
+New pod frames - Amuscaria/Freedoom
+Scripts and docs organization -  Georgy Samoilov
+New Langauge - Georgy Samoilov
 New Pickup sprites - Nmn, Stilgar
 Fix buildcfg - Georgy Samoilov
 New Freedoom lava flat, new lava ball -  Georgy Samoilov
