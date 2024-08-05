@@ -7,6 +7,7 @@ FORK_Changelog.md:
 #######
 0.1.9-fork-006
 
+Update Mummy - Georgy Samoilov
 New pod frames - Amuscaria/Freedoom
 Scripts and docs organization -  Georgy Samoilov
 New Langauge - Georgy Samoilov
