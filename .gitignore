@@ -1,3 +1,10 @@
 /wads/
 *.zip
 wad*.txt
+
+/lumps/pnbsph*.lmp
+/lumps/t*bsph*.lmp
+
+/lumps/textures/blasphdm/
+/lumps/textures/blasphem/
+

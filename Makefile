@@ -19,8 +19,7 @@ all: deutex-check $(OBJS)
 
 subdirs:
 	#$(MAKE) VERSION=$(VERSION) -C graphics/text
-	#$(MAKE) -C lumps/textures
-	# WIP
+	$(MAKE) -C lumps/textures
 
 #---------------------------------------------------------
 # Build checks
@@ -58,7 +57,7 @@ $(BLASPHDM): wadinfo_blasphdm.txt subdirs
 	$(DEUTEX) $(DEUTEX_ARGS) -iwad -build wadinfo_blasphdm.txt $@
 
 #---------------------------------------------------------
-# blasphemer (SOTHR) iwad
+# blasphemer (SOTSR) iwad
 
 wadinfo_blasphem.txt: buildcfg.txt subdirs lumps/blasphem.lmp
 	$(CPP) -P -DBLASPHEM < $< > $@
