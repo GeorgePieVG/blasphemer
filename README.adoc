@@ -90,11 +90,11 @@ Join us on https://www.doomworld.com/vb/freedoom/70732-blasphemer-discussion/[Do
 
 == Screenshots
 
-http://www.jeshimoth.com/blas014_02.png[http://www.jeshimoth.com/blas014_02.png]
-http://www.jeshimoth.com/blas01301.png[http://www.jeshimoth.com/blas01301.png]
-http://www.jeshimoth.com/blas01302.png[http://www.jeshimoth.com/blas01302.png]
-http://www.jeshimoth.com/blas01303.png[http://www.jeshimoth.com/blas01303.png]
-http://www.jeshimoth.com/blas01304.png[http://www.jeshimoth.com/blas01304.png]
-http://www.jeshimoth.com/blas01305.png[http://www.jeshimoth.com/blas01305.png]
-http://www.jeshimoth.com/blas01306.png[http://www.jeshimoth.com/blas01306.png]
+image::http://www.jeshimoth.com/blas014_02.png[]
+image::http://www.jeshimoth.com/blas01301.png[]
+image::http://www.jeshimoth.com/blas01302.png[]
+image::http://www.jeshimoth.com/blas01303.png[]
+image::http://www.jeshimoth.com/blas01304.png[]
+image::http://www.jeshimoth.com/blas01305.png[]
+image::http://www.jeshimoth.com/blas01306.png[]
 
