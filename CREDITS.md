@@ -40,6 +40,14 @@ HorrorMovieGuy - Graphics
 Suporma - Level Design
 Craneo - Level Design
 EttinGrinder - Level Design
+AntonR - Sounds, Sprites
+MrFlibble - Graphics
+GeorgePieVG - Scripts, Sprites
+Amuscaria - Sprites
+MoonDeLaAxel - Sounds
+KatherineCode - Sprites
+Desfar - Sprites
+ax34 - Music
 
 For detailed credits regarding who made which resources, refer to the file
 wadinfo.txt.
