@@ -14,7 +14,12 @@ Make sure to use
 -deh blasphem.hhe -hhever 1.3
 -----------------
 with crispy-heretic.
-Will need to use "-heretic" with dsda-heretic.
+Will need to use
+[source,bash]
+-----------------
+-heretic
+-----------------
+with dsda-heretic.
 
 == What “free” means
 
@@ -46,7 +51,7 @@ Please follow these guidelines when contributing to the project.
 
 ==== The Most Important Thing
 
-This is an open content project, and as such, must adhere to strict licensing rules.  Content that you submit must be compatible with the https://opensource.org/license/bsd-3-clause[revised BSD license].  DO NOT submit material from random websites; much "free" content on the web is still under copyright to someone and cannot be included.  You may suggest material from [OpenGameArt](http://OpenGameArt.org) if it fits the criteria below.
+This is an open content project, and as such, must adhere to strict licensing rules.  Content that you submit must be compatible with the https://opensource.org/license/bsd-3-clause[revised BSD license].  DO NOT submit material from random websites; much "free" content on the web is still under copyright to someone and cannot be included.  You may suggest material from http://OpenGameArt.org[OpenGameArt] if it fits the criteria below.
 
   * Public Domain material is allowed, ONLY if it is unambiguously Public Domain.  Beware of sites which claim their material is "public domain" while admitting that the sources are unknown: in all likelihood they are in fact copyrighted to someone and may NOT be used.
   * CC0 licensed material is allowed.
