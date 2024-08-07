@@ -37,29 +37,47 @@ BLASPHEM ; Empty tag lump
 #ifdef BLASPHDM
 BLASPHDM ; Empty tag lump
 #endif
-MUS_E1M1 BLAS01X  ; Jute Gyte
-MUS_E1M2 BLAS02  ; Jute Gyte
-MUS_E1M3 BLAS03  ; Jute Gyte
-MUS_E1M4 BLAS04X  ; Jute Gyte
-MUS_E1M5 BLAS05X  ; Jute Gyte
-MUS_E1M6 BLAS06  ; Jute Gyte
-MUS_E1M7 BLAS07X  ; Jute Gyte
-MUS_E1M8 BLAS08X  ; Jute Gyte
-MUS_E1M9 BLAS09X  ; Jute Gyte
-MUS_E2M1 BLAS10X  ; Jute Gyte
-MUS_E2M2 BLAS11X  ; Jute Gyte
-MUS_E2M3 BLAS12X  ; Jute Gyte
-MUS_E2M4 BLAS13X  ; Jute Gyte
-MUS_E2M6 BLAS15  ; Jute Gyte
-MUS_E2M7 BLAS16  ; Jute Gyte
-MUS_E2M8 BLAS17  ; Jute Gyte
-MUS_E2M9 BLAS18X  ; Jute Gyte
-MUS_E3M2 BLAS19X  ; Jute Gyte
-MUS_E3M3 BLAS20X  ; Jute Gyte
-MUS_TITL  BLAS20X  ; Jute Gyte
-MUS_CPTD BLAS22X  ; Jute Gyte (Episode complete music)
-MUS_INTR BLAS14X  ; Jute Gyte (Level complete music)
 
+[musics]
+MUS_E1M1 ; Jute Gyte
+MUS_E1M2 ; Jute Gyte
+MUS_E1M3 ; Jute Gyte
+MUS_E1M4 ; Jute Gyte
+MUS_E1M5 ; Jute Gyte
+MUS_E1M6 ; Jute Gyte
+MUS_E1M7 ; Jute Gyte
+MUS_E1M8 ; Jute Gyte
+MUS_E1M9 ; Jute Gyte
+MUS_E2M1 ; Jute Gyte
+MUS_E2M2 ; Jute Gyte
+MUS_E2M3 ; Jute Gyte
+MUS_E2M4 ; Jute Gyte
+MUS_E2M6 ; Jute Gyte
+MUS_E2M7 ; Jute Gyte
+MUS_E2M8 ; Jute Gyte
+MUS_E2M9 ; Jute Gyte
+MUS_E3M2 ; Jute Gyte
+MUS_E3M3 ; Jute Gyte
+MUS_TITL ; MoonDeLaAxel
+MUS_CPTD ; Jute Gyte (Episode complete music)
+MUS_INTR ; Jute Gyte (Level complete music)
+
+; Extra music for advanced ports
+MUS_E2M5 ; "sit on a bench 'n release that tensh'n" by Jazz "jmickle" Mickle (Freedoom attic)
+MUS_E3M1 ; "Desolation" by continuum.mid
+MUS_E3M4 ; "Ambiguity" by Korp (Double Impact MIDI Pack)
+MUS_E3M5 ; "The Ritual" by continuum.mid
+MUS_E3M6 ; "Death Waltz" by continuum.mid
+MUS_E3M7 ; "Derelict" by continuum.mid
+MUS_E3M8 ; "Mists Over the Mire" by Tyler "Picklehammer" P. (Freedoom)
+MUS_E3M9 ; "The Deepest Secrets" by continuum.mid (Double Impact MIDI Pack)
+MUS_E4M1 ; "Continuum III - Heretical Triplets" by continuum.mid
+MUS_E4M2 ; "Cemetery" by ax34
+MUS_E4M3 ; "Aftermath" by continuum.mid
+MUS_E4M5 ; "The Rivers Run Red" by Josephus "J.Astartes" Astartes (Freedoom attic)
+MUS_E4M7 ; "Continuum II - Hello there (Quantum 3) by continuum.mid
+MUS_E4M8 ; "Continuum IV - Count Pizzicato" by continuum.mid
+MUS_E4M9 ; "Arrival of the Demons" by continuum.mid
 
 [levels]
 
