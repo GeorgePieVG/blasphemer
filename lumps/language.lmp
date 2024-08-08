@@ -24,7 +24,7 @@ TXT_ARTIINVISIBILITY = "Wraith Cloak";
 TXT_ARTIEGG = "Cursing Amulet";
 TXT_ARTISUPERHEALTH = "Grail of Lifeblood";
 TXT_ARTITORCH = "Explorer's Lantern";
-TXT_ARTIFIREBOMB = "Flesh Bomb";
+TXT_ARTIFIREBOMB = "Flesh Bomb of the Death";
 TXT_ARTITELEPORT = "Mirrorgate";
 
 // Regular powerups
@@ -70,7 +70,7 @@ HHUSTR_E1M4 = "E1M4";
 HHUSTR_E1M5 = "E1M5";
 HHUSTR_E1M6 = "E1M6";
 HHUSTR_E1M7 = "The White Citadel";
-HHUSTR_E1M8 = "E1M8";
+HHUSTR_E1M8 = "Hecatomb";
 HHUSTR_E1M9 = "E1M9";
 
 // Episode 2 map names
