@@ -9,7 +9,8 @@
 [lumps]
 ;HEHACKED ; GeorgePieVG (lump) & Stilgar (strings)
 ;HHEVER ; 
-DECORATE ; Stilgar
+DECORATE ; Georgy Samoilov
+GLDEFS   ; Jakie
 PLAYPAL  ; Da Werecat 
 COLORMAP ; Da Werecat 
 TINTTAB  ; Da Werecat 
@@ -17,7 +18,7 @@ LOADING  ; Georgy Samoilov
 TITLE    ; Jute Gyte
 HELP1    README	; * PLACE HOLDER *  
 HELP2    README	; * PLACE HOLDER *
-CREDIT   ; MrFlibble
+CREDIT   ; Espi (Freedoom), MrFlibble
 E2END    README	; * PLACE HOLDER *
 E2PAL    		; * PLACE HOLDER *
 FINAL1   README	; * PLACE HOLDER *
@@ -26,12 +27,12 @@ ENDTEXT  ; Stilgar
 DEMO1    ; * PLACE HOLDER *
 DEMO2    ; * PLACE HOLDER *
 DEMO3    ; * PLACE HOLDER *
-GENMIDI  ; * PLACE HOLDER *
+GENMIDI  ; Freedoom
 SNDCURVE ; ~ AutoGenerate (Stilgar) ~
-DMXGUS   ; * PLACE HOLDER *
+DMXGUS   ; Freedoom
 GFRAG    ; * PLACE HOLDER *
 AUTOPAGE ; GreyGhost
-LANGUAGE ; Stilgar 
+LANGUAGE ; Stilgar, Craneo, Georgy Samoilov
 EXTENDED ; Stilgar
 BLASPHEM ; Empty tag lump
 #ifdef BLASPHDM
@@ -218,9 +219,9 @@ ARTIUSE  ; Jute Gyte
 BLSHIT   ; SuperSomariDX
 BLSSHT   ; SuperSomariDX
 BOUNCE   ; Craneo
-BOWSHT   ; Jute Gyte
+BOWSHT   ; Jute Gyte, AntonR
 BSTACT   ; Jute
-BSTATK   BURN	; * PLACE HOLDER *
+BSTATK   ; Jute
 BSTDTH   ; Jute
 BSTPAI   ; Jute
 BSTSIT   ; Jute
@@ -233,10 +234,10 @@ CHICPAI  ; Jute
 CHICPK1  ; Jute
 CHICPK2  ; Jute
 CHICPK3  ; Jute
-CLKACT   ; Artisticdude
+CLKACT   ; undead003 (Freedoom attic)
 CLKATK   ; Artisticdude
-CLKDTH   ; Artisticdude
-CLKPAI   ;  MoonDeLaAxel 
+CLKDTH   ; undead003 (Freedoom attic)
+CLKPAI   ; MoonDeLaAxel 
 CLKSIT   ; MoonDeLaAxel 
 DORCLS   ; Jute Gyte
 DORMOV   ; Jute Gyte
@@ -249,18 +250,18 @@ GNTFUL   ; * PLACE HOLDER *
 GNTHIT   ;  MoonDeLaAxel 
 GNTPOW   ;  MoonDeLaAxel 
 GNTUSE   ;  MoonDeLaAxel 
-HEDACT   ; Jute
+HEDACT   ; AntonR
 HEDAT1   ; SuperSomariDX
 HEDAT2   ; SuperSomariDX
 HEDAT3   ; SuperSomariDX
-HEDDTH   ; Jute
+HEDDTH   ; (Freedoom)
 HEDPAI   ; Jute
-HEDSIT   ; Jute
-HRNHIT   ; Jute Gyte
+HEDSIT   ; AntonR
+HRNHIT   ; Jute Gyte, AntonR
 HRNPOW   ; SuperSomariDX
 HRNSHT   ; SuperSomariDX
 IMPAT1   ; SuperSomariDX
-IMPAT2   ; Jute
+IMPAT2   ; AntonR
 IMPDTH    ; MoonDeLaAxel
 IMPPAI 	; MoonDeLaAxel
 IMPSIT   ; MoonDeLaAxel
@@ -274,23 +275,23 @@ KGTSIT	; AntonR - CC0/public domai﻿n
 LOBHIT   		;  MoonDeLaAxel 
 LOBPOW   		; SuperSomariDX
 LOBSHT   		; Jute Gyte
-MINACT   ; undead003 (FreeDoom)
-MINAT1   		; * PLACE HOLDER *
-MINAT2   BURN	 	; * PLACE HOLDER *
+MINACT   ; undead003 (Freedoom)
+MINAT1   ; SuperSomariDX
+MINAT2   ; SuperSomariDX
 MINAT3   BSTACT  	; * PLACE HOLDER *
-MINDTH   ; undead003 & Goji (FreeDoom)
-MINPAI   ; undead003 (FreeDoom)
-MINSIT   ; undead003 (FreeDoom)
+MINDTH   ; undead003 & Goji (Freedoom)
+MINPAI   ; undead003 (Freedoom)
+MINSIT   ; undead003 (Freedoom)
 MUMAT1   ; SuperSomariDX
-MUMAT2   ; * PLACE HOLDER *
-MUMDTH   ; SuperSomariDX
+MUMAT2   ; SuperSomariDX
+MUMDTH   ; AntonR
 MUMHED   ;  MoonDeLaAxel 
 MUMPAI   ; SuperSomariDX
 MUMSIT   ; SuperSomariDX
 NEWPOD   ; Jute
-PHOHIT   ; SuperSomariDX
+PHOHIT   ; AntonR
 PHOPOW   ;  MoonDeLaAxel 
-PHOSHT   ; SuperSomariDX
+PHOSHT   ; AntonR
 PLRCDTH  ; Jute
 PLRDTH   ; RottKing
 PLROOF   ; RottKing
@@ -303,29 +304,29 @@ RAMPHIT  ;  MoonDeLaAxel
 RAMRAIN  ;  MoonDeLaAxel 
 RESPAWN  ; Jute Gyte
 RIPSLOP  ; Jute
-SBTACT   HEDACT	; * PLACE HOLDER *
-SBTDTH   HEDDTH	; * PLACE HOLDER *
-SBTPAI   HEDPAI	; * PLACE HOLDER *
+SBTACT   ; Jute
+SBTDTH   ; Jute
+SBTPAI   ; Jute
 SNKACT	; AntonR - CC0/public domai﻿n
 SNKATK   ; AntonR - CC0/public domai﻿n
 SNKDTH   ; AntonR - CC0/public domai﻿n
 SNKPAI   ; AntonR - CC0/public domai﻿n
 SNKSIT   ; AntonR - CC0/public domai﻿n
-SORACT   ; hyena (FreeDoom attic)
-SORATK   ; muffins.exe (FreeDoom)
-SORDBON  RIPSLOP	; * PLACE HOLDER *
+SORACT   ; hyena (Freedoom attic)
+SORATK   ; muffins.exe (Freedoom)
+SORDBON  ; Artisticdude
 SORDEXP  BURN		; * PLACE HOLDER *
-SORDSPH  ; hyena (FreeDoom attic)
-SORPAI   ; hyena (FreeDoom attic)
+SORDSPH  ; hyena (Freedoom attic)
+SORPAI   ; hyena (Freedoom attic)
 SORRISE  RESPAWN	; * PLACE HOLDER *
-SORSIT   ; hyena (FreeDoom attic)
+SORSIT   ; hyena (Freedoom attic)
 SORZAP   ;  MoonDeLaAxel 
 STFCRK   ; Craneo/Freedoom
 STFHIT   ;  MoonDeLaAxel 
 STFPOW   ; Jute
 STNMOV   ; Jute Gyte
 SWITCH   ; Jute Gyte
-TELEPT   ; Jute Gyte
+TELEPT   ; Jute Gyte, AntonR
 WATERFL  ; Jute Gyte
 WIND     ; Jute Gyte
 WIZACT   ; * PLACE HOLDER *
@@ -630,7 +631,7 @@ FLAT508   ; Stilgar
 FLAT509   ; Stilgar
 FLAT510   ; Stilgar
 FLAT513   ; Stilgar
-FLAT512   ; Espi (FreeDoom) (Edit by Stilgar)
+FLAT512   ; Espi (Freedoom) (Edit by Stilgar)
 FLAT516   ; Stilgar
 FLAT517   ; Stilgar
 FLAT520   ; Stilgar
@@ -650,7 +651,7 @@ FLOOR10   ; Stilgar
 FLOOR11   ; Stilgar
 FLOOR12   ; Stilgar
 FLOOR16   ; Georgy Samoilov
-FLOOR17   ; Airraid (FreeDoom) (Recolored)
+FLOOR17   ; Airraid (Freedoom) (Recolored)
 FLOOR18   ; Stilgar
 FLOOR19   ; Stilgar
 FLOOR20   ; Stilgar
@@ -829,7 +830,7 @@ BAGHA0 7  32   ; Stilgar
 BLODA0 4  4    ; Stilgar
 BLODB0 5  6    ; Stilgar
 BLODC0 7  7    ; Stilgar
-HCORA0 11 108  ; Espi (FreeDoom) (Edit by Stilgar)
+HCORA0 11 108  ; Espi (Freedoom) (Edit by Stilgar)
 INVUA0 8  32   ; Stilgar (WIP)
 INVUB0 8  32   ; Stilgar (WIP)
 INVUC0 8  32   ; Stilgar (WIP)
@@ -1344,46 +1345,46 @@ MUMMY2Y8	27	58
 MUMMY3Y7	21	58
 MUMMY4Y6	26	56
 MUMMY5		33	55
-SNKEA1  	31 59 ; Nightfang (FreeDoom)
-SNKEA2A8  	23 62 ; Nightfang (FreeDoom)
-SNKEA3A7  	28 56 ; Nightfang (FreeDoom)
-SNKEA4A6  	31 53 ; Nightfang (FreeDoom)
-SNKEA5  	30 53 ; Nightfang (FreeDoom)
-SNKEB1  	19 64 ; Nightfang (FreeDoom)
-SNKEB2B8 	21 65 ; Nightfang (FreeDoom)
-SNKEB3B7  	28 62 ; Nightfang (FreeDoom)
-SNKEB4B6  	33 61 ; Nightfang (FreeDoom)
-SNKEB5  	16 65 ; Nightfang (FreeDoom)
-SNKEC1  	22 63 ; Nightfang (FreeDoom)
-SNKEC2C8  	23 63 ; Nightfang (FreeDoom)
-SNKEC3C7  	28 61 ; Nightfang (FreeDoom)
-SNKEC4C6  	23 58 ; Nightfang (FreeDoom)
-SNKEC5  	30 57 ; Nightfang (FreeDoom)
-SNKED1  	18 61 ; Nightfang (FreeDoom)
-SNKED2D8  	19 62 ; Nightfang (FreeDoom)
-SNKED3D7  	24 59 ; Nightfang (FreeDoom)
-SNKED4D6  	26 58 ; Nightfang (FreeDoom)
-SNKED5  	18 58 ; Nightfang (FreeDoom)
-SNKEE1  	60 ; Nightfang (FreeDoom)
-SNKEE2E8  	21 64 ; Nightfang (FreeDoom)
-SNKEE3E7  	26 62 ; Nightfang (FreeDoom)
-SNKEE4E6  	27 63 ; Nightfang (FreeDoom)
-SNKEE5  	31 52 ; Nightfang (FreeDoom)
-SNKEF1  	26 53 ; Nightfang (FreeDoom)
-SNKEF2F8  	19 57 ; Nightfang (FreeDoom)
-SNKEF3F7  	33 53 ; Nightfang (FreeDoom)
-SNKEF4F6  	30 53 ; Nightfang (FreeDoom)
-SNKEF5  	17 46 ; Nightfang (FreeDoom)
-SNKEG0  	37 60 ; Nightfang (FreeDoom)
-SNKEH0  	34 59 ; Nightfang (FreeDoom)
-SNKEI0  	28 57 ; Nightfang (FreeDoom)
-SNKEJ0  	23 45 ; Nightfang (FreeDoom)
-SNKEK0  	35 33 ; Nightfang (FreeDoom)
-SNKEL0  	35 33 ; Nightfang (FreeDoom)
-SNKEM0  	35 33 ; Nightfang (FreeDoom)
-SNKEN0  	35 33 ; Nightfang (FreeDoom)
-SNKEO0  	35 33 ; Nightfang (FreeDoom)
-SNKEP0  	35 33 ; Nightfang (FreeDoom)
+SNKEA1  	31 59 ; Nightfang (Freedoom)
+SNKEA2A8  	23 62 ; Nightfang (Freedoom)
+SNKEA3A7  	28 56 ; Nightfang (Freedoom)
+SNKEA4A6  	31 53 ; Nightfang (Freedoom)
+SNKEA5  	30 53 ; Nightfang (Freedoom)
+SNKEB1  	19 64 ; Nightfang (Freedoom)
+SNKEB2B8 	21 65 ; Nightfang (Freedoom)
+SNKEB3B7  	28 62 ; Nightfang (Freedoom)
+SNKEB4B6  	33 61 ; Nightfang (Freedoom)
+SNKEB5  	16 65 ; Nightfang (Freedoom)
+SNKEC1  	22 63 ; Nightfang (Freedoom)
+SNKEC2C8  	23 63 ; Nightfang (Freedoom)
+SNKEC3C7  	28 61 ; Nightfang (Freedoom)
+SNKEC4C6  	23 58 ; Nightfang (Freedoom)
+SNKEC5  	30 57 ; Nightfang (Freedoom)
+SNKED1  	18 61 ; Nightfang (Freedoom)
+SNKED2D8  	19 62 ; Nightfang (Freedoom)
+SNKED3D7  	24 59 ; Nightfang (Freedoom)
+SNKED4D6  	26 58 ; Nightfang (Freedoom)
+SNKED5  	18 58 ; Nightfang (Freedoom)
+SNKEE1  	60 ; Nightfang (Freedoom)
+SNKEE2E8  	21 64 ; Nightfang (Freedoom)
+SNKEE3E7  	26 62 ; Nightfang (Freedoom)
+SNKEE4E6  	27 63 ; Nightfang (Freedoom)
+SNKEE5  	31 52 ; Nightfang (Freedoom)
+SNKEF1  	26 53 ; Nightfang (Freedoom)
+SNKEF2F8  	19 57 ; Nightfang (Freedoom)
+SNKEF3F7  	33 53 ; Nightfang (Freedoom)
+SNKEF4F6  	30 53 ; Nightfang (Freedoom)
+SNKEF5  	17 46 ; Nightfang (Freedoom)
+SNKEG0  	37 60 ; Nightfang (Freedoom)
+SNKEH0  	34 59 ; Nightfang (Freedoom)
+SNKEI0  	28 57 ; Nightfang (Freedoom)
+SNKEJ0  	23 45 ; Nightfang (Freedoom)
+SNKEK0  	35 33 ; Nightfang (Freedoom)
+SNKEL0  	35 33 ; Nightfang (Freedoom)
+SNKEM0  	35 33 ; Nightfang (Freedoom)
+SNKEN0  	35 33 ; Nightfang (Freedoom)
+SNKEO0  	35 33 ; Nightfang (Freedoom)
+SNKEP0  	35 33 ; Nightfang (Freedoom)
 SOR2A0	32	11	; SOR2* by Desfar
 SOR2B0	30	32
 SOR2C0	28	48
