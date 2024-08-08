@@ -38,6 +38,22 @@ BLASPHEM ; Empty tag lump
 BLASPHDM ; Empty tag lump
 #endif
 
+; Textures:
+
+#ifdef BLASPHEM
+
+TEXTURE1 = t1bsphem
+TEXTURE2 = t2bsphem
+PNAMES   = pnbsphem
+
+#else
+
+TEXTURE1 = t1bsphdm
+TEXTURE2 = t2bsphdm
+PNAMES   = pnbsphdm
+
+#endif
+
 [musics]
 MUS_E1M1 ; Jute Gyte
 MUS_E1M2 ; Jute Gyte
@@ -183,12 +199,6 @@ E6M1 PH
 E6M2 PH
 E6M3 PH
 #endif
-
-[texture1]
-TEXTURE1
-
-[texture2]
-TEXTURE2
 
 [sounds]
 DSSECRET ; MoonDeLaAxel 
@@ -783,263 +793,13 @@ FLTTELE3  ; Stilgar
 FLTTELE4  ; Stilgar
 
 [patches]
-NSW145 	# Georgy Samoilov
-NSW146		# Georgy Samoilov
-WALL508	# Georgy Samoilov
-ICEWLL		# Craneo
-WLDEAD04	# Craneo
-TOMB1	# Georgy Samoilov
-TOMB2	# Georgy Samoilov
-TOMB3	# Georgy Samoilov
-TOMB4	# Georgy Samoilov
-WOODBOOK	; Craneo
-CRTREA		; Craneo
-CRTREB		; Craneo
-CRWWD		; Craneo
-CRLEAF1		; Craneo
-CRLEAF2		; Craneo
-CRWBRIX		; Craneo
-CRWSTON		; Craneo
-CRFLRWL		; Craneo
-SKY1      ; Stilgar
-SKY2      ; Stilgar
-SKY3      ; Craneo
-PATA00    ; Stilgar (NEW SIZE)
-PATA01    ; Stilgar (NEW SIZE)
-PATA02    ; Stilgar (NEW SIZE)
-PATA03    ; Stilgar (NEW SIZE)
-PATA04    ; Stilgar (NEW SIZE)
-PATA05    ; Stilgar (NEW SIZE)
-PATA06    ; Stilgar (NEW SIZE)
-WALL00    ; Stilgar
-WALL01    ; Stilgar
-WALL02    ; Stilgar
-WALL04    ; Stilgar
-WALL05    ; Stilgar
-WALL06    ; Stilgar
-WALL07    ; Stilgar
-WALL08    ; Stilgar
-WALL10    ; Stilgar
-WALL12    ; Esselfortium (Modded)
-WALL14    ; Stilgar
-WALL15    ; Stilgar
-WALL16    ; Stilgar
-WALL17    ; Stilgar
-WALL18    ; Stilgar
-WALL19    ; Stilgar
-WALL20    ; Stilgar
-WALL21    ; Stilgar
-WALL24    ; Stilgar
-WALL26    ; Stilgar
-WALL25    ; Stilgar
-WALL27    ; Stilgar
-WALL28    ; Stilgar
-WALL30    ; Stilgar
-WALL32    ; Stilgar
-WALL34    ; Stilgar
-WALL35    ; Stilgar
-WALL37    ; Stilgar
-WALL38    ; Stilgar
-WALL40    ; Stilgar
-WALL41    ; Stilgar
-WALL42    ; Stilgar
-WALL44    ; Stilgar
-WALL45    ; Stilgar
-WALL46    ; Stilgar
-WALL49    ; Stilgar
-WALL50    ; Esselfortium (Modded)
-WALL51    ; Stilgar
-WALL52    ; Stilgar
-WALL53    ; Stilgar
-WALL54    ; Stilgar
-WALL55    ; Stilgar
-WALL56    ; Stilgar
-WALL57    ; Stilgar
-WALL59    ; Stilgar
-WALL60    ; Stilgar
-WALL62    ; Stilgar
-WALL63    ; Esselfortium (Edit by Stilgar)
-WALL64    ; Esselfortium (Edit by Stilgar)
-WALL500   ; Warfare
-WALL501   ; Stilgar
-WALL502   ; Stilgar
-WALL503   ; Stilgar
-WALL504   ; Stilgar
-WALL505   ; Stilgar
-WALL506   ; Stilgar
-WALL508   ; Stilgar
-WALL509   ; Stilgar
-WALL510   ; Stilgar
-WALL511   ; Stilgar
-WALL512   ; Stilgar
-WALL515   ; Stilgar
-WALL516   ; Stilgar (NEW SIZE)
-WALL517   ; Stilgar (NEW SIZE)
-WALL519   ; Stilgar (NEW SIZE)
-WALL520   ; Stilgar (NEW SIZE)
-WALL522   ; Stilgar (NEW SIZE)
-WALL523   ; Stilgar (NEW SIZE)
-WALL524   ; Stilgar
-WALL525   ; Stilgar
-WALL526   ; Stilgar
-WALL527   ; Stilgar
-WALL528   ; Stilgar
-WALL529   ; Stilgar
-WALL530   ; Stilgar
-WALL531   ; unknown (Extra)
-WLLLVFL1  ; Craneo
-WLLLVFL2  ; Craneo
-WLLLVFL3  ; Craneo
-DORBLU1   ; Stilgar (Extra)
-DORGRN1   ; Stilgar (Extra)
-DORYEL1   ; Stilgar (Extra)
-PFENCE01  ; Stilgar (Extra)
-PFENCE02  ; Stilgar (Extra)
-PFENCE03  ; Stilgar (Extra)
-PFENCE04  ; Stilgar (Extra)
-PPRTCUL1  ; Stilgar (Extra)
-PSKULL1   ; Stilgar (Extra)
-PSKULL2   ; Stilgar (Extra)
-PSKULL3   ; Stilgar (Extra)
-PSKULL4   ; Stilgar (Extra)
-TNYBRK01  ; Stilgar (Extra)
-TNYBRK02  ; Stilgar (Extra)
-TNYBRK03  ; Stilgar (Extra)
-TNYBRK04  ; Stilgar (Extra)
-WINDWA01  ; Stilgar (Extra)
-WINDWA02  ; Stilgar (Extra)
-WLBLKMT1  ; Stilgar (Extra)
-WLBLKMT2  ; Stilgar (Extra)
-WLBLKMT3  ; Stilgar (Extra)
-WLBRIK01  ; Stilgar (Extra)
-WLBRIK02  ; Stilgar (Extra)
-WLBRIK03  ; Stilgar (Extra)
-WLBRIK04  ; Stilgar (Extra)
-WLBRIK05  ; Stilgar (Extra)
-WLCRAT01  ; Stilgar (Extra)
-WLCRAT02  ; unknown (Extra)
-WLGORE01  ; Stilgar (Extra)
-WLMDMT01  ; Stilgar (Extra)
-WLMDMT02  ; Stilgar (Extra)
-WLMETL01  ; Stilgar (Extra)
-WLMETL02  ; Stilgar (Extra)
-WLPLAS01  ; Stilgar (Extra)
-WLPLAS02  ; Stilgar (Extra)
-WLPLAS03  ; Stilgar (Extra)
-WLROCK01  ; Stilgar (Extra)
-WLROCK02  ; Stilgar (Extra)
-WLROCK03  ; Stilgar (Extra)
-WLROCK04  ; Stilgar (Extra)
-WLROCK05  ; Stilgar (Extra)
-WLROCK06  ; Stilgar (Extra)
-WLROCK07  ; Stilgar (Extra)
-WLRTHRCK  ; Stilgar (Extra)
-WLSKTR01  ; Stilgar (Extra)
-WLSKTR02  ; Stilgar (Extra)
-WLSKTR03  ; Stilgar (Extra)
-WLVINBR1  ; Stilgar (Extra)
-WLVINEM1  ; Stilgar (Extra)
-WLVINGR1  ; Stilgar (Extra)
-WLVINBR2  ; Stilgar (Semi-extra)
-WLWOOD1   ; Stilgar (Extra)
-WLWOOD2   ; Stilgar (Extra)
-WLXTR001  ; Stilgar (Extra)
-WLXTR002  ; Stilgar (Extra)
-WLXTR003  ; Stilgar (Extra)
-WLXTR004  ; Stilgar (Extra)
-WLXTR005  ; Stilgar (Extra)
-WLXTR006  ; Stilgar (Extra)
-WLXTR007  ; Stilgar (Extra)
-WLXTR008  ; Stilgar (Extra)
-WLXTR009  ; Stilgar (Extra)
-WLXTR010  ; Stilgar (Extra)
-WLXTR011  ; Stilgar (Extra)
-WLXTR012  ; Esselfortium (Modded, Extra)
-WLXTR013  ; Esselfortium (Modded, Extra)
-WLXTR014  ; Stilgar (Extra)
-WLXTR015  ; Stilgar (Extra)
-WLXTR016  ; Stilgar (Extra)
-WLXTR017  ; Stilgar (Extra)
-WLXTR018  ; Stilgar (Extra)
-WLXTR019  ; Stilgar (Extra)
-WLXTR020  ; Esselfortium (Modded, Extra)
-WLXTR021  ; Esselfortium (Modded, Extra)
-WLXTR022  ; Stilgar (Extra)
-WLXTR023  ; Stilgar (Extra)
-WLXTR024  ; Stilgar (Extra)
-WLXTR025  ; Stilgar (Extra)
-WLXTR026  ; Stilgar (Extra)
-WXDOOR01  ; Stilgar (Extra)
-WLSTAT01  ; Warfare (Semi-Extra)
-WLSTAT02  ; Warfare (Extra)
-WLDEAD01  ; Fredrik (Freedoom, Modded, Extra), Craneo
-WLDEAD02	; NMN - CC0
-WLDEAD03	; NMN - CC0
-BRICKBLU  ; Esselfortium (Extra)
-BRICKGRN  ; Esselfortium (Extra, recolor)
-BRICKRNG  ; Esselfortium (Extra, recolor)
-BRIKBR11  ; Esselfortium (Extra)
-BRIKBR12  ; Esselfortium (Extra)
-BRIKDK01  ; Esselfortium (Extra)
-BRIKDK02  ; KWC (Modded, Extra)
-BRIKDK11  ; Esselfortium (Extra)
-BRIKDK12  ; KWC (Modded, Extra)
-BRIKGR01  ; Esselfortium (Extra)
-BRIKGR02  ; Esselfortium (Extra)
-BRIKGR11  ; Esselfortium (Extra)
-BRIKGR12  ; Esselfortium (Extra)
-BRIKWD01  ; Esselfortium (Extra)
-BRIKWD02  ; Esselfortium (Extra)
-BRIKWD03  ; Esselfortium (Extra)
-GOTHICSL  ; Esselfortium (Sized, Extra)
-LOOSBRK1  ; Esselfortium (Extra)
-MARBBR01  ; Esselfortium (Extra)
-MARBBR02  ; Esselfortium (Extra)
-MARBBR03  ; Esselfortium (Modded, Extra)
-MARBBR04  ; Esselfortium (Modded, Extra)
-MARBBR05  ; Esselfortium (Modded, Extra)
-MARBDK01  ; Esselfortium (Extra)
-MARBDK02  ; Esselfortium (Extra)
-MARBDK03  ; Esselfortium (Extra)
-MARBDK04  ; Esselfortium (Extra)
-MARBDK05  ; Esselfortium (Extra)
-MARBDK06  ; Esselfortium (Extra)
-MBCBRIK1  ; Esselfortium (Extra)
-MTRUNE01  ; Esselfortium (Extra)
-MTRUNE02  ; Esselfortium (Extra)
-MTRUNE03  ; Esselfortium (Extra)
-MTRUNE04  ; Esselfortium (Extra)
-MTRUNE05  ; Esselfortium (Extra)
-MTRUNE06  ; Esselfortium (Extra)
-STONBR01  ; Esselfortium (Extra)
-STONBR02  ; Esselfortium (Extra)
-STONBR03  ; Esselfortium (Extra)
-STONBR04  ; Esselfortium (Extra)
-STONGY01  ; Esselfortium (Extra)
-STONGY02  ; Esselfortium (Extra)
-STONGY03  ; Esselfortium (Extra)
-STONGY04  ; Esselfortium (Extra)
-TSSLGY01  ; Esselfortium (Extra)
-TSSLGY02  ; Esselfortium (Extra)
-TSSLGY03  ; Esselfortium (Extra)
-TSSLGY04  ; Esselfortium (Extra)
-TSSLGY05  ; Esselfortium (Extra)
-WOODSL01  ; Esselfortium (Extra)
-WOODSL02  ; Esselfortium (Extra)
-WOODSL03  ; Esselfortium (Extra)
-WOODSL04  ; Esselfortium (Extra)
-WOODSL05  ; Esselfortium (Extra)
-WOODSL06  ; Esselfortium (Extra)
-WOODSL07  ; Esselfortium (Extra)
-WOODSL08  ; Esselfortium (Extra)
-WOODSL09  ; Esselfortium (Extra)
-WOODSL10  ; Esselfortium (Extra)
-WOODSL11  ; Esselfortium (Extra)
-WALL513   ; * PLACE HOLDER *
-WALL518   ; * PLACE HOLDER *
-WLLWTFL1  ; Craneo
-WLLWTFL2  ; Craneo
-WLLWTFL3  ; Craneo
+#ifdef BLASPHEM
+#include "lumps/textures/blasphem/pnames.txt"
+#else
+#ifdef BLASPHDM
+#include "lumps/textures/blasphdm/pnames.txt"
+#endif
+#endif
 
 ; Floating Item offsets - 10 above ground seems good
 [sprites]
