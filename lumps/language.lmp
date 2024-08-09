@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
 [enu default]
 // Weapons
 TXT_WPNMACE = "Necrocannon";
@@ -54,6 +56,13 @@ MNU_HELLSMAW = "Witherlands";
 MNU_DOME = "Gruesome Demise";
 MNU_OSSUARY = "Exhausted Exodus";
 MNU_DEMESNE = "Unforgiving Cold";
+
+// BlasphDM episode names
+$ifgame(blasphdm) MNU_COTD = "DM1: Mark of Blasphemer";
+$ifgame(blasphdm) MNU_HELLSMAW = "DM2: Witherlands";
+$ifgame(blasphdm) MNU_DOME = "DM3: Gruesome Demise";
+$ifgame(blasphdm) MNU_OSSUARY = "DM4: Exhausted Exodus";
+$ifgame(blasphdm) MNU_DEMESNE = "DM5: Unforgiving Cold";
 
 // Skill names
 MNU_WETNURSE = "Whimpering Craven";
@@ -116,6 +125,53 @@ HHUSTR_E5M6 = "E5M6";
 HHUSTR_E5M7 = "E5M7";
 HHUSTR_E5M8 = "E5M8";
 HHUSTR_E5M9 = "E5M9";
+
+// BlasphDM map names
+$ifgame(blasphdm) HHUSTR_E1M1 = "DM01: Tech Test";
+$ifgame(blasphdm) HHUSTR_E1M2 = "DM02: Natural Station";
+$ifgame(blasphdm) HHUSTR_E1M3 = "DM03: Issues of Claveria";
+$ifgame(blasphdm) HHUSTR_E1M4 = "DM04: Steel";
+$ifgame(blasphdm) HHUSTR_E1M5 = "DM05: Dense Fields";
+$ifgame(blasphdm) HHUSTR_E1M6 = "DM06: Temple of Ammon";
+$ifgame(blasphdm) HHUSTR_E1M7 = "DM07: Main Stronghold";
+$ifgame(blasphdm) HHUSTR_E1M8 = "DM08: Artifact Base";
+$ifgame(blasphdm) HHUSTR_E1M9 = "DM09: Industrial Outland";
+$ifgame(blasphdm) HHUSTR_E2M1 = "DM10: Detached Grounds";
+$ifgame(blasphdm) HHUSTR_E2M2 = "DM11: Isolated Facility";
+$ifgame(blasphdm) HHUSTR_E2M3 = "DM12: Up 'n' Down Canyon";
+$ifgame(blasphdm) HHUSTR_E2M4 = "DM13: Unholy Blood";
+$ifgame(blasphdm) HHUSTR_E2M5 = "DM14: Technical Assault";
+$ifgame(blasphdm) HHUSTR_E2M6 = "DM15: Shallow Complex";
+$ifgame(blasphdm) HHUSTR_E2M7 = "DM16: Barren Alleys";
+$ifgame(blasphdm) HHUSTR_E2M8 = "DM17: Underwoods";
+$ifgame(blasphdm) HHUSTR_E2M9 = "DM18: Deserted Courtyard";
+$ifgame(blasphdm) HHUSTR_E3M1 = "DM19: Tech Isle";
+$ifgame(blasphdm) HHUSTR_E3M2 = "DM20: Warehouse";
+$ifgame(blasphdm) HHUSTR_E3M3 = "DM21: Refinery";
+$ifgame(blasphdm) HHUSTR_E3M4 = "DM22: Military Depot";
+$ifgame(blasphdm) HHUSTR_E3M5 = "DM23: Confrontation";
+$ifgame(blasphdm) HHUSTR_E3M6 = "DM24: Flooded Base";
+$ifgame(blasphdm) HHUSTR_E3M7 = "DM25: Mansion Yard";
+$ifgame(blasphdm) HHUSTR_E3M8 = "DM26: Acidic Crypt";
+$ifgame(blasphdm) HHUSTR_E3M9 = "DM27: The Exile";
+$ifgame(blasphdm) HHUSTR_E4M1 = "DM28: Weapons Factory";
+$ifgame(blasphdm) HHUSTR_E4M2 = "DM29: Unusual Territory";
+$ifgame(blasphdm) HHUSTR_E4M3 = "DM30: Last Man Standing";
+$ifgame(blasphdm) HHUSTR_E4M4 = "DM31: Desolated Fort";
+$ifgame(blasphdm) HHUSTR_E4M5 = "DM32: Fourplay";
+$ifgame(blasphdm) HHUSTR_E4M6 = "DM33";
+$ifgame(blasphdm) HHUSTR_E4M7 = "DM34";
+$ifgame(blasphdm) HHUSTR_E4M8 = "DM35";
+$ifgame(blasphdm) HHUSTR_E4M9 = "DM36";
+$ifgame(blasphdm) HHUSTR_E5M1 = "DM37";
+$ifgame(blasphdm) HHUSTR_E5M2 = "DM38";
+$ifgame(blasphdm) HHUSTR_E5M3 = "DM39";
+$ifgame(blasphdm) HHUSTR_E5M4 = "DM40";
+$ifgame(blasphdm) HHUSTR_E5M5 = "DM41";
+$ifgame(blasphdm) HHUSTR_E5M6 = "DM42";
+$ifgame(blasphdm) HHUSTR_E5M7 = "DM43";
+$ifgame(blasphdm) HHUSTR_E5M8 = "DM44";
+$ifgame(blasphdm) HHUSTR_E5M9 = "DM45";
 
 // Story texts
 HE1TEXT = "Episode 1 story text";
