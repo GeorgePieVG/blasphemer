@@ -341,9 +341,9 @@ WPNUP    ; Artisticdude
 ADVISOR  -257 -10 ; Stilgar
 IN_X     GOD1	0 0 ; * PLACE HOLDER *  
 IN_YAH   GOD1	0 0 ; * PLACE HOLDER * 
-MAPE1    0 0 ; Espi 
-MAPE2  MAPE1  ;  * PLACE HOLDER * 
-MAPE3  MAPE1  ;  * PLACE HOLDER * 
+MAPE1    0 0 ; MrFlibble
+MAPE2    0 0 ; MrFlibble
+MAPE3    0 0 ; MrFlibble
 FACEA0   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEA1   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEA2   0 0 ; Reinaldo "Horror Movie Guy," Craneo
