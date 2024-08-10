@@ -33,6 +33,7 @@ DMXGUS   ; Freedoom
 GFRAG    ; * PLACE HOLDER *
 AUTOPAGE ; GreyGhost
 LANGUAGE ; Stilgar, Craneo, Georgy Samoilov
+ESTRINGS ; Georgy Samoilov
 EXTENDED ; Stilgar
 BLASPHEM ; Empty tag lump
 #ifdef BLASPHDM
@@ -792,6 +793,14 @@ FLTTELE1  ; Stilgar
 FLTTELE2  ; Stilgar
 FLTTELE3  ; Stilgar
 FLTTELE4  ; Stilgar
+RHTP0014  ; raymoohawk (Freedoom attic)
+RHTP0015  ; raymoohawk (Freedoom attic)
+RHTP0016  ; raymoohawk (Freedoom attic)
+RHTP0017  ; raymoohawk (Freedoom attic)
+RHTP0018  ; raymoohawk (Freedoom attic)
+RHTP0019  ; raymoohawk (Freedoom attic)
+RHTP0020  ; raymoohawk (Freedoom attic)
+RHTP0021  ; raymoohawk (Freedoom attic)
 
 [patches]
 #ifdef BLASPHEM

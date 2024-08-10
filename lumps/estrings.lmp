@@ -1,0 +1,215 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+// Story texts
+string H1TEXT
+{
+   val "Episode 1 text"
+}
+
+string H2TEXT
+{
+   val "Episode 2 text"
+}
+
+string H3TEXT
+{
+   val "Episode 3 text"
+}
+
+string H4TEXT
+{
+   val "Episode 4 text"
+}
+
+string H5TEXT
+{
+   val "Episode 5 text"
+}
+
+string HTICQUITMSG
+{
+   val "You're leaving already?"
+}
+
+// Keys
+string HGOTBLUEKEY
+{
+   val "Azure Key"
+}
+
+string HGOTYELLOWKEY
+{
+   val "Gold Key"
+}
+
+string HGOTGREENKEY
+{
+   val "Jade Key"
+}
+
+// Artifacts
+string HITEMHEALTH
+{
+   val "Healing Phial"
+}
+
+string HITEMSHADOWSPHERE
+{
+   val "Wraith Cloak"
+}
+
+string HITEMQUARTZFLASK
+{
+   val "Healing Elixir"
+}
+
+string HITEMWINGSOFWRATH
+{
+   val "Wings of the Fallen"
+}
+
+string HITEMRINGOFINVINCIBILITY
+{
+   val "Shield of the Immortal"
+}
+
+string HITEMTOMEOFPOWER
+{
+   val "Black Grimoire"
+}
+
+string HITEMMORPHOVUM
+{
+   val "Cursing Amulet"
+}
+
+string HITEMMYSTICURN
+{
+   val "Grail of Lifeblood"
+}
+
+string HITEMTORCH
+{
+   val "Explorer's Lantern"
+}
+
+string HITEMTIMEBOMB
+{
+   val "Flesh Bomb of the Death"
+}
+
+string HITEMTELEPORT
+{
+   val "Mirrorgate"
+}
+
+string HITEMBAGOFHOLDING
+{
+   val "Pocket O'Stuff"
+}
+
+string HITEMSHIELD1
+{
+   val "Plate Armor"
+}
+
+string HITEMSHIELD2
+{
+   val "Warlord's Armor"
+}
+
+string HITEMSUPERMAP
+{
+   val "Map Canvas"
+}
+
+// Ammo pickups
+string HAMMOGOLDWAND1
+{
+   val "Accursed Jewel"
+}
+
+string HAMMOGOLDWAND2
+{
+   val "Accursed Seal"
+}
+
+string HAMMOMACE1
+{
+   val "Necrosteel"
+}
+
+string HAMMOMACE2
+{
+   val "Grim Necrosteel"
+}
+
+string HAMMOCROSSBOW1
+{
+   val "Plague Bolts"
+}
+
+string HAMMOCROSSBOW2
+{
+   val "Quiver of Plague Bolts"
+}
+
+string HAMMOBLASTER1
+{
+   val "Ice Shard"
+}
+
+string HAMMOBLASTER2
+{
+   val "Ice Chunk"
+}
+
+string HAMMOSKULLROD1
+{
+   val "Bloodstone"
+}
+
+string HAMMOSKULLROD2
+{
+   val "Royal Bloodstone"
+}
+
+string HAMMOPHOENIXROD1
+{
+   val "Haze Capsule"
+}
+
+string HAMMOPHOENIXROD2
+{
+   val "Haze Sphere"
+}
+
+string HWEAPONMACE
+{
+   val "Necrocannon"
+}
+
+string HWEAPONCROSSBOW
+{
+   val "Plaguewielder"
+}
+
+string HWEAPONBLASTER
+{
+   val "Frostfang"
+}
+
+string HWEAPONSKULLROD
+{
+   val "Blood Scepter"
+}
+
+string HWEAPONPHOENIX
+{
+   val "Spiritridge"
+}
+
+string HWEAPONGAUNTLETS
+{
+   val "Vampyric Claws"
+}
