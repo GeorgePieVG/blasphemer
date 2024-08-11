@@ -9,27 +9,34 @@
 [lumps]
 ;HEHACKED ; GeorgePieVG (lump) & Stilgar (strings)
 ;HHEVER ; 
+EMAPINFO ; Georgy Samoilov
 DECORATE ; Georgy Samoilov
 GLDEFS   ; Jakie
 PLAYPAL  ; Da Werecat 
-COLORMAP ; Da Werecat 
+COLORMAP ; Da Werecat
 TINTTAB  ; Da Werecat 
 LOADING  ; Georgy Samoilov
-TITLE    ; Jute Gyte
-HELP1    README	; * PLACE HOLDER *  
-HELP2    README	; * PLACE HOLDER *
-CREDIT   ; Espi (Freedoom), MrFlibble
-E2END    README	; * PLACE HOLDER *
+
+#ifdef BLASPHEM
+TITLE    BSPHEMTL ; Jute Gyte
+#else
+TITLE    BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
+#endif
+
+HELP1    ; Espi, MrFlibble 
+HELP2    ; MrFlibble, Jute Gyte
+CREDIT   ; Stilgar
+E2END    HELP1	; * PLACE HOLDER *
 E2PAL    		; * PLACE HOLDER *
-FINAL1   README	; * PLACE HOLDER *
-FINAL2   README	; * PLACE HOLDER *
+FINAL1   HELP1	; * PLACE HOLDER *
+FINAL2   CREDIT	; * PLACE HOLDER *
 ENDTEXT  ; Stilgar
 DEMO1    ; * PLACE HOLDER *
 DEMO2    ; * PLACE HOLDER *
 DEMO3    ; * PLACE HOLDER *
-GENMIDI  ; Freedoom
+GENMIDI  ; ~ AutoGenerate (Freedoom) ~
 SNDCURVE ; ~ AutoGenerate (Stilgar) ~
-DMXGUS   ; Freedoom
+DMXGUS   ; ~ AutoGenerate (Freedoom) ~
 GFRAG    ; * PLACE HOLDER *
 AUTOPAGE ; GreyGhost
 LANGUAGE ; Stilgar, Craneo, Georgy Samoilov
@@ -341,9 +348,9 @@ WPNUP    ; Artisticdude
 ADVISOR  -257 -10 ; Stilgar
 IN_X     GOD1	0 0 ; * PLACE HOLDER *  
 IN_YAH   GOD1	0 0 ; * PLACE HOLDER * 
-MAPE1    0 0 ; Espi 
-MAPE2  MAPE1  ;  * PLACE HOLDER * 
-MAPE3  MAPE1  ;  * PLACE HOLDER * 
+MAPE1    0 0 ; MrFlibble
+MAPE2    0 0 ; MrFlibble
+MAPE3    0 0 ; MrFlibble
 FACEA0   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEA1   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEA2   0 0 ; Reinaldo "Horror Movie Guy," Craneo
@@ -653,7 +660,7 @@ FLOOR11   ; Stilgar
 FLOOR12   ; Stilgar
 FLOOR16   ; Georgy Samoilov
 FLOOR17   ; Airraid (Freedoom) (Recolored)
-FLOOR18   ; Stilgar
+FLOOR18   ; Georgy Samoilov
 FLOOR19   ; Stilgar
 FLOOR20   ; Stilgar
 FLOOR21   ; Stilgar
@@ -733,6 +740,7 @@ FLPENTA1  ; Stilgar (Extra)
 FLPENTA2  ; Stilgar (Extra)
 FLPENTA3  ; Stilgar (Extra)
 FLPENTA4  ; Stilgar (Extra)
+FLPENTA5  ; Stilgar (Extra)
 FLRUFF01  ; Stilgar (Extra)
 FLRUFF02  ; Stilgar (Extra)
 FLRUFF03  ; Stilgar (Extra)
@@ -836,9 +844,9 @@ AMM1A0	15	26	; Nmn
 AMM2A0	15	26	; Nmn
 AMG1A0 4  10   ; Stilgar
 BAGHA0 7  32   ; Stilgar
-BLODA0 4  4    ; Stilgar
-BLODB0 5  6    ; Stilgar
-BLODC0 7  7    ; Stilgar
+BLODA0 8  5    ; apophis (Freedoom)
+BLODB0 6  7    ; apophis (Freedoom)
+BLODC0 3  5    ; apophis (Freedoom)
 HCORA0 11 108  ; Espi (Freedoom) (Edit by Stilgar)
 INVUA0 8  32   ; Stilgar (WIP)
 INVUB0 8  32   ; Stilgar (WIP)
