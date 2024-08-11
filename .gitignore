@@ -1,10 +1,29 @@
-/wads/
+# File patterns to ignore. This applies recursively to all subdirectories.
+*.6
+*.bak
+*.html
+*.ini
+*.orig
+*.pdf
+*.pyc
+*.swp
 *.zip
+*~
+.DS_Store
+.\#*
+\#*\#
 wad*.txt
 
+/wads/
+
+/lumps/dmxgus.lmp
+/lumps/genmidi.lmp
 /lumps/pnbsph*.lmp
 /lumps/t*bsph*.lmp
 
+/lumps/genmidi/*.lmp
 /lumps/textures/blasphdm/
 /lumps/textures/blasphem/
 
+/lumps/bsph*tl.png
+/lumps/text/*.png
