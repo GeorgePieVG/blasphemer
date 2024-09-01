@@ -23,7 +23,7 @@ TITLE    BSPHEMTL ; Jute Gyte
 TITLE    BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
 #endif
 
-HELP1    ; Espi, MrFlibble 
+HELP1    ; Espi, MrFlibble
 HELP2    ; MrFlibble, Jute Gyte
 CREDIT   ; Stilgar
 E2END    HELP1	; * PLACE HOLDER *
@@ -99,10 +99,21 @@ MUS_E3M9 ; "The Deepest Secrets" by continuum.mid (Double Impact MIDI Pack)
 MUS_E4M1 ; "Continuum III - Heretical Triplets" by continuum.mid
 MUS_E4M2 ; "Cemetery" by ax34
 MUS_E4M3 ; "Aftermath" by continuum.mid
+;MUS_E4M4
 MUS_E4M5 ; "The Rivers Run Red" by Josephus "J.Astartes" Astartes (Freedoom attic)
+;MUS_E4M6
 MUS_E4M7 ; "Continuum II - Hello there (Quantum 3) by continuum.mid
 MUS_E4M8 ; "Continuum IV - Count Pizzicato" by continuum.mid
 MUS_E4M9 ; "Arrival of the Demons" by continuum.mid
+MUS_E5M1 ; "The Invisible Gardener" by continuum.mid
+MUS_E5M2 ; "Inside the Ruins" by Korp (Freedoom, LibTech1)
+;MUS_E5M3
+;MUS_E5M4
+;MUS_E5M5
+;MUS_E5M6
+;MUS_E5M7
+;MUS_E5M8
+;MUS_E5M9
 
 [levels]
 
@@ -125,7 +136,7 @@ E2M5      	; Brad Kiefer
 E2M6      	; Brad Kiefer
 E2M7      	; Cacowad
 E2M8      	; Cacowad
-E2M9 	; Craneo
+E2M9 		; Craneo
 E3M1	  	; Suporma
 E3M2 		; Craneo
 E3M3 		; Craneo
@@ -135,10 +146,10 @@ E3M6 		; Ettingrinder
 E3M7 		; Ettingrinder
 E3M8	  	; Catoptromancy
 E3M9 		; Craneo
-E4M1 DM1 	; Jute Gyte
-E4M2 DM2 	; Rellik (Conversion by Jute)
-E4M3 DM3 	; Rellik (Conversion by Jute)
-E4M4 DM4 	; Hellbent (Conversion by Jute)
+E4M1 PH 	; 
+E4M2 PH 	; 
+E4M3 PH 	; 
+E4M4 PH 	; 
 E4M5 PH
 E4M6 PH
 E4M7 PH
@@ -280,9 +291,9 @@ KGTATK   ; AntonR - CC0/public domai﻿n
 KGTDTH	; AntonR - CC0/public domai﻿n
 KGTPAI   ; AntonR - CC0/public domai﻿n
 KGTSIT	; AntonR - CC0/public domai﻿n
-LOBHIT   		;  MoonDeLaAxel 
-LOBPOW   		; SuperSomariDX
-LOBSHT   		; Jute Gyte
+LOBHIT   ; MoonDeLaAxel
+LOBPOW   ; SuperSomariDX
+LOBSHT   ; Jute Gyte
 MINACT   ; undead003 (Freedoom)
 MINAT1   ; SuperSomariDX
 MINAT2   ; SuperSomariDX
@@ -359,10 +370,10 @@ FACEB0   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEB1   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEB2   0 0 ; Reinaldo "Horror Movie Guy," Craneo
 FACEB3   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-LIFEGEM0 0 0 ; * PLACE HOLDER *  
-LIFEGEM1 LIFEGEM0 0 0 ; * PLACE HOLDER *  
-LIFEGEM2 0 0 ; * PLACE HOLDER *  
-LIFEGEM3 LIFEGEM2 0 0 ; * PLACE HOLDER *  
+LIFEGEM0 0 0 ; Stilgar
+LIFEGEM1 0 0 ; Stilgar
+LIFEGEM2 0 0 ; Stilgar
+LIFEGEM3 0 0 ; Stilgar
 BARBACK  0 0 ; Stilgar
 CHAINBAC 0 0 ; Stilgar
 STATBAR  0 0 ; Stilgar
@@ -382,13 +393,13 @@ USEARTIB	-2	-3	; Georgy Samoilov
 USEARTIC	0	0	; Georgy Samoilov
 USEARTID	3	0	; Georgy Samoilov
 USEARTIE	2	0	; Georgy Samoilov
-INVGEML1 FONTA10 0 0 ; * PLACE HOLDER *  
-INVGEMR1 FONTA10 0 0 ; * PLACE HOLDER *  
-INVGEML2 FONTA03 0 0 ; * PLACE HOLDER *  
-INVGEMR2 FONTA03 0 0 ; * PLACE HOLDER *  
+INVGEML1 	; Georgy Samoilov
+INVGEMR1 	; Georgy Samoilov
+INVGEML2 	; Georgy Samoilov
+INVGEMR2 	; Georgy Samoilov
 BKEYICON 0 0	; Stilgar, Georgy Samoilov
 GKEYICON 0 0	; Stilgar, Georgy Samoilov
-YKEYICON 0 0		; Stilgar, Georgy Samoilov 
+YKEYICON 0 0	; Stilgar, Georgy Samoilov
 IN0      0 0 ; Craneo
 IN1      0 0 ; Craneo
 IN2      0 0 ; Craneo
@@ -1530,39 +1541,48 @@ SRCRS5	51	96
 SRCRS6	53	95
 SRCRS7	28	91
 SRCRS8	27	96
-WZRDA1	21	58	; Pawel "Nmn" Zarczynski
-WZRDA2A8	25	61	; Pawel "Nmn" Zarczynski
-WZRDA3A7	29	61	; Pawel "Nmn" Zarczynski
-WZRDA4A6	25	61	; Pawel "Nmn" Zarczynski
-WZRDA5	22	60	; Pawel "Nmn" Zarczynski
-WZRDB1	21	56	; Pawel "Nmn" Zarczynski
-WZRDB2B8	25	56	; Pawel "Nmn" Zarczynski
-WZRDB3B7	27	60	; Pawel "Nmn" Zarczynski
-WZRDB4B6	25	60	; Pawel "Nmn" Zarczynski
-WZRDB5	22	56	; Pawel "Nmn" Zarczynski
-WZRDC1	21	58	; Pawel "Nmn" Zarczynski
-WZRDC2C8	25	55	; Pawel "Nmn" Zarczynski
-WZRDC3C7	28	52	; Pawel "Nmn" Zarczynski
-WZRDC4C6	24	54	; Pawel "Nmn" Zarczynski
-WZRDC5	22	58	; Pawel "Nmn" Zarczynski
-WZRDD1	24	62	; Pawel "Nmn" Zarczynski
-WZRDD2D8	27	57	; Pawel "Nmn" Zarczynski
-WZRDD3D7	28	57	; Pawel "Nmn" Zarczynski
-WZRDD4D6	28	58	; Pawel "Nmn" Zarczynski
-WZRDD5	24	58	; Pawel "Nmn" Zarczynski
-WZRDE1	21	48	; Pawel "Nmn" Zarczynski
-WZRDE2E8	25	50	; Pawel "Nmn" Zarczynski
-WZRDE3E7	27	49	; Pawel "Nmn" Zarczynski
-WZRDE4E6	25	50	; Pawel "Nmn" Zarczynski
-WZRDE5	22	51	; Pawel "Nmn" Zarczynski
-WZRDF0	26	50	; Pawel "Nmn" Zarczynski
-WZRDG0	25	50	; Pawel "Nmn" Zarczynski
-WZRDH0	25	48	; Pawel "Nmn" Zarczynski
-WZRDI0	26	41	; Pawel "Nmn" Zarczynski
-WZRDJ0	29	39	; Pawel "Nmn" Zarczynski
-WZRDK0	32	41	; Pawel "Nmn" Zarczynski
-WZRDL0	28	34	; Pawel "Nmn" Zarczynski
-WZRDM0	28	29	; Pawel "Nmn" Zarczynski
+WZRDA1	18	54	; All WZRD* by Amuscaria, Craneo
+WZRDA2	34	53
+WZRDA3	32	53
+WZRDA4	28	53
+WZRDA5	18	54
+WZRDA6	8	54
+WZRDA7	10	51
+WZRDA8	8	53
+WZRDB1	20	52
+WZRDB2	25	51
+WZRDB3	28	51
+WZRDB4	29	51
+WZRDB5	17	52
+WZRDB6	7	51
+WZRDB7	8	49
+WZRDB8	11	51
+WZRDC1	25	59
+WZRDC2C8	28	58
+WZRDC3C7	6	59
+WZRDC4C6	26	58
+WZRDC5	29	60
+WZRDD1	35	45
+WZRDD2D8	28	42
+WZRDD3D7	35	41
+WZRDD4D6	33	45
+WZRDD5	26	45
+WZRDE1	19	52
+WZRDE2	22	53
+WZRDE3	20	53
+WZRDE4	21	53
+WZRDE5	19	50
+WZRDE6	18	52
+WZRDE7	19	53
+WZRDE8	20	54
+WZRDF0	19	52
+WZRDG0	16	57
+WZRDH0	16	62
+WZRDI0	15	66
+WZRDJ0	14	69
+WZRDK0	15	71
+WZRDL0	17	74
+WZRDM0	30	5
 ; Weapons
 CRBWA0   -13 -95 ; Neoworm
 CRBWB0   -13 -95 ; Neoworm
