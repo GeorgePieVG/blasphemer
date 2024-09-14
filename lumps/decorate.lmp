@@ -4,3 +4,20 @@ ACTOR ActivatedTimeBomb_Patch : ActivatedTimeBomb replaces ActivatedTimeBomb
 {
 	RenderStyle Normal
 }
+
+ACTOR HarpyLeader : HereticImpLeader replaces HereticImpLeader
+{
+	Translation "0:34=#[139,106,60]", "36:51=#[139,106,60]", "35:35=144:144"
+}
+
+ACTOR GhoulLeader : MummyLeader replaces MummyLeader
+{
+	Translation "225:240=%[0.00,0.00,0.00]:[0.69,0.68,0.90]", 
+	"47:51=%[0.00,0.00,0.00]:[1.21,0.71,0.31]", "20:35=%[0.00,0.00,0.00]:[1.21,0.71,0.31]"
+}
+
+ACTOR SpectralGhoulLeader : MummyLeaderGhost replaces MummyLeaderGhost
+{
+	Translation "225:240=%[0.00,0.00,0.00]:[0.69,0.68,0.90]", 
+	"47:51=%[0.00,0.00,0.00]:[1.21,0.71,0.31]", "20:35=%[0.00,0.00,0.00]:[1.21,0.71,0.31]"
+}
