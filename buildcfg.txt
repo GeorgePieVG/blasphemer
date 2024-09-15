@@ -81,7 +81,7 @@ MUS_E2M6 ; Jute Gyte
 MUS_E2M7 ; Jute Gyte
 MUS_E2M8 ; Jute Gyte
 MUS_E2M9 ; Jute Gyte
-MUS_E3M2 ; Jute Gyte
+MUS_E3M2 ; "Aftermath" by continuum.mid
 MUS_E3M3 ; Jute Gyte
 MUS_TITL ; MoonDeLaAxel
 MUS_CPTD ; Jute Gyte (Episode complete music)
@@ -98,7 +98,7 @@ MUS_E3M8 ; "Mists Over the Mire" by Tyler "Picklehammer" P. (Freedoom)
 MUS_E3M9 ; "The Deepest Secrets" by continuum.mid (Double Impact MIDI Pack)
 MUS_E4M1 ; "Continuum III - Heretical Triplets" by continuum.mid
 MUS_E4M2 ; "Cemetery" by ax34
-MUS_E4M3 ; "Aftermath" by continuum.mid
+MUS_E4M3 ; Jute Gyte
 ;MUS_E4M4
 ;MUS_E4M5
 ;MUS_E4M6
