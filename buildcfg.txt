@@ -10,7 +10,7 @@
 ;HEHACKED ; GeorgePieVG (lump) & Stilgar (strings)
 ;HHEVER ; 
 EMAPINFO ; Georgy Samoilov
-DECORATE ; Georgy Samoilov
+DECORATE ; Craneo, Georgy Samoilov
 GLDEFS   ; Jakie
 PLAYPAL  ; Da Werecat 
 COLORMAP ; Da Werecat
@@ -100,13 +100,13 @@ MUS_E4M1 ; "Continuum III - Heretical Triplets" by continuum.mid
 MUS_E4M2 ; "Cemetery" by ax34
 MUS_E4M3 ; "Aftermath" by continuum.mid
 ;MUS_E4M4
-MUS_E4M5 ; "The Rivers Run Red" by Josephus "J.Astartes" Astartes (Freedoom attic)
+;MUS_E4M5
 ;MUS_E4M6
 MUS_E4M7 ; "Continuum II - Hello there (Quantum 3) by continuum.mid
 MUS_E4M8 ; "Continuum IV - Count Pizzicato" by continuum.mid
 MUS_E4M9 ; "Arrival of the Demons" by continuum.mid
 MUS_E5M1 ; "The Invisible Gardener" by continuum.mid
-MUS_E5M2 ; "Inside the Ruins" by Korp (Freedoom, LibTech1)
+;MUS_E5M2
 ;MUS_E5M3
 ;MUS_E5M4
 ;MUS_E5M5

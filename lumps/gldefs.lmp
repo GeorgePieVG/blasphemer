@@ -558,10 +558,6 @@ object MaceFX4
     frame FX02J { light MACEBALL_X4 }
 }
 
-// ---------------------
-// -- Heretic Enemies --
-// ---------------------
-
 // Heretic imp fireball
 pointlight HIMPBALL
 {
