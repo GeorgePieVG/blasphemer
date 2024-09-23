@@ -14,6 +14,7 @@ Lots of new textures - Craneo, LibreQuake, raymoohawk, YukiHerz, Georgy Samoilov
 Golden False Idol - Georgy Samoilov
 Eternity Engine ESTRINGS support - Georgy Samoilov
 Update GLDEFS and DECORATE - Craneo
+New E4M3 - Sergeant Mark IV, Craneo
 
 #######
 0.1.9-fork-006
