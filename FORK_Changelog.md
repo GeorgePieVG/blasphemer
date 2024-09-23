@@ -2,12 +2,26 @@
 FORK_Changelog.md:
 
 #######
+0.1.9-fork-007
+Ported Freedoom texture builder - Georgy Samoilov
+New readme - Georgy Samoilov
+Musics converted to MUS
+New title theme - MoonDeLaAxel
+New Episode 3, 4 and 5 musics - continuum.mid, Freedoom, ax34
+Proper DMXGUS and GENMIDI lumps - ported from Freedoom
+Lots of new sounds - AntonR
+Lots of new textures - Craneo, LibreQuake, raymoohawk, YukiHerz, Georgy Samoilov, Freedoom
+Golden False Idol - Georgy Samoilov
+Eternity Engine ESTRINGS support - Georgy Samoilov
+Update GLDEFS and DECORATE - Craneo
+
+#######
 0.1.9-fork-006
 
 Update Mummy - Georgy Samoilov
 New pod frames - Amuscaria/Freedoom
 Scripts and docs organization -  Georgy Samoilov
-New Langauge - Georgy Samoilov
+New Language - Georgy Samoilov
 New Pickup sprites - Nmn, Stilgar
 Fix buildcfg - Georgy Samoilov
 New Freedoom lava flat, new lava ball -  Georgy Samoilov
