@@ -358,14 +358,14 @@ IN_YAH   GOD1	0 0 ; * PLACE HOLDER *
 MAPE1    0 0 ; MrFlibble
 MAPE2    0 0 ; MrFlibble
 MAPE3    0 0 ; MrFlibble
-FACEA0   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEA1   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEA2   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEA3   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEB0   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEB1   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEB2   0 0 ; Reinaldo "Horror Movie Guy," Craneo
-FACEB3   0 0 ; Reinaldo "Horror Movie Guy," Craneo
+FACEA0   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEA1   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEA2   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEA3   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEB0   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEB1   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEB2   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEB3   0 0 ; Reinaldo "HorrorMovieRei," Craneo
 LIFEGEM0 0 0 ; Stilgar
 LIFEGEM1 0 0 ; Stilgar
 LIFEGEM2 0 0 ; Stilgar
@@ -1592,12 +1592,12 @@ BLSRA0   -103 -84 ; Amuscaria
 BLSRB0   -103 -84 ; Amuscaria
 BLSRC0   -97 -84 ; Amuscaria
 BLSRD0   -89 -73 ; Amuscaria
-BSKLA0    ; Reinaldo "Horror Movie Guy"
-BSKLB0    ; Reinaldo "Horror Movie Guy"
-BSKLC0    ; Reinaldo "Horror Movie Guy"
-BSKLD0    ; Reinaldo "Horror Movie Guy"
-BSKLE0    ; Reinaldo "Horror Movie Guy"
-BSKLF0    ; Reinaldo "Horror Movie Guy"
+BSKLA0    ; Reinaldo "HorrorMovieRei"
+BSKLB0    ; Reinaldo "HorrorMovieRei"
+BSKLC0    ; Reinaldo "HorrorMovieRei"
+BSKLD0    ; Reinaldo "HorrorMovieRei"
+BSKLE0    ; Reinaldo "HorrorMovieRei"
+BSKLF0    ; Reinaldo "HorrorMovieRei"
 CHDLA0   28 60 ; Warfare
 CHDLB0   28 60 ; Warfare
 CHDLC0   28 60 ; Warfare
@@ -2047,59 +2047,59 @@ PHNXA0   -92 -86 ; Amuscaria
 PHNXB0   -92 -86 ; Amuscaria
 PHNXC0   -61 -76 ; Amuscaria
 PHNXD0   -92 -90 ; Amuscaria
-PLAYA1		13 50	; Reinaldo "Horror Movie Guy"
-PLAYA2A8	13 52	; Reinaldo "Horror Movie Guy"
-PLAYA3A7	16 51	; Reinaldo "Horror Movie Guy"
-PLAYA4A6	14 50	; Reinaldo "Horror Movie Guy"
-PLAYA5		14 50	; Reinaldo "Horror Movie Guy"
-PLAYB1		15 51	; Reinaldo "Horror Movie Guy"
-PLAYB2B8	14 52	; Reinaldo "Horror Movie Guy"
-PLAYB3B7	13 52	; Reinaldo "Horror Movie Guy"
-PLAYB4B6	15 51	; Reinaldo "Horror Movie Guy"
-PLAYB5		16 51	; Reinaldo "Horror Movie Guy"
-PLAYC1		12 50	; Reinaldo "Horror Movie Guy"
-PLAYC2C8	13 51	; Reinaldo "Horror Movie Guy"
-PLAYC3C7	14 51	; Reinaldo "Horror Movie Guy"
-PLAYC4C6	16 50	; Reinaldo "Horror Movie Guy"
-PLAYC5		16 50	; Reinaldo "Horror Movie Guy"
-PLAYD1		15 51	; Reinaldo "Horror Movie Guy"
-PLAYD2D8	13 51	; Reinaldo "Horror Movie Guy"
-PLAYD3D7	13 52	; Reinaldo "Horror Movie Guy"
-PLAYD4D6	15 51	; Reinaldo "Horror Movie Guy"
-PLAYD5		16 51	; Reinaldo "Horror Movie Guy"
-PLAYE1		11 48	; Reinaldo "Horror Movie Guy"
-PLAYE2E8	17 48	; Reinaldo "Horror Movie Guy"
-PLAYE3E7	19 48 	; Reinaldo "Horror Movie Guy"
-PLAYE4E6	15 48	; Reinaldo "Horror Movie Guy"
-PLAYE5		11 48	; Reinaldo "Horror Movie Guy"
-PLAYF1		12 48	; Reinaldo "Horror Movie Guy"
-PLAYF2F8	22 48	; Reinaldo "Horror Movie Guy"
-PLAYF3F7	21 48	; Reinaldo "Horror Movie Guy"
-PLAYF4F6	18 48	; Reinaldo "Horror Movie Guy"
-PLAYF5		13 48	; Reinaldo "Horror Movie Guy"
-PLAYG1		16 49	; Reinaldo "Horror Movie Guy"
-PLAYG2G8	16 50	; Reinaldo "Horror Movie Guy"
-PLAYG3G7	12 50	; Reinaldo "Horror Movie Guy"
-PLAYG4G6	14 49	; Reinaldo "Horror Movie Guy"
-PLAYG5		18 49	; Reinaldo "Horror Movie Guy"
-PLAYH0		16 49	; Reinaldo "Horror Movie Guy"
-PLAYI0		19 45	; Reinaldo "Horror Movie Guy"
-PLAYJ0		20 40	; Reinaldo "Horror Movie Guy"
-PLAYK0		23 39	; Reinaldo "Horror Movie Guy"
-PLAYL0 	24 33	; Reinaldo "Horror Movie Guy"
-PLAYM0		27 23	; Reinaldo "Horror Movie Guy"
-PLAYN0		27 17	; Reinaldo "Horror Movie Guy"
-PLAYO0		27 17	; Reinaldo "Horror Movie Guy"
-PLAYP0 	27 18	; Reinaldo "Horror Movie Guy"
-PLAYQ0  	14 48	; Reinaldo "Horror Movie Guy"
-PLAYR0   	15 41	; Reinaldo "Horror Movie Guy"
-PLAYS0  	15 35	; Reinaldo "Horror Movie Guy"
-PLAYT0  	21 32	; Reinaldo "Horror Movie Guy"
-PLAYU0   	20 21	; Reinaldo "Horror Movie Guy"
-PLAYV0  	23 19	; Reinaldo "Horror Movie Guy"
-PLAYW0   	23 15	; Reinaldo "Horror Movie Guy"
-PLAYX0   	24 13	; Reinaldo "Horror Movie Guy"
-PLAYY0   	26 13	; Reinaldo "Horror Movie Guy"
+PLAYA1		13 50	; Reinaldo "HorrorMovieRei"
+PLAYA2A8	13 52	; Reinaldo "HorrorMovieRei"
+PLAYA3A7	16 51	; Reinaldo "HorrorMovieRei"
+PLAYA4A6	14 50	; Reinaldo "HorrorMovieRei"
+PLAYA5		14 50	; Reinaldo "HorrorMovieRei"
+PLAYB1		15 51	; Reinaldo "HorrorMovieRei"
+PLAYB2B8	14 52	; Reinaldo "HorrorMovieRei"
+PLAYB3B7	13 52	; Reinaldo "HorrorMovieRei"
+PLAYB4B6	15 51	; Reinaldo "HorrorMovieRei"
+PLAYB5		16 51	; Reinaldo "HorrorMovieRei"
+PLAYC1		12 50	; Reinaldo "HorrorMovieRei"
+PLAYC2C8	13 51	; Reinaldo "HorrorMovieRei"
+PLAYC3C7	14 51	; Reinaldo "HorrorMovieRei"
+PLAYC4C6	16 50	; Reinaldo "HorrorMovieRei"
+PLAYC5		16 50	; Reinaldo "HorrorMovieRei"
+PLAYD1		15 51	; Reinaldo "HorrorMovieRei"
+PLAYD2D8	13 51	; Reinaldo "HorrorMovieRei"
+PLAYD3D7	13 52	; Reinaldo "HorrorMovieRei"
+PLAYD4D6	15 51	; Reinaldo "HorrorMovieRei"
+PLAYD5		16 51	; Reinaldo "HorrorMovieRei"
+PLAYE1		11 48	; Reinaldo "HorrorMovieRei"
+PLAYE2E8	17 48	; Reinaldo "HorrorMovieRei"
+PLAYE3E7	19 48 	; Reinaldo "HorrorMovieRei"
+PLAYE4E6	15 48	; Reinaldo "HorrorMovieRei"
+PLAYE5		11 48	; Reinaldo "HorrorMovieRei"
+PLAYF1		12 48	; Reinaldo "HorrorMovieRei"
+PLAYF2F8	22 48	; Reinaldo "HorrorMovieRei"
+PLAYF3F7	21 48	; Reinaldo "HorrorMovieRei"
+PLAYF4F6	18 48	; Reinaldo "HorrorMovieRei"
+PLAYF5		13 48	; Reinaldo "HorrorMovieRei"
+PLAYG1		16 49	; Reinaldo "HorrorMovieRei"
+PLAYG2G8	16 50	; Reinaldo "HorrorMovieRei"
+PLAYG3G7	12 50	; Reinaldo "HorrorMovieRei"
+PLAYG4G6	14 49	; Reinaldo "HorrorMovieRei"
+PLAYG5		18 49	; Reinaldo "HorrorMovieRei"
+PLAYH0		16 49	; Reinaldo "HorrorMovieRei"
+PLAYI0		19 45	; Reinaldo "HorrorMovieRei"
+PLAYJ0		20 40	; Reinaldo "HorrorMovieRei"
+PLAYK0		23 39	; Reinaldo "HorrorMovieRei"
+PLAYL0 	24 33	; Reinaldo "HorrorMovieRei"
+PLAYM0		27 23	; Reinaldo "HorrorMovieRei"
+PLAYN0		27 17	; Reinaldo "HorrorMovieRei"
+PLAYO0		27 17	; Reinaldo "HorrorMovieRei"
+PLAYP0 	27 18	; Reinaldo "HorrorMovieRei"
+PLAYQ0  	14 48	; Reinaldo "HorrorMovieRei"
+PLAYR0   	15 41	; Reinaldo "HorrorMovieRei"
+PLAYS0  	15 35	; Reinaldo "HorrorMovieRei"
+PLAYT0  	21 32	; Reinaldo "HorrorMovieRei"
+PLAYU0   	20 21	; Reinaldo "HorrorMovieRei"
+PLAYV0  	23 19	; Reinaldo "HorrorMovieRei"
+PLAYW0   	23 15	; Reinaldo "HorrorMovieRei"
+PLAYX0   	24 13	; Reinaldo "HorrorMovieRei"
+PLAYY0   	26 13	; Reinaldo "HorrorMovieRei"
 PPODA0   23 40 ; Stilgar
 PPODB0   23 40 ; Stilgar
 PPODC0	24	42	; Amuscaria/Freedoom

@@ -36,7 +36,7 @@ BethOfDeath - Graphics
 Lokito - Graphics
 Linguica - Graphics
 BigProjectAlone - Graphics
-HorrorMovieGuy - Graphics
+HorrorMovieRei - Graphics
 Suporma - Level Design
 Craneo - Level Design
 EttinGrinder - Level Design
