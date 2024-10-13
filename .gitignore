@@ -24,6 +24,3 @@ wad*.txt
 /lumps/genmidi/*.lmp
 /lumps/textures/blasphdm/
 /lumps/textures/blasphem/
-
-/lumps/bsph*tl.png
-/lumps/text/*.png
