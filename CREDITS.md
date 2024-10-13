@@ -4,12 +4,12 @@ CREDITS.md:
 
 G. "Stilgar" Wessner - Graphics, Former Project Lead
 Jute Gyte - Music and Sound, Level Design, Former Project Lead
-Sodaholic - Sounds and Graphics, Former Project Maintainer, Former Project Lead
+Blastfrog - Sounds and Graphics, Former Project Maintainer, Former Project Lead
 Springy - Project Lead
 Cacowad - Level Design, Project Mantainer
 DooMAD - Graphics
 Blox - Graphics
-Eriance - Weapon Graphics
+Amuscaria - Weapon Graphics, Sprites
 Warfare - Graphics
 Leilei - Base Data, Graphics
 Esselfortium - Graphics
@@ -43,7 +43,6 @@ EttinGrinder - Level Design
 AntonR - Sounds, Sprites
 MrFlibble - Graphics
 GeorgePieVG - Scripts, Sprites
-Amuscaria - Sprites
 MoonDeLaAxel - Sounds
 KatherineCode - Sprites
 Desfar - Sprites
