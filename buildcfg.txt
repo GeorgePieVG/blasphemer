@@ -7,7 +7,7 @@
 ; Stilgar - Placeholder Map, Monster placeholder
 
 [lumps]
-;HEHACKED ; GeorgePieVG (lump) & Stilgar (strings)
+;HEHACKED ; Georgy Samoilov (lump) & Stilgar (strings)
 ;HHEVER ; 
 EMAPINFO ; Georgy Samoilov
 DECORATE ; Craneo, Georgy Samoilov
@@ -17,11 +17,7 @@ COLORMAP ; Da Werecat
 TINTTAB  ; Da Werecat 
 LOADING  ; Georgy Samoilov
 
-#ifdef BLASPHEM
-TITLE    BSPHEMTL ; Jute Gyte
-#else
-TITLE    BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
-#endif
+TITLE    ; Jute Gyte
 
 HELP1    ; Espi, MrFlibble
 HELP2    ; MrFlibble, Jute Gyte
@@ -170,15 +166,15 @@ E6M3	 	; Catoptromancy
 
 ; BlasphDM levels
 #else
-E1M1 dm11     # Protox
-E1M2 dm12     # Protox
-E1M3 dm13     # Protox
-E1M4 dm14     # Protox
-E1M5 dm15     # Protox
-E1M6 dm16     # Protox
-E1M7 dm17     # Original by Jute, edited by Protox
-E1M8 dm18     # Original by Rellik, edited by Protox
-E1M9 dm19     # Original by Protox, edited by Cacowad
+E1M1 dm11     # Xindage
+E1M2 dm12     # Xindage
+E1M3 dm13     # Xindage
+E1M4 dm14     # Xindage
+E1M5 dm15     # Xindage
+E1M6 dm16     # Xindage
+E1M7 dm17     # Original by Jute, edited by Xindage
+E1M8 dm18     # Original by Rellik, edited by Xindage
+E1M9 dm19     # Original by Xindage, edited by Cacowad
 E2M1 dm21     # Cacowad
 E2M2 dm22     # Cacowad
 E2M3 dm23     # Cacowad
@@ -188,9 +184,9 @@ E2M6 dm26     # Cacowad
 E2M7 dm27     # Cacowad
 E2M8 dm28     # Cacowad
 E2M9 dm29     # Original by Rellik, edited by Cacowad
-E3M1 dm31     # Protox
-E3M2 dm32     # Protox
-E3M3 dm33     # Protox
+E3M1 dm31     # Xindage
+E3M2 dm32     # Xindage
+E3M3 dm33     # Xindage
 E3M4 dm1      # Jute Gyte
 E3M5 dm2      # Rellik (Conversion by Jute)
 E3M6 dm3      # Rellik (Conversion by Jute)	
@@ -235,8 +231,8 @@ AMB8     ; Jute Gyte
 AMB9     ; Jute Gyte
 ARTIUP   ; Jute Gyte
 ARTIUSE  ; Jute Gyte
-BLSHIT   ; SuperSomariDX
-BLSSHT   ; SuperSomariDX
+BLSHIT   ; MoonDeLaAxel
+BLSSHT   ; MoonDeLaAxel
 BOUNCE   ; Craneo
 BOWSHT   ; Jute Gyte, AntonR
 BSTACT   ; Jute
@@ -270,16 +266,16 @@ GNTHIT   ;  MoonDeLaAxel
 GNTPOW   ;  MoonDeLaAxel 
 GNTUSE   ;  MoonDeLaAxel 
 HEDACT   ; AntonR
-HEDAT1   ; SuperSomariDX
-HEDAT2   ; SuperSomariDX
-HEDAT3   ; SuperSomariDX
+HEDAT1   ; MoonDeLaAxel
+HEDAT2   ; MoonDeLaAxel
+HEDAT3   ; MoonDeLaAxel
 HEDDTH   ; (Freedoom)
 HEDPAI   ; Jute
 HEDSIT   ; AntonR
 HRNHIT   ; Jute Gyte, AntonR
-HRNPOW   ; SuperSomariDX
-HRNSHT   ; SuperSomariDX
-IMPAT1   ; SuperSomariDX
+HRNPOW   ; MoonDeLaAxel
+HRNSHT   ; MoonDeLaAxel
+IMPAT1   ; MoonDeLaAxel
 IMPAT2   ; AntonR
 IMPDTH    ; MoonDeLaAxel
 IMPPAI 	; MoonDeLaAxel
@@ -292,21 +288,21 @@ KGTDTH	; AntonR - CC0/public domai﻿n
 KGTPAI   ; AntonR - CC0/public domai﻿n
 KGTSIT	; AntonR - CC0/public domai﻿n
 LOBHIT   ; MoonDeLaAxel
-LOBPOW   ; SuperSomariDX
+LOBPOW   ; MoonDeLaAxel
 LOBSHT   ; Jute Gyte
 MINACT   ; undead003 (Freedoom)
-MINAT1   ; SuperSomariDX
-MINAT2   ; SuperSomariDX
+MINAT1   ; MoonDeLaAxel
+MINAT2   ; MoonDeLaAxel
 MINAT3   BSTACT  	; * PLACE HOLDER *
 MINDTH   ; undead003 & Goji (Freedoom)
 MINPAI   ; undead003 (Freedoom)
 MINSIT   ; undead003 (Freedoom)
-MUMAT1   ; SuperSomariDX
-MUMAT2   ; SuperSomariDX
+MUMAT1   ; MoonDeLaAxel
+MUMAT2   ; MoonDeLaAxel
 MUMDTH   ; AntonR
 MUMHED   ;  MoonDeLaAxel 
-MUMPAI   ; SuperSomariDX
-MUMSIT   ; SuperSomariDX
+MUMPAI   ; MoonDeLaAxel
+MUMSIT   ; MoonDeLaAxel
 NEWPOD   ; Jute
 PHOHIT   ; AntonR
 PHOPOW   ;  MoonDeLaAxel 
@@ -875,11 +871,11 @@ VFBLA0	12	12	 ; Georgy Samoilov
 VFBLB0	12	12	 ; Georgy Samoilov
 VTFBA0 6 6 ; Stilgar
 VTFBB0 6 6 ; Stilgar
-WBLSA0 11  45   ; Eriance
+WBLSA0 11  45   ; Amuscaria
 WBOWA0 21 38   ; Stilgar
-WGNTA0 15 52    ; Eriance
-WMCEA0 21 22   ; Eriance
-WPHXA0 10 57   ; Eriance
+WGNTA0 15 52    ; Amuscaria
+WMCEA0 21 22   ; Amuscaria
+WPHXA0 10 57   ; Amuscaria
 WSKLA0 18 45   ; Stilgar
 SOARB0 SOARA0 23 25 ; Stilgar (Unanimated!)
 SOARC0 SOARA0 23 25 ; Stilgar (Unanimated!)
@@ -909,7 +905,7 @@ ARTIPTN2	-5	-2	; apophis, Craneo
 ARTIPWBK -3 -3 ; Stilgar
 ARTISOAR 1 -9 ; * PLACE HOLDER *
 ARTISPHL	-6	-5 ; Stilgar
-ARTITRCH -7 -3 ; SuperSomariDX
+ARTITRCH -7 -3 ; MoonDeLaAxel
 ATLPA0   12 35 ; Stilgar
 ATLPB0   12 35 ; Stilgar
 ATLPC0   12 35 ; Stilgar
@@ -1592,10 +1588,10 @@ CRBWE0   -3 -106 ; Neoworm
 CRBWF0   -13 -106 ; Neoworm
 CRBWG0   -13 -104 ; Neoworm
 CRBWH0   -13 -99 ; Neoworm
-BLSRA0   -103 -84 ; Eriance
-BLSRB0   -103 -84 ; Eriance
-BLSRC0   -97 -84 ; Eriance
-BLSRD0   -89 -73 ; Eriance
+BLSRA0   -103 -84 ; Amuscaria
+BLSRB0   -103 -84 ; Amuscaria
+BLSRC0   -97 -84 ; Amuscaria
+BLSRD0   -89 -73 ; Amuscaria
 BSKLA0    ; Reinaldo "Horror Movie Guy"
 BSKLB0    ; Reinaldo "Horror Movie Guy"
 BSKLC0    ; Reinaldo "Horror Movie Guy"
@@ -1706,11 +1702,11 @@ FX01E0   7 6 ; BethOfDeath aka bpeterson
 FX01F0   8 8 ; BethOfDeath aka bpeterson
 FX01G0   9 12 ; BethOfDeath aka bpeterson
 FX01H0   9 12 ; BethOfDeath aka bpeterson
-FX02A0   4 4 ; Protox
-FX02B0   4 4 ; SuperSomariDX
-FX02C0   8 8 ; Protox
-FX02D0   8 8 ; SuperSomariDX
-FX02E0   15 14 ; SuperSomariDX
+FX02A0   4 4 ; Xindage
+FX02B0   4 4 ; MoonDeLaAxel
+FX02C0   8 8 ; Xindage
+FX02D0   8 8 ; MoonDeLaAxel
+FX02E0   15 14 ; MoonDeLaAxel
 FX02F0    ; * PLACE HOLDER *
 FX02G0    ; * PLACE HOLDER *
 FX02H0    ; * PLACE HOLDER *
@@ -1734,28 +1730,28 @@ FX03G0    ; * PLACE HOLDER *
 FX03H0   11 10 ; Leilei
 FX03I0   21 17 ; Leilei
 FX03J0   26 8 ; Leilei
-FX04A1    ; Eriance
-FX04A2A8    ; Eriance
-FX04A3A7    ; Eriance
-FX04A4A6    ; Eriance
-FX04A5    ; Eriance
+FX04A1    ; Amuscaria
+FX04A2A8    ; Amuscaria
+FX04A3A7    ; Amuscaria
+FX04A4A6    ; Amuscaria
+FX04A5    ; Amuscaria
 FX04B0    ; * PLACE HOLDER *
 FX04C0    ; * PLACE HOLDER *
 FX04D0    ; * PLACE HOLDER *
 FX04E0    ; * PLACE HOLDER *
 FX04F0    ; * PLACE HOLDER *
-FX05A1A5    ; Protox
-FX05A2A8    ; Protox
-FX05A3A7    ; Protox
-FX05A4A6    ; Protox
-FX05B1B5    ; Protox
-FX05B2B8    ; Protox
-FX05B3B7    ; Protox
-FX05B4B6    ; Protox
-FX05C1C5    ; Protox
-FX05C2C8    ; Protox
-FX05C3C7    ; Protox
-FX05C4C6    ; Protox
+FX05A1A5    ; Xindage
+FX05A2A8    ; Xindage
+FX05A3A7    ; Xindage
+FX05A4A6    ; Xindage
+FX05B1B5    ; Xindage
+FX05B2B8    ; Xindage
+FX05B3B7    ; Xindage
+FX05B4B6    ; Xindage
+FX05C1C5    ; Xindage
+FX05C2C8    ; Xindage
+FX05C3C7    ; Xindage
+FX05C4C6    ; Xindage
 FX05D0    ; * PLACE HOLDER *
 FX05E0    ; * PLACE HOLDER *
 FX05F0    ; * PLACE HOLDER *
@@ -1800,8 +1796,8 @@ FX08H0    ; * PLACE HOLDER *
 FX08I0    ; * PLACE HOLDER *
 FX08J0    ; * PLACE HOLDER *
 FX08K0    ; * PLACE HOLDER *
-FX09A0    ; SuperSomariDX
-FX09B0    ; SuperSomariDX
+FX09A0    ; MoonDeLaAxel
+FX09B0    ; MoonDeLaAxel
 FX09C0    ; * PLACE HOLDER *
 FX09D0    ; * PLACE HOLDER *
 FX09E0    ; * PLACE HOLDER *
@@ -1811,13 +1807,13 @@ FX09H0    ; * PLACE HOLDER *
 FX09I0    ; * PLACE HOLDER *
 FX09J0    ; * PLACE HOLDER *
 FX09K0    ; * PLACE HOLDER *
-FX10A0    ; Protox
-FX10B0    ; Protox
-FX10C0    ; Protox
-FX10D0    ; Protox
-FX10E0    ; Protox
-FX10F0    ; Protox
-FX10G0    ; Protox
+FX10A0    ; Xindage
+FX10B0    ; Xindage
+FX10C0    ; Xindage
+FX10D0    ; Xindage
+FX10E0    ; Xindage
+FX10F0    ; Xindage
+FX10G0    ; Xindage
 FX11A0	9	9	; Georgy Samoilov
 FX11B0	7	7	; Georgy Samoilov
 FX11C0	11	12	; Georgy Samoilov
@@ -1992,31 +1988,31 @@ FX23F0    ; * PLACE HOLDER *
 FX23G0    ; * PLACE HOLDER *
 FX23H0    ; * PLACE HOLDER *
 FX23I0    ; * PLACE HOLDER *
-GAUNA0   -110 -118 ; Eriance
-GAUNB0   -103 -105 ; Eriance
-GAUNC0   -96 -90 ; Eriance
-GAUND0   -82 -69 ; Eriance
-GAUNE0   -74 -63 ; Eriance
-GAUNF0   -82 -65 ; Eriance
-GAUNG0   -110 -118 ; Eriance
-GAUNH0   -110 -118 ; Eriance
-GAUNI0   -110 -118 ; Eriance
-GAUNJ0   -103 -105 ; Eriance
-GAUNK0   -96 -90 ; Eriance
-GAUNL0   -82 -69 ; Eriance
-GAUNM0   -74 -63 ; Eriance
+GAUNA0   -110 -118 ; Amuscaria
+GAUNB0   -103 -105 ; Amuscaria
+GAUNC0   -96 -90 ; Amuscaria
+GAUND0   -82 -69 ; Amuscaria
+GAUNE0   -74 -63 ; Amuscaria
+GAUNF0   -82 -65 ; Amuscaria
+GAUNG0   -110 -118 ; Amuscaria
+GAUNH0   -110 -118 ; Amuscaria
+GAUNI0   -110 -118 ; Amuscaria
+GAUNJ0   -103 -105 ; Amuscaria
+GAUNK0   -96 -90 ; Amuscaria
+GAUNL0   -82 -69 ; Amuscaria
+GAUNM0   -74 -63 ; Amuscaria
 GAUNN0   -82 -65 ; Erianc
 GWNDA0   -139 -94 ; BethOfDeath aka bpeterson
 GWNDB0   -139 -85 ; BethOfDeath aka bpeterson
 GWNDC0   -139 -79 ; BethOfDeath aka bpeterson
 GWNDD0   -139 -71 ; BethOfDeath aka bpeterson
-HRODA0   -70 -103 ; Eriance
-HRODB0   -70 -103 ; Eriance
-HRODC0   -70 -103 ; Eriance
-HRODD0   -69 -101 ; Eriance
-HRODE0   -72 -92 ; Eriance
-HRODF0   -75 -90 ; Eriance
-HRODG0   -75 -90 ; Eriance
+HRODA0   -70 -103 ; Amuscaria
+HRODB0   -70 -103 ; Amuscaria
+HRODC0   -70 -103 ; Amuscaria
+HRODD0   -69 -101 ; Amuscaria
+HRODE0   -72 -92 ; Amuscaria
+HRODF0   -75 -90 ; Amuscaria
+HRODG0   -75 -90 ; Amuscaria
 INVSA0   12 42 ; Stilgar
 KFR1A0   20 77 ; Warfare & Stilgar
 KFR1B0   20 77 ; Warfare & Stilgar
@@ -2041,16 +2037,16 @@ LVASH0    ; * PLACE HOLDER *
 LVASI0   ; * PLACE HOLDER *
 LVASJ0    ; * PLACE HOLDER *
 LVASK0    ; * PLACE HOLDER *
-MACEA0	-70	-100	# Eriance
-MACEB0	-81	-100	# Eriance
-MACEC0	-81	-95		# Eriance
-MACED0	-92	-90		# Eriance
-MACEE0	-93	-95		# Eriance
-MACEF0	-93	-100	# Eriance
-PHNXA0   -92 -86 ; Eriance
-PHNXB0   -92 -86 ; Eriance
-PHNXC0   -61 -76 ; Eriance
-PHNXD0   -92 -90 ; Eriance
+MACEA0	-70	-100	# Amuscaria
+MACEB0	-81	-100	# Amuscaria
+MACEC0	-81	-95		# Amuscaria
+MACED0	-92	-90		# Amuscaria
+MACEE0	-93	-95		# Amuscaria
+MACEF0	-93	-100	# Amuscaria
+PHNXA0   -92 -86 ; Amuscaria
+PHNXB0   -92 -86 ; Amuscaria
+PHNXC0   -61 -76 ; Amuscaria
+PHNXD0   -92 -90 ; Amuscaria
 PLAYA1		13 50	; Reinaldo "Horror Movie Guy"
 PLAYA2A8	13 52	; Reinaldo "Horror Movie Guy"
 PLAYA3A7	16 51	; Reinaldo "Horror Movie Guy"
@@ -2228,9 +2224,9 @@ SPAXC2C8	13	5	;  AntonR
 SPAXC3C7	20	6	;  AntonR
 SPAXC4C6	13	6	;  AntonR
 SPAXC5	7	8	;  AntonR
-SPAXD0    ; Protox
-SPAXE0    ; Protox
-SPAXF0    ; Protox
+SPAXD0    ; Xindage
+SPAXE0    ; Xindage
+SPAXF0    ; Xindage
 SPHLA0   8 31 	; Stilgar
 SPSHA0   5 6 	; 40oz
 SPSHB0   5 6 	; 40oz
@@ -2272,9 +2268,9 @@ TGLTG0   2 2 ; Stilgar
 TGLTH0   3 3 ; Stilgar
 TGLTI0   3 3 ; Stilgar
 TGLTJ0   2 2 ; Stilgar
-TRCHA0   12 58 ; SuperSomariDX
-TRCHB0   12 58 ; SuperSomariDX
-TRCHC0   12 58 ; SuperSomariDX
+TRCHA0   12 58 ; MoonDeLaAxel
+TRCHB0   12 58 ; MoonDeLaAxel
+TRCHC0   12 58 ; MoonDeLaAxel
 VLCOA0   16 24 ; Warfare
 VLCOB0 VLCOA0  17 24 ; Warfare
 VLCOC0 VLCOA0  16 23 ; Warfare
