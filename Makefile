@@ -2,7 +2,7 @@
 
 # Blasphemer build script
 
-VERSION=$(shell git describe --abbrev=8 --dirty 2>/dev/null || echo unknown)
+VERSION="2024 v0.1.9-fork-008"
 WADS=wads
 SNDCURVE=scripts/blasphemer_sndcurve.py
 CPP=scripts/simplecpp
@@ -18,6 +18,7 @@ OBJS=$(BLASPHEM) $(BLASPHDM)
 all: deutex-check $(OBJS)
 
 subdirs:
+	$(MAKE) VERSION=$(VERSION) -C lumps/titlepic
 	$(MAKE) -C lumps/genmidi
 	$(MAKE) -C lumps/dmxgus
 	$(MAKE) -C lumps/textures
@@ -75,6 +76,7 @@ clean:
 	rm wadinfo_blasphem.txt
 	rm wadinfo_blasphdm.txt
 	
+	$(MAKE) -C lumps/titlepic clean
 	$(MAKE) -C lumps/genmidi clean
 	$(MAKE) -C lumps/dmxgus clean
 	$(MAKE) -C lumps/textures clean

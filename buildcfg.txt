@@ -17,7 +17,11 @@ COLORMAP ; Da Werecat
 TINTTAB  ; Da Werecat 
 LOADING  ; Georgy Samoilov
 
-TITLE    ; Jute Gyte
+#ifdef BLASPHEM
+TITLE    BSPHEMTL ; Jute Gyte
+#else
+TITLE    BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
+#endif
 
 HELP1    ; Espi, MrFlibble
 HELP2    ; MrFlibble, Jute Gyte
