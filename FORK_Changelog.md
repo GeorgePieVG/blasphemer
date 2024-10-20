@@ -2,6 +2,10 @@
 FORK_Changelog.md:
 
 #######
+0.1.9-fork-008
+Clean up m_htic - Georgy Samoilov
+
+#######
 0.1.9-fork-007
 Ported Freedoom texture builder - Georgy Samoilov
 New readme - Georgy Samoilov

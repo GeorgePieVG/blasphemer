@@ -2207,12 +2207,12 @@ SNFXF0    ; * PLACE HOLDER *
 SNFXG0    ; * PLACE HOLDER *
 SNFXH0    ; * PLACE HOLDER *
 SNFXI0    ; * PLACE HOLDER *
-SNFXJ0	9	12	; apophis (LibTech1)
-SNFXK0	9	12	; apophis (LibTech1)
-SNFXL0	26	40	; apophis (LibTech1)
-SNFXM0	30	59	; apophis (LibTech1)
-SNFXN0	32	67	; apophis (LibTech1)
-SNFXO0	32	65	; apophis (LibTech1)
+SNFXJ0	9	12	; apophis (Lotan's Tomb)
+SNFXK0	9	12	; apophis (Lotan's Tomb)
+SNFXL0	26	40	; apophis (Lotan's Tomb)
+SNFXM0	30	59	; apophis (Lotan's Tomb)
+SNFXN0	32	67	; apophis (Lotan's Tomb)
+SNFXO0	32	65	; apophis (Lotan's Tomb)
 SPAXA1	9	10	;  AntonR
 SPAXA2A8	13	5	;  AntonR
 SPAXA3A7	20	6	;  AntonR
@@ -2283,7 +2283,7 @@ VLCOE0   16 38 ; Warfare
 WTRHA0   5 78 ; Stilgar
 WTRHB0   5 78 ; Stilgar
 WTRHC0   5 78 ; Stilgar
-XPL1A0	25	40	; XPL1* by apophis (LibTech1)
+XPL1A0	25	40	; XPL1* by apophis (Lotan's Tomb)
 XPL1B0	28	51
 XPL1C0	28	51
 XPL1D0	32	67
