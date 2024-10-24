@@ -64,28 +64,28 @@ PNAMES   = pnbsphdm
 #endif
 
 [musics]
-MUS_E1M1 ; Jute Gyte
-MUS_E1M2 ; Jute Gyte
-MUS_E1M3 ; Jute Gyte
-MUS_E1M4 ; Jute Gyte
-MUS_E1M5 ; Jute Gyte
-MUS_E1M6 ; Jute Gyte
-MUS_E1M7 ; Jute Gyte
-MUS_E1M8 ; Jute Gyte
-MUS_E1M9 ; Jute Gyte
-MUS_E2M1 ; Jute Gyte
-MUS_E2M2 ; Jute Gyte
-MUS_E2M3 ; Jute Gyte
-MUS_E2M4 ; Jute Gyte
-MUS_E2M6 ; Jute Gyte
-MUS_E2M7 ; Jute Gyte
-MUS_E2M8 ; Jute Gyte
-MUS_E2M9 ; Jute Gyte
+MUS_E1M1 ; blas01x.mid by Jute Gyte
+MUS_E1M2 ; blas02.mid by Jute Gyte
+MUS_E1M3 ; blas03.mid by Jute Gyte
+MUS_E1M4 ; blas04x.mid by Jute Gyte
+MUS_E1M5 ; blas05x.mid by Jute Gyte
+MUS_E1M6 ; blas06.mid by Jute Gyte
+MUS_E1M7 ; blas07x.mid by Jute Gyte
+MUS_E1M8 ; blas08x.mid by Jute Gyte
+MUS_E1M9 ; blas09x.mid by Jute Gyte
+MUS_E2M1 ; blas10x.mid by Jute Gyte
+MUS_E2M2 ; blas11x.mid by Jute Gyte
+MUS_E2M3 ; blas12x.mid by Jute Gyte
+MUS_E2M4 ; blas13x.mid by Jute Gyte
+MUS_E2M6 ; blas15.mid by Jute Gyte
+MUS_E2M7 ; blas16.mid by Jute Gyte
+MUS_E2M8 ; blas17.mid by Jute Gyte
+MUS_E2M9 ; blas18x.mid by Jute Gyte
 MUS_E3M2 ; "Aftermath" by continuum.mid
-MUS_E3M3 ; Jute Gyte
-MUS_TITL ; MoonDeLaAxel
-MUS_CPTD ; Jute Gyte (Episode complete music)
-MUS_INTR ; Jute Gyte (Level complete music)
+MUS_E3M3 ; blas20x.mid by Jute Gyte
+MUS_TITL ; by MoonDeLaAxel, remix of blas21.mid by Jute Gyte
+MUS_CPTD ; blas22x.mid by Jute Gyte (Episode complete music)
+MUS_INTR ; blas14x.mid by Jute Gyte (Level complete music)
 
 ; Extra music for advanced ports
 MUS_E2M5 ; "sit on a bench 'n release that tensh'n" by Jazz "jmickle" Mickle (Freedoom attic)
@@ -94,11 +94,11 @@ MUS_E3M4 ; "Ambiguity" by Korp (Double Impact MIDI Pack)
 MUS_E3M5 ; "The Ritual" by continuum.mid
 MUS_E3M6 ; "Death Waltz" by continuum.mid
 MUS_E3M7 ; "Derelict" by continuum.mid
-MUS_E3M8 ; "Mists Over the Mire" by Tyler "Picklehammer" P. (Freedoom)
+MUS_E3M8 ; freedoom1.mid by jupiter_ex (Freedoom attic)
 MUS_E3M9 ; "The Deepest Secrets" by continuum.mid (Double Impact MIDI Pack)
 MUS_E4M1 ; "Continuum III - Heretical Triplets" by continuum.mid
 MUS_E4M2 ; "Cemetery" by ax34
-MUS_E4M3 ; Jute Gyte
+MUS_E4M3 ; blas19x.mid by Jute Gyte
 ;MUS_E4M4
 ;MUS_E4M5
 ;MUS_E4M6
@@ -146,16 +146,16 @@ E3M6 		; Ettingrinder
 E3M7 		; Ettingrinder
 E3M8	  	; Catoptromancy
 E3M9 		; Craneo
-E4M1 PH 	; 
-E4M2 PH 	; 
-E4M3 		; Sergeant Mark IV, Craneo
-E4M4 PH 	; 
-E4M5 PH
-E4M6 PH
-E4M7 PH
-E4M8 PH
-E4M9 PH
-E5M1 PH
+E4M1 		; Cacowad (Blasphemous Experiments)
+E4M2 		; Zigmund, Voros (Freedoom attic)
+E4M3 		; Sergeant Mark IV (Conversion by Craneo)
+E4M4 		; Cacowad (Blasphemous Experiments)
+E4M5 		; Amarande, Voros (Freedoom attic)
+E4M6 		; Cacowad (Blasphemous Experiments)
+E4M7 		; Amarande (Freedoom attic)
+E4M8 		; Cacowad (Blasphemous Experiments)
+E4M9 		; Cacowad (Blasphemous Experiments)
+E5M1 		; Devin "Lazer" Afshin (Freedoom)
 E5M2 PH
 E5M3 PH
 E5M4 PH
@@ -170,35 +170,35 @@ E6M3	 	; Catoptromancy
 
 ; BlasphDM levels
 #else
-E1M1 dm11     # Xindage
-E1M2 dm12     # Xindage
-E1M3 dm13     # Xindage
-E1M4 dm14     # Xindage
-E1M5 dm15     # Xindage
-E1M6 dm16     # Xindage
-E1M7 dm17     # Original by Jute, edited by Xindage
-E1M8 dm18     # Original by Rellik, edited by Xindage
-E1M9 dm19     # Original by Xindage, edited by Cacowad
-E2M1 dm21     # Cacowad
-E2M2 dm22     # Cacowad
-E2M3 dm23     # Cacowad
-E2M4 dm24     # Cacowad
-E2M5 dm25     # Cacowad
-E2M6 dm26     # Cacowad
-E2M7 dm27     # Cacowad
-E2M8 dm28     # Cacowad
-E2M9 dm29     # Original by Rellik, edited by Cacowad
-E3M1 dm31     # Xindage
-E3M2 dm32     # Xindage
-E3M3 dm33     # Xindage
-E3M4 dm1      # Jute Gyte
-E3M5 dm2      # Rellik (Conversion by Jute)
-E3M6 dm3      # Rellik (Conversion by Jute)	
-E3M7 dm4      # Hellbent (Conversion by Jute)
-E3M8 dm38	# Craneo
-E3M9 dm39	# Craneo
-E4M1 dm41	# Craneo
-E4M2 PH
+E1M1 dm11     ; Xindage
+E1M2 dm12     ; Xindage
+E1M3 dm13     ; Xindage
+E1M4 dm14     ; Xindage
+E1M5 dm15     ; Xindage
+E1M6 dm16     ; Xindage
+E1M7 dm17     ; Original by Jute, edited by Xindage
+E1M8 dm18     ; Original by Rellik, edited by Xindage
+E1M9 dm19     ; Original by Xindage, edited by Cacowad
+E2M1 dm21     ; Cacowad
+E2M2 dm22     ; Cacowad
+E2M3 dm23     ; Cacowad
+E2M4 dm24     ; Cacowad
+E2M5 dm25     ; Cacowad
+E2M6 dm26     ; Cacowad
+E2M7 dm27     ; Cacowad
+E2M8 dm28     ; Cacowad
+E2M9 dm29     ; Original by Rellik, edited by Cacowad
+E3M1 dm31     ; Xindage
+E3M2 dm32     ; Xindage
+E3M3 dm33     ; Xindage
+E3M4 dm1      ; Jute Gyte
+E3M5 dm2      ; Rellik (Conversion by Jute)
+E3M6 dm3      ; Rellik (Conversion by Jute)	
+E3M7 dm4      ; Hellbent (Conversion by Jute)
+E3M8 dm38	; Craneo
+E3M9 dm39	; Craneo
+E4M1 dm41	; Craneo
+E4M2 dm42	;
 E4M3 PH
 E4M4 PH
 E4M5 PH
@@ -470,7 +470,7 @@ SPFLY14  0 0 ; * PLACE HOLDER *
 SPFLY15  0 0 ; * PLACE HOLDER *   
 GOD1     0 0 ; * (Blank) *
 GOD2     0 0 ; * (Blank) *
-M_HTIC   0 0 ; Jute Gyte
+M_HTIC   0 0 ; Jute Gyte, Georgy Samoilov
 M_SLCTR1 10 -1 ; Stilgar 
 M_SLCTR2 10 -1 ; Stilgar
 M_SKL00	 	-10	-4  	;  Amuscaria/Freedoom

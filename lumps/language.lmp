@@ -105,18 +105,18 @@ HHUSTR_E3M8 = "E3M8";
 HHUSTR_E3M9 = "The Old Town";
 
 // Episode 4 map names
-HHUSTR_E4M1 = "Black Thrones";
+HHUSTR_E4M1 = "Death";
 HHUSTR_E4M2 = "Desolate Ways";
 HHUSTR_E4M3 = "Church of Slaughter";
-HHUSTR_E4M4 = "Megaliths";
-HHUSTR_E4M5 = "E4M5";
-HHUSTR_E4M6 = "E4M6";
-HHUSTR_E4M7 = "E4M7";
-HHUSTR_E4M8 = "E4M8";
-HHUSTR_E4M9 = "E4M9";
+HHUSTR_E4M4 = "Ordeal";
+HHUSTR_E4M5 = "Black Thrones";
+HHUSTR_E4M6 = "Into The Darkness";
+HHUSTR_E4M7 = "Warped Elementality";
+HHUSTR_E4M8 = "The Crypt";
+HHUSTR_E4M9 = "Chaos";
 
 // Episode 5 map names
-HHUSTR_E5M1 = "E5M1";
+HHUSTR_E5M1 = "Blood Amber Fortress";
 HHUSTR_E5M2 = "E5M2";
 HHUSTR_E5M3 = "E5M3";
 HHUSTR_E5M4 = "E5M4";
