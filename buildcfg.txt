@@ -26,7 +26,7 @@ TITLE    BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
 HELP1    ; Espi, MrFlibble
 HELP2    ; MrFlibble, Jute Gyte
 CREDIT   ; Stilgar
-E2END    HELP1	; * PLACE HOLDER *
+E2END    ; Georgy Samoilov
 E2PAL    		; * PLACE HOLDER *
 FINAL1   HELP1	; * PLACE HOLDER *
 FINAL2   CREDIT	; * PLACE HOLDER *
@@ -222,6 +222,7 @@ E6M3 PH
 
 [sounds]
 DSSECRET ; MoonDeLaAxel 
+PLRJMP	 ; RottKing
 AMB1     ; Jute Gyte
 AMB10    ; Jute Gyte
 AMB11    ; Jute Gyte
@@ -274,7 +275,7 @@ HEDAT1   ; MoonDeLaAxel
 HEDAT2   ; MoonDeLaAxel
 HEDAT3   ; MoonDeLaAxel
 HEDDTH   ; (Freedoom)
-HEDPAI   ; Jute
+HEDPAI   ; AntonR
 HEDSIT   ; AntonR
 HRNHIT   ; Jute Gyte, AntonR
 HRNPOW   ; MoonDeLaAxel
@@ -297,7 +298,7 @@ LOBSHT   ; Jute Gyte
 MINACT   ; undead003 (Freedoom)
 MINAT1   ; MoonDeLaAxel
 MINAT2   ; MoonDeLaAxel
-MINAT3   BSTACT  	; * PLACE HOLDER *
+MINAT3   ; Jute
 MINDTH   ; undead003 & Goji (Freedoom)
 MINPAI   ; undead003 (Freedoom)
 MINSIT   ; undead003 (Freedoom)
@@ -319,8 +320,8 @@ PLRWDTH  ; Jute
 PODEXP   ; Jute
 PSTART   ; Jute Gyte
 PSTOP    ; Jute Gyte
-RAMPHIT  ;  MoonDeLaAxel 
-RAMRAIN  ;  MoonDeLaAxel 
+RAMPHIT  ; MoonDeLaAxel
+RAMRAIN  ; MoonDeLaAxel
 RESPAWN  ; Jute Gyte
 RIPSLOP  ; Jute
 SBTACT   ; Jute
@@ -334,7 +335,7 @@ SNKSIT   ; AntonR - CC0/public domai﻿n
 SORACT   ; hyena (Freedoom attic)
 SORATK   ; muffins.exe (Freedoom)
 SORDBON  ; Artisticdude
-SORDEXP  BURN		; * PLACE HOLDER *
+SORDEXP  ; hyena (Freedoom attic)
 SORDSPH  ; hyena (Freedoom attic)
 SORPAI   ; hyena (Freedoom attic)
 SORRISE  RESPAWN	; * PLACE HOLDER *
@@ -362,14 +363,14 @@ IN_YAH   GOD1	0 0 ; * PLACE HOLDER *
 MAPE1    0 0 ; MrFlibble
 MAPE2    0 0 ; MrFlibble
 MAPE3    0 0 ; MrFlibble
-FACEA0   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEA1   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEA2   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEA3   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEB0   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEB1   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEB2   0 0 ; Reinaldo "HorrorMovieRei," Craneo
-FACEB3   0 0 ; Reinaldo "HorrorMovieRei," Craneo
+FACEA0   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEA1   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEA2   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEA3   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEB0   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEB1   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEB2   0 0 ; Reinaldo "HorrorMovieRei", Craneo
+FACEB3   0 0 ; Reinaldo "HorrorMovieRei", Craneo
 LIFEGEM0 0 0 ; Stilgar
 LIFEGEM1 0 0 ; Stilgar
 LIFEGEM2 0 0 ; Stilgar
@@ -863,9 +864,9 @@ INVUA0 8  32   ; Stilgar (WIP)
 INVUB0 8  32   ; Stilgar (WIP)
 INVUC0 8  32   ; Stilgar (WIP)
 INVUD0 8  32   ; Stilgar (WIP)
-PTN1A0 4  25   ; Stilgar
-PTN1B0 4  25   ; Stilgar
-PTN1C0 4  25   ; Stilgar
+PTN1A0 5  30   ; Georgy Samoilov, apophis, Korp, Magnolia, Stilgar
+PTN1B0 5  30   ;
+PTN1C0 5  30   ;
 PWBKA0 11 33   ; Stilgar, partially recolored by BethOfDeath
 SHD2A0 14 43   ; Stilgar
 SHLDA0 15 41   ; Stilgar
