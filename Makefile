@@ -12,8 +12,9 @@ DEUTEX_ARGS=$(DEUTEX_BASIC_ARGS) -heretic bootstrap/
 
 BLASPHEM=$(WADS)/blasphem.wad
 BLASPHDM=$(WADS)/blasphdm.wad
+BLASDEMO=$(WADS)/blasdemo.wad
 
-OBJS=$(BLASPHEM) $(BLASPHDM)
+OBJS=$(BLASPHEM) $(BLASPHDM) $(BLASDEMO)
 
 all: deutex-check $(OBJS)
 
@@ -69,12 +70,23 @@ $(BLASPHEM): wadinfo_blasphem.txt subdirs
 	$(RM) $@
 	$(DEUTEX) $(DEUTEX_ARGS) -iwad -build wadinfo_blasphem.txt $@
 
+#---------------------------------------------------------
+# blasphemer shareware iwad
+
+wadinfo_blasdemo.txt: buildcfg.txt subdirs lumps/blasphem.lmp
+	$(CPP) -P -DBLASDEMO < $< > $@
+
+$(BLASDEMO): wadinfo_blasdemo.txt subdirs
+	@mkdir -p $(WADS)
+	$(RM) $@
+	$(DEUTEX) $(DEUTEX_ARGS) -iwad -build wadinfo_blasdemo.txt $@
+
 clean: 
-	rm $(BLASPHEM)
-	rm $(BLASPHDM)
+	rm $(OBJS)
 	rmdir $(WADS)
 	rm wadinfo_blasphem.txt
 	rm wadinfo_blasphdm.txt
+	rm wadinfo_blasdemo.txt
 	
 	$(MAKE) -C lumps/titlepic clean
 	$(MAKE) -C lumps/genmidi clean

@@ -6,30 +6,48 @@
 ; Leilei - Blank .WAD / Placeholders
 ; Stilgar - Placeholder Map, Monster placeholder
 
+; sanity checks:
+
+#ifdef BLASDEMO
+#define FULLGAME 0
+#undef BLASPHEM
+#undef BLASPHDM
+#endif
+
+#ifdef BLASPHEM
+#define FULLGAME 1
+#undef BLASDEMO
+#undef BLASPHDM
+#endif
+
+#ifdef BLASPHDM
+#define FULLGAME 1
+#undef BLASPHEM
+#undef BLASDEMO
+#endif
+
 [lumps]
-;HEHACKED ; Georgy Samoilov (lump) & Stilgar (strings)
-;HHEVER ; 
-EMAPINFO ; Georgy Samoilov
-DECORATE ; Craneo, Georgy Samoilov
-GLDEFS   ; Jakie
 PLAYPAL  ; Da Werecat 
 COLORMAP ; Da Werecat
 TINTTAB  ; Da Werecat 
 LOADING  ; Georgy Samoilov
 
 #ifdef BLASPHEM
-TITLE    BSPHEMTL ; Jute Gyte
-#else
-TITLE    BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
+TITLE   BSPHEMTL ; Jute Gyte
+#endif
+
+#ifdef BLASPHDM
+TITLE   BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
+#endif
+
+#ifdef BLASDEMO
+TITLE	BSPHEMTL ; Jute Gyte
+ORDER	HELP1
 #endif
 
 HELP1    ; Espi, MrFlibble
 HELP2    ; MrFlibble, Jute Gyte
 CREDIT   ; Stilgar
-E2END    HELP1	; * PLACE HOLDER *
-E2PAL    		; * PLACE HOLDER *
-FINAL1   HELP1	; * PLACE HOLDER *
-FINAL2   CREDIT	; * PLACE HOLDER *
 ENDTEXT  ; Stilgar
 DEMO1    ; * PLACE HOLDER *
 DEMO2    ; * PLACE HOLDER *
@@ -39,29 +57,44 @@ SNDCURVE ; ~ AutoGenerate (Stilgar) ~
 DMXGUS   ; ~ AutoGenerate (Freedoom) ~
 GFRAG    ; * PLACE HOLDER *
 AUTOPAGE ; GreyGhost
+
+; Lumps that should be only in full game
+#ifndef BLASDEMO
+EXTENDED ; Stilgar
+E2END    HELP1	; * PLACE HOLDER *
+E2PAL    		; * PLACE HOLDER *
+FINAL1   HELP1	; * PLACE HOLDER *
+FINAL2   CREDIT	; * PLACE HOLDER *
+EMAPINFO ; Georgy Samoilov
+#endif
+
+; Lumps for advanced ports
 LANGUAGE ; Stilgar, Craneo, Georgy Samoilov
 ESTRINGS ; Georgy Samoilov
-EXTENDED ; Stilgar
-BLASPHEM ; Empty tag lump
+;HEHACKED ; Georgy Samoilov (lump) & Stilgar (strings)
+;HHEVER ; 
+DECORATE ; Craneo, Georgy Samoilov
+GLDEFS   ; Jakie
+
+; Empty tag lumps
+BLASPHEM
 #ifdef BLASPHDM
-BLASPHDM ; Empty tag lump
+BLASPHDM
 #endif
 
 ; Textures:
 
-#ifdef BLASPHEM
-
+#ifndef BLASPHDM
 TEXTURE1 = t1bsphem
 TEXTURE2 = t2bsphem
 PNAMES   = pnbsphem
-
 #else
-
 TEXTURE1 = t1bsphdm
 TEXTURE2 = t2bsphdm
 PNAMES   = pnbsphdm
-
 #endif
+
+; List of Musics
 
 [musics]
 MUS_E1M1 ; Jute Gyte
@@ -73,6 +106,12 @@ MUS_E1M6 ; Jute Gyte
 MUS_E1M7 ; Jute Gyte
 MUS_E1M8 ; Jute Gyte
 MUS_E1M9 ; Jute Gyte
+MUS_TITL ; MoonDeLaAxel
+MUS_CPTD ; Jute Gyte (Episode complete music)
+MUS_INTR ; Jute Gyte (Level complete music)
+
+#ifndef BLASDEMO
+
 MUS_E2M1 ; Jute Gyte
 MUS_E2M2 ; Jute Gyte
 MUS_E2M3 ; Jute Gyte
@@ -83,9 +122,6 @@ MUS_E2M8 ; Jute Gyte
 MUS_E2M9 ; Jute Gyte
 MUS_E3M2 ; "Aftermath" by continuum.mid
 MUS_E3M3 ; Jute Gyte
-MUS_TITL ; MoonDeLaAxel
-MUS_CPTD ; Jute Gyte (Episode complete music)
-MUS_INTR ; Jute Gyte (Level complete music)
 
 ; Extra music for advanced ports
 MUS_E2M5 ; "sit on a bench 'n release that tensh'n" by Jazz "jmickle" Mickle (Freedoom attic)
@@ -115,61 +151,11 @@ MUS_E5M1 ; "The Invisible Gardener" by continuum.mid
 ;MUS_E5M8
 ;MUS_E5M9
 
+#endif
+
 [levels]
 
-; Blasphemer levels
-#ifdef BLASPHEM
-E1M1		; Angry Saint
-E1M2  	  	; Cacowad
-E1M3      	; SFoZ911
-E1M4      	; Steve Parker
-E1M5      	; Snarboo
-E1M6      	; Philippe lesire
-E1M7      	; Ryathaen
-E1M8      	; Brad Kiefer
-E1M9 		; Fraggle
-E2M1      	; Owen "Sarge Baldy" Lloyd (Bugfixed)
-E2M2      	; Chris Lutz
-E2M3      	; Samian and Cacowad
-E2M4      	; Ryathaen
-E2M5      	; Brad Kiefer
-E2M6      	; Brad Kiefer
-E2M7      	; Cacowad
-E2M8      	; Cacowad
-E2M9 		; Craneo
-E3M1	  	; Suporma
-E3M2 		; Craneo
-E3M3 		; Craneo
-E3M4 		; Ettingrinder
-E3M5 		; Ettingrinder
-E3M6 		; Ettingrinder
-E3M7 		; Ettingrinder
-E3M8	  	; Catoptromancy
-E3M9 		; Craneo
-E4M1 PH 	; 
-E4M2 PH 	; 
-E4M3 		; Sergeant Mark IV, Craneo
-E4M4 PH 	; 
-E4M5 PH
-E4M6 PH
-E4M7 PH
-E4M8 PH
-E4M9 PH
-E5M1 PH
-E5M2 PH
-E5M3 PH
-E5M4 PH
-E5M5 PH
-E5M6 PH
-E5M7 PH
-E5M8 PH
-E5M9 PH
-E6M1	 	; DragonMorpheus
-E6M2 PH
-E6M3	 	; Catoptromancy
-
-; BlasphDM levels
-#else
+#ifdef BLASPHDM			; BlasphDM levels
 E1M1 dm11     # Xindage
 E1M2 dm12     # Xindage
 E1M3 dm13     # Xindage
@@ -218,6 +204,62 @@ E5M9 PH
 E6M1 PH
 E6M2 PH
 E6M3 PH
+
+#else				; Demo and full game levels
+
+E1M1		; Angry Saint
+E1M2  	  	; Cacowad
+E1M3      	; SFoZ911
+E1M4      	; Steve Parker
+E1M5      	; Snarboo
+E1M6      	; Philippe lesire
+E1M7      	; Ryathaen
+E1M8      	; Brad Kiefer
+E1M9 		; Fraggle
+
+#ifndef BLASDEMO		; Full game only levels
+
+E2M1      	; Owen "Sarge Baldy" Lloyd (Bugfixed)
+E2M2      	; Chris Lutz
+E2M3      	; Samian and Cacowad
+E2M4      	; Ryathaen
+E2M5      	; Brad Kiefer
+E2M6      	; Brad Kiefer
+E2M7      	; Cacowad
+E2M8      	; Cacowad
+E2M9 		; Craneo
+E3M1	  	; Suporma
+E3M2 		; Craneo
+E3M3 		; Craneo
+E3M4 		; Ettingrinder
+E3M5 		; Ettingrinder
+E3M6 		; Ettingrinder
+E3M7 		; Ettingrinder
+E3M8	  	; Catoptromancy
+E3M9 		; Craneo
+E4M1 PH 	; 
+E4M2 PH 	; 
+E4M3 		; Sergeant Mark IV, Craneo
+E4M4 PH 	; 
+E4M5 PH
+E4M6 PH
+E4M7 PH
+E4M8 PH
+E4M9 PH
+E5M1 PH
+E5M2 PH
+E5M3 PH
+E5M4 PH
+E5M5 PH
+E5M6 PH
+E5M7 PH
+E5M8 PH
+E5M9 PH
+E6M1	 	; DragonMorpheus
+E6M2 PH
+E6M3	 	; Catoptromancy
+
+#endif
 #endif
 
 [sounds]
@@ -360,8 +402,12 @@ ADVISOR  -257 -10 ; Stilgar
 IN_X     GOD1	0 0 ; * PLACE HOLDER *  
 IN_YAH   GOD1	0 0 ; * PLACE HOLDER * 
 MAPE1    0 0 ; MrFlibble
+
+#ifndef BLASDEMO
 MAPE2    0 0 ; MrFlibble
 MAPE3    0 0 ; MrFlibble
+#endif
+
 FACEA0   0 0 ; Reinaldo "HorrorMovieRei," Craneo
 FACEA1   0 0 ; Reinaldo "HorrorMovieRei," Craneo
 FACEA2   0 0 ; Reinaldo "HorrorMovieRei," Craneo
@@ -425,9 +471,13 @@ SMALLIN9 1 0 ; Stilgar
 INAMGLD  0 0 ; Craneo
 INAMBOW  0 0 ; Craneo
 INAMBST  0 0 ; Craneo
+
+#ifndef BLASDEMO	; Full game weapons hud
 INAMRAM  0 0 ; Craneo
 INAMPNX  0 0 ; Craneo
 INAMLOB  0 0 ; Craneo
+#endif
+
 BORDL    0 0 ; * PLACE HOLDER *
 BORDR    0 0 ; * PLACE HOLDER *
 BORDT    0 0 ; * PLACE HOLDER *
@@ -822,12 +872,10 @@ RHTP0020  ; raymoohawk (Freedoom attic)
 RHTP0021  ; raymoohawk (Freedoom attic)
 
 [patches]
-#ifdef BLASPHEM
+#ifndef BLASPHDM
 #include "lumps/textures/blasphem/pnames.txt"
 #else
-#ifdef BLASPHDM
 #include "lumps/textures/blasphdm/pnames.txt"
-#endif
 #endif
 
 ; Floating Item offsets - 10 above ground seems good

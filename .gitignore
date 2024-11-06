@@ -25,5 +25,5 @@ wad*.txt
 /lumps/textures/blasphdm/
 /lumps/textures/blasphem/
 
-/lumps/bsph*tl.png
-/lumps/titlepic/bsph*tl.png
+/lumps/b*tl.png
+/lumps/titlepic/b*tl.png
