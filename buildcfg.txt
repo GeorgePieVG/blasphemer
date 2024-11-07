@@ -9,19 +9,16 @@
 ; sanity checks:
 
 #ifdef BLASDEMO
-#define FULLGAME 0
 #undef BLASPHEM
 #undef BLASPHDM
 #endif
 
 #ifdef BLASPHEM
-#define FULLGAME 1
 #undef BLASDEMO
 #undef BLASPHDM
 #endif
 
 #ifdef BLASPHDM
-#define FULLGAME 1
 #undef BLASPHEM
 #undef BLASDEMO
 #endif
@@ -37,11 +34,11 @@ TITLE   BSPHEMTL ; Jute Gyte
 #endif
 
 #ifdef BLASPHDM
-TITLE   BSPHDMTL ; Jute Gyte, Bradley Gratis CC0 font
+TITLE   BSPHDMTL ; Jute Gyte
 #endif
 
 #ifdef BLASDEMO
-TITLE	BSPHEMTL ; Jute Gyte
+TITLE	BDEMOTTL ; Jute Gyte
 ORDER	HELP1
 #endif
 
@@ -155,7 +152,69 @@ MUS_E5M1 ; "The Invisible Gardener" by continuum.mid
 
 [levels]
 
-#ifdef BLASPHDM			; BlasphDM levels
+#ifndef BLASPHDM
+
+; Blasphemer full game and demo levels
+
+E1M1		; Angry Saint
+E1M2  	  	; Cacowad
+E1M3      	; SFoZ911
+E1M4      	; Steve Parker
+E1M5      	; Snarboo
+E1M6      	; Philippe lesire
+E1M7      	; Ryathaen
+E1M8      	; Brad Kiefer
+E1M9 		; Fraggle
+
+#ifndef BLASDEMO
+
+; Full game only levels
+
+E2M1      	; Owen "Sarge Baldy" Lloyd (Bugfixed)
+E2M2      	; Chris Lutz
+E2M3      	; Samian and Cacowad
+E2M4      	; Ryathaen
+E2M5      	; Brad Kiefer
+E2M6      	; Brad Kiefer
+E2M7      	; Cacowad
+E2M8      	; Cacowad
+E2M9 		; Craneo
+E3M1	  	; Suporma
+E3M2 		; Craneo
+E3M3 		; Craneo
+E3M4 		; Ettingrinder
+E3M5 		; Ettingrinder
+E3M6 		; Ettingrinder
+E3M7 		; Ettingrinder
+E3M8	  	; Catoptromancy
+E3M9 		; Craneo
+E4M1 PH 	; 
+E4M2 PH 	; 
+E4M3 		; Sergeant Mark IV, Craneo
+E4M4 PH 	; 
+E4M5 PH
+E4M6 PH
+E4M7 PH
+E4M8 PH
+E4M9 PH
+E5M1 PH
+E5M2 PH
+E5M3 PH
+E5M4 PH
+E5M5 PH
+E5M6 PH
+E5M7 PH
+E5M8 PH
+E5M9 PH
+E6M1	 	; DragonMorpheus
+E6M2 PH
+E6M3	 	; Catoptromancy
+
+#endif
+#else
+
+; BlasphDM levels
+
 E1M1 dm11     # Xindage
 E1M2 dm12     # Xindage
 E1M3 dm13     # Xindage
@@ -205,61 +264,6 @@ E6M1 PH
 E6M2 PH
 E6M3 PH
 
-#else				; Demo and full game levels
-
-E1M1		; Angry Saint
-E1M2  	  	; Cacowad
-E1M3      	; SFoZ911
-E1M4      	; Steve Parker
-E1M5      	; Snarboo
-E1M6      	; Philippe lesire
-E1M7      	; Ryathaen
-E1M8      	; Brad Kiefer
-E1M9 		; Fraggle
-
-#ifndef BLASDEMO		; Full game only levels
-
-E2M1      	; Owen "Sarge Baldy" Lloyd (Bugfixed)
-E2M2      	; Chris Lutz
-E2M3      	; Samian and Cacowad
-E2M4      	; Ryathaen
-E2M5      	; Brad Kiefer
-E2M6      	; Brad Kiefer
-E2M7      	; Cacowad
-E2M8      	; Cacowad
-E2M9 		; Craneo
-E3M1	  	; Suporma
-E3M2 		; Craneo
-E3M3 		; Craneo
-E3M4 		; Ettingrinder
-E3M5 		; Ettingrinder
-E3M6 		; Ettingrinder
-E3M7 		; Ettingrinder
-E3M8	  	; Catoptromancy
-E3M9 		; Craneo
-E4M1 PH 	; 
-E4M2 PH 	; 
-E4M3 		; Sergeant Mark IV, Craneo
-E4M4 PH 	; 
-E4M5 PH
-E4M6 PH
-E4M7 PH
-E4M8 PH
-E4M9 PH
-E5M1 PH
-E5M2 PH
-E5M3 PH
-E5M4 PH
-E5M5 PH
-E5M6 PH
-E5M7 PH
-E5M8 PH
-E5M9 PH
-E6M1	 	; DragonMorpheus
-E6M2 PH
-E6M3	 	; Catoptromancy
-
-#endif
 #endif
 
 [sounds]
