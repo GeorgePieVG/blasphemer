@@ -176,7 +176,7 @@ string HAMMOSKULLROD2
 
 string HAMMOPHOENIXROD1
 {
-   val "Haze Capsule"
+   val "Haze Bulb"
 }
 
 string HAMMOPHOENIXROD2

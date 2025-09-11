@@ -322,7 +322,7 @@ flickerlight HELLSTAFFBALL_X5
     chance 0.3
 }
 
-object HornRodFX1_Patch
+object HornRodFX1
 {
     frame FX00A { light HELLSTAFFBALL }
     frame FX00B { light HELLSTAFFBALL }
@@ -1582,7 +1582,7 @@ object SkullRodHefty
 // Small phoenix rod ammo
 pulselight SRODAMMO
 {
-    color 0.2 1.0 0.2
+    color 0.8 1.0 0.8
     size 8
     secondarySize 10
     interval 2.0
@@ -1596,7 +1596,7 @@ object PhoenixRodAmmo
 // Large phoenix rod ammo
 pulselight LRODAMMO
 {
-    color 0.2 1.0 0.2
+    color 0.8 1.0 0.8
     size 16
     secondarySize 18
     interval 2.0

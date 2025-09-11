@@ -3,7 +3,24 @@ FORK_Changelog.md:
 
 #######
 0.1.9-fork-008
-Clean up m_htic - Georgy Samoilov
+Cleaned up m_htic - Georgy Samoilov
+New E4M7, E5M1 - conversion from Freedoom by Georgy Samoilov
+New E3M8 track - jupiter_ex
+New projectiles - apophis, Fredrik
+Added remaining maps from Blasphemous Experiments and 1 map from Wrath of the Titans
+Added story texts and more map names - Georgy Samoilov
+Added new textures - ETTiNGRiNDER
+Added cursor - Georgy Samoilov
+Added new ending placeholder - LibreQuake
+Updated gldefs - Georgy Samoilov
+Updated sludge and lava splashes - Georgy Samoilov
+Updated item pickup fog - Georgy Samoilov
+Updated rockred, sewer and flathuh
+Metal and flesh sets redone - Georgy Samoilov
+Fixed offsets for Morph Ovum, Ogre and water splash - Georgy Samoilov
+Backported scripts from Freedoom (simplecpp, fix-deutex-pngs and rebuild-nodes)
+Renamed dm wads from 1-4 to 34-37
+Deleted models - they're moved to the attic
 
 #######
 0.1.9-fork-007

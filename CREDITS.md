@@ -39,7 +39,7 @@ BigProjectAlone - Graphics
 HorrorMovieRei - Graphics
 Suporma - Level Design
 Craneo - Level Design
-EttinGrinder - Level Design
+EttinGrinder - Level Design, Textures
 AntonR - Sounds, Sprites
 MrFlibble - Graphics
 GeorgePieVG - Scripts, Sprites

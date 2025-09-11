@@ -26,7 +26,7 @@ TXT_ARTIINVISIBILITY = "Wraith Cloak";
 TXT_ARTIEGG = "Cursing Amulet";
 TXT_ARTISUPERHEALTH = "Grail of Lifeblood";
 TXT_ARTITORCH = "Explorer's Lantern";
-TXT_ARTIFIREBOMB = "Flesh Bomb of the Death";
+TXT_ARTIFIREBOMB = "Flesh Bomb";
 TXT_ARTITELEPORT = "Mirrorgate";
 
 // Regular powerups
@@ -43,7 +43,7 @@ TXT_AMMOGOLDWAND1 = "Accursed Jewel";
 TXT_AMMOGOLDWAND2 = "Accursed Seal";
 TXT_AMMOBLASTER1 = "Ice Shard";
 TXT_AMMOBLASTER2 = "Ice Chunk";
-TXT_AMMOPHOENIXROD1 = "Haze Capsule";
+TXT_AMMOPHOENIXROD1 = "Haze Bulb";
 TXT_AMMOPHOENIXROD2 = "Haze Sphere";
 TXT_AMMOCROSSBOW1 = "Plague Bolts";
 TXT_AMMOCROSSBOW2 = "Quiver of Plague Bolts";
@@ -52,17 +52,10 @@ TXT_AMMOSKULLROD2 = "Royal Bloodstone";
 
 // Episode names
 MNU_COTD = "Mark of Blasphemer";
-MNU_HELLSMAW = "Witherlands";
+MNU_HELLSMAW = "Scorched Earth";
 MNU_DOME = "Gruesome Demise";
 MNU_OSSUARY = "Exhausted Exodus";
 MNU_DEMESNE = "Unforgiving Cold";
-
-// BlasphDM episode names
-$ifgame(blasphdm) MNU_COTD = "DM1: Mark of Blasphemer";
-$ifgame(blasphdm) MNU_HELLSMAW = "DM2: Witherlands";
-$ifgame(blasphdm) MNU_DOME = "DM3: Gruesome Demise";
-$ifgame(blasphdm) MNU_OSSUARY = "DM4: Exhausted Exodus";
-$ifgame(blasphdm) MNU_DEMESNE = "DM5: Unforgiving Cold";
 
 // Skill names
 MNU_WETNURSE = "Whimpering Craven";
@@ -73,92 +66,97 @@ MNU_BLACKPLAGUE = "Death's Right Hand";
 
 // Episode 1 map names
 HHUSTR_E1M1 = "Blasphemer's Tomb";
-HHUSTR_E1M2 = "E1M2";
+HHUSTR_E1M2 = "Grim Awakening";
 HHUSTR_E1M3 = "Forgotten Stronghold";
-HHUSTR_E1M4 = "E1M4";
+HHUSTR_E1M4 = "Spilling Holy Blood";
 HHUSTR_E1M5 = "E1M5";
 HHUSTR_E1M6 = "E1M6";
 HHUSTR_E1M7 = "The White Citadel";
-HHUSTR_E1M8 = "Hecatomb";
+HHUSTR_E1M8 = "The Hecatomb";
 HHUSTR_E1M9 = "E1M9";
 
 // Episode 2 map names
 HHUSTR_E2M1 = "The Remote Outpost";
 HHUSTR_E2M2 = "E2M2";
-HHUSTR_E2M3 = "E2M3";
+HHUSTR_E2M3 = "Evil Ruins";
 HHUSTR_E2M4 = "E2M4";
 HHUSTR_E2M5 = "E2M5";
 HHUSTR_E2M6 = "E2M6";
-HHUSTR_E2M7 = "E2M7";
-HHUSTR_E2M8 = "E2M8";
+HHUSTR_E2M7 = "Fiery Domus";
+HHUSTR_E2M8 = "Obsidian Fort";
 HHUSTR_E2M9 = "The Drought";
 
 // Episode 3 map names
-HHUSTR_E3M1 = "E3M1";
+HHUSTR_E3M1 = "Domain of Evil";
 HHUSTR_E3M2 = "The Shipwreck";
 HHUSTR_E3M3 = "Temple of the Elements";
-HHUSTR_E3M4 = "E3M4";
-HHUSTR_E3M5 = "E3M5";
-HHUSTR_E3M6 = "E3M6";
-HHUSTR_E3M7 = "E3M7";
-HHUSTR_E3M8 = "E3M8";
+HHUSTR_E3M4 = "Tyrant's Tomb";
+HHUSTR_E3M5 = "The Coven";
+HHUSTR_E3M6 = "Mountain Kingdom";
+HHUSTR_E3M7 = "Valley of Saints";
+HHUSTR_E3M8 = "Black Thrones";
 HHUSTR_E3M9 = "The Old Town";
 
 // Episode 4 map names
-HHUSTR_E4M1 = "Black Thrones";
+HHUSTR_E4M1 = "Death";
 HHUSTR_E4M2 = "Desolate Ways";
 HHUSTR_E4M3 = "Church of Slaughter";
-HHUSTR_E4M4 = "Megaliths";
+HHUSTR_E4M4 = "Into The Darkness";
 HHUSTR_E4M5 = "E4M5";
-HHUSTR_E4M6 = "E4M6";
-HHUSTR_E4M7 = "E4M7";
-HHUSTR_E4M8 = "E4M8";
-HHUSTR_E4M9 = "E4M9";
+HHUSTR_E4M6 = "Ordeal";
+HHUSTR_E4M7 = "Warped Elementality";
+HHUSTR_E4M8 = "The Crypt";
+HHUSTR_E4M9 = "Chaos";
 
 // Episode 5 map names
-HHUSTR_E5M1 = "E5M1";
+HHUSTR_E5M1 = "Blood Amber Fortress";
 HHUSTR_E5M2 = "E5M2";
 HHUSTR_E5M3 = "E5M3";
 HHUSTR_E5M4 = "E5M4";
-HHUSTR_E5M5 = "E5M5";
+HHUSTR_E5M5 = "Megaliths";
 HHUSTR_E5M6 = "E5M6";
 HHUSTR_E5M7 = "E5M7";
-HHUSTR_E5M8 = "E5M8";
+HHUSTR_E5M8 = "Chaos in Bloom";
 HHUSTR_E5M9 = "E5M9";
 
+// Episode 6 map names
+HHUSTR_E6M1 = "Museum";
+HHUSTR_E6M2 = "Placeholder";
+HHUSTR_E6M3 = "Testmap";
+
 // BlasphDM map names
-$ifgame(blasphdm) HHUSTR_E1M1 = "DM01: Tech Test";
-$ifgame(blasphdm) HHUSTR_E1M2 = "DM02: Natural Station";
-$ifgame(blasphdm) HHUSTR_E1M3 = "DM03: Issues of Claveria";
-$ifgame(blasphdm) HHUSTR_E1M4 = "DM04: Steel";
-$ifgame(blasphdm) HHUSTR_E1M5 = "DM05: Dense Fields";
-$ifgame(blasphdm) HHUSTR_E1M6 = "DM06: Temple of Ammon";
-$ifgame(blasphdm) HHUSTR_E1M7 = "DM07: Main Stronghold";
-$ifgame(blasphdm) HHUSTR_E1M8 = "DM08: Artifact Base";
-$ifgame(blasphdm) HHUSTR_E1M9 = "DM09: Industrial Outland";
-$ifgame(blasphdm) HHUSTR_E2M1 = "DM10: Detached Grounds";
-$ifgame(blasphdm) HHUSTR_E2M2 = "DM11: Isolated Facility";
-$ifgame(blasphdm) HHUSTR_E2M3 = "DM12: Up 'n' Down Canyon";
-$ifgame(blasphdm) HHUSTR_E2M4 = "DM13: Unholy Blood";
-$ifgame(blasphdm) HHUSTR_E2M5 = "DM14: Technical Assault";
-$ifgame(blasphdm) HHUSTR_E2M6 = "DM15: Shallow Complex";
-$ifgame(blasphdm) HHUSTR_E2M7 = "DM16: Barren Alleys";
-$ifgame(blasphdm) HHUSTR_E2M8 = "DM17: Underwoods";
-$ifgame(blasphdm) HHUSTR_E2M9 = "DM18: Deserted Courtyard";
-$ifgame(blasphdm) HHUSTR_E3M1 = "DM19: Tech Isle";
-$ifgame(blasphdm) HHUSTR_E3M2 = "DM20: Warehouse";
-$ifgame(blasphdm) HHUSTR_E3M3 = "DM21: Refinery";
-$ifgame(blasphdm) HHUSTR_E3M4 = "DM22: Military Depot";
-$ifgame(blasphdm) HHUSTR_E3M5 = "DM23: Confrontation";
-$ifgame(blasphdm) HHUSTR_E3M6 = "DM24: Flooded Base";
-$ifgame(blasphdm) HHUSTR_E3M7 = "DM25: Mansion Yard";
-$ifgame(blasphdm) HHUSTR_E3M8 = "DM26: Acidic Crypt";
-$ifgame(blasphdm) HHUSTR_E3M9 = "DM27: The Exile";
-$ifgame(blasphdm) HHUSTR_E4M1 = "DM28: Weapons Factory";
-$ifgame(blasphdm) HHUSTR_E4M2 = "DM29: Unusual Territory";
-$ifgame(blasphdm) HHUSTR_E4M3 = "DM30: Last Man Standing";
-$ifgame(blasphdm) HHUSTR_E4M4 = "DM31: Desolated Fort";
-$ifgame(blasphdm) HHUSTR_E4M5 = "DM32: Fourplay";
+$ifgame(blasphdm) HHUSTR_E1M1 = "DM01";
+$ifgame(blasphdm) HHUSTR_E1M2 = "DM02";
+$ifgame(blasphdm) HHUSTR_E1M3 = "DM03";
+$ifgame(blasphdm) HHUSTR_E1M4 = "DM04";
+$ifgame(blasphdm) HHUSTR_E1M5 = "DM05";
+$ifgame(blasphdm) HHUSTR_E1M6 = "DM06";
+$ifgame(blasphdm) HHUSTR_E1M7 = "DM07";
+$ifgame(blasphdm) HHUSTR_E1M8 = "DM08";
+$ifgame(blasphdm) HHUSTR_E1M9 = "DM09";
+$ifgame(blasphdm) HHUSTR_E2M1 = "DM10";
+$ifgame(blasphdm) HHUSTR_E2M2 = "DM11";
+$ifgame(blasphdm) HHUSTR_E2M3 = "DM12";
+$ifgame(blasphdm) HHUSTR_E2M4 = "DM13";
+$ifgame(blasphdm) HHUSTR_E2M5 = "DM14";
+$ifgame(blasphdm) HHUSTR_E2M6 = "DM15";
+$ifgame(blasphdm) HHUSTR_E2M7 = "DM16";
+$ifgame(blasphdm) HHUSTR_E2M8 = "DM17";
+$ifgame(blasphdm) HHUSTR_E2M9 = "DM18";
+$ifgame(blasphdm) HHUSTR_E3M1 = "DM19";
+$ifgame(blasphdm) HHUSTR_E3M2 = "DM20";
+$ifgame(blasphdm) HHUSTR_E3M3 = "DM21";
+$ifgame(blasphdm) HHUSTR_E3M4 = "DM22";
+$ifgame(blasphdm) HHUSTR_E3M5 = "Main Stronghold";
+$ifgame(blasphdm) HHUSTR_E3M6 = "DM24";
+$ifgame(blasphdm) HHUSTR_E3M7 = "DM25";
+$ifgame(blasphdm) HHUSTR_E3M8 = "DM26";
+$ifgame(blasphdm) HHUSTR_E3M9 = "DM27";
+$ifgame(blasphdm) HHUSTR_E4M1 = "Violence Villa";
+$ifgame(blasphdm) HHUSTR_E4M2 = "DM29";
+$ifgame(blasphdm) HHUSTR_E4M3 = "DM30";
+$ifgame(blasphdm) HHUSTR_E4M4 = "DM31";
+$ifgame(blasphdm) HHUSTR_E4M5 = "DM32";
 $ifgame(blasphdm) HHUSTR_E4M6 = "DM33";
 $ifgame(blasphdm) HHUSTR_E4M7 = "DM34";
 $ifgame(blasphdm) HHUSTR_E4M8 = "DM35";
@@ -174,9 +172,55 @@ $ifgame(blasphdm) HHUSTR_E5M8 = "DM44";
 $ifgame(blasphdm) HHUSTR_E5M9 = "DM45";
 
 // Story texts
-HE1TEXT = "Episode 1 story text";
-HE2TEXT = "Episode 2 story text";
-HE3TEXT = "Episode 3 story text";
+HE1TEXT = "The last golden head of the gate keepers\n"
+          "fell at your hands. You decided to pray\n"
+          "and then leave this cursed city, now more\n"
+          "like a cemetery. The roar of the ghouls\n"
+          "gradually fades - there is nothing ahead\n"
+          "but scorched earth.\n"
+          "\n"
+          "The Order has done a good job exterminating\n"
+          "everything in its path, but you know it's\n"
+          "just another obstacle, part of a bigger\n"
+          "trial. And even though the painful moans\n"
+          "are far behind you, you are not alone.\n"
+          "\n"
+          "Faith is still with you, along with\n"
+          "hordes of hungry monsters just waiting for\n"
+          "the right moment.";
+HE2TEXT = "The green colossi are defeated. You've\n"
+          "met them before - the ogres are Gyte's\n"
+          "personal guards and they're pretty tough.\n"
+          "You can start to feel proud of yourself,\n"
+          "but there's no time for that.\n"
+          "\n"
+          "You're filled with hatred and anger:\n"
+          "it's time to send the main bastard back to\n"
+          "the dead. Road to the domain of evil\n"
+          "is open. Leap into the crevice,\n"
+          "your skin burns, reality distorts...\n"
+          "\n"
+          "The Gods alone know how this ends, but\n"
+          "they've all long since left us. And the\n"
+          "only one equal to them in power is the\n"
+          "one you're about to face.\n"
+          "\n"
+          "One of you is in for a gruesome demise.";
+HE3TEXT = "The scream of an agonizing nemesis pierced\n"
+          "the living to the bone. His body crumbled\n"
+          "to ashes, the monsters around you began\n"
+          "to decompose from the surge of power.\n"
+          "Your vengeance is complete, the Order is gone.\n"
+          "\n"
+          "But that means the forces of evil are no\n"
+          "longer in control. Endless hordes of\n"
+          "monsters will march in legions to all\n"
+          "worlds, devouring everything in their path.\n"
+          "\n"
+          "By opening Gyte's tomb, you used ancient magic\n"
+          "to create a rift that brought you back to your\n"
+          "homeworld. And then monsters did the exodus\n"
+          "with you...";
 HE4TEXT = "Episode 4 story text";
 HE5TEXT = "Episode 5 story text";
 
@@ -193,7 +237,7 @@ FN_BONEKNIGHT = "Vampire";
 FN_MINOTAUR = "Ogre";
 FN_MUMMY = "Sluagh";
 FN_MUMMYLEADER = "Sluagh leader";
-FN_SNAKE = "Snake";
+FN_SNAKE = "Clink Kobra";
 FN_WIZARD = "Geist";
 
 // Obituaries
@@ -210,7 +254,7 @@ OB_HERETICIMPHIT = "%o was ripped by a harpy";
 OB_CHICKEN = "%o was hugged to death by a shoggoth";
 OB_BEAST = "%o was incinerated by a saurian";
 OB_CLINK = "%o was torn apart by a cawibouk";
-OB_SNAKE = "%o was scorched by a snake";
+OB_SNAKE = "%o was scorched by a clink kobra";
 
 //Bosses
 OB_IRONLICH = "%o was tormented by a False Idol";
@@ -248,7 +292,7 @@ OB_MPPMACE = "%o was squished by %k's grim necrosteel ball.";
 AMMO_GOLDWAND		= "Wand Jewels";
 AMMO_CROSSBOW		= "Plague Bolts";
 AMMO_BLASTER		= "Frost shards";
-AMMO_MACE			= "Necrosteel balls";
+AMMO_MACE		= "Necrosteel balls";
 AMMO_SKULLROD		= "Blood Stones";
 AMMO_PHOENIXROD		= "Haze";
 

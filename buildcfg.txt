@@ -28,8 +28,8 @@ HELP2    ; MrFlibble, Jute Gyte
 CREDIT   ; Stilgar
 E2END    HELP1	; * PLACE HOLDER *
 E2PAL    		; * PLACE HOLDER *
-FINAL1   HELP1	; * PLACE HOLDER *
-FINAL2   CREDIT	; * PLACE HOLDER *
+FINAL1   ; LibreQuake
+FINAL2   ; LibreQuake
 ENDTEXT  ; Stilgar
 DEMO1    ; * PLACE HOLDER *
 DEMO2    ; * PLACE HOLDER *
@@ -64,28 +64,28 @@ PNAMES   = pnbsphdm
 #endif
 
 [musics]
-MUS_E1M1 ; Jute Gyte
-MUS_E1M2 ; Jute Gyte
-MUS_E1M3 ; Jute Gyte
-MUS_E1M4 ; Jute Gyte
-MUS_E1M5 ; Jute Gyte
-MUS_E1M6 ; Jute Gyte
-MUS_E1M7 ; Jute Gyte
-MUS_E1M8 ; Jute Gyte
-MUS_E1M9 ; Jute Gyte
-MUS_E2M1 ; Jute Gyte
-MUS_E2M2 ; Jute Gyte
-MUS_E2M3 ; Jute Gyte
-MUS_E2M4 ; Jute Gyte
-MUS_E2M6 ; Jute Gyte
-MUS_E2M7 ; Jute Gyte
-MUS_E2M8 ; Jute Gyte
-MUS_E2M9 ; Jute Gyte
+MUS_E1M1 ; blas01x.mid by Jute Gyte
+MUS_E1M2 ; blas02.mid by Jute Gyte
+MUS_E1M3 ; blas03.mid by Jute Gyte
+MUS_E1M4 ; blas04x.mid by Jute Gyte
+MUS_E1M5 ; blas05x.mid by Jute Gyte
+MUS_E1M6 ; blas06.mid by Jute Gyte
+MUS_E1M7 ; blas07x.mid by Jute Gyte
+MUS_E1M8 ; blas08x.mid by Jute Gyte
+MUS_E1M9 ; blas09x.mid by Jute Gyte
+MUS_E2M1 ; blas10x.mid by Jute Gyte
+MUS_E2M2 ; blas11x.mid by Jute Gyte
+MUS_E2M3 ; blas12x.mid by Jute Gyte
+MUS_E2M4 ; blas13x.mid by Jute Gyte
+MUS_E2M6 ; blas15.mid by Jute Gyte
+MUS_E2M7 ; blas16.mid by Jute Gyte
+MUS_E2M8 ; blas17.mid by Jute Gyte
+MUS_E2M9 ; blas18x.mid by Jute Gyte
 MUS_E3M2 ; "Aftermath" by continuum.mid
-MUS_E3M3 ; Jute Gyte
-MUS_TITL ; MoonDeLaAxel
-MUS_CPTD ; Jute Gyte (Episode complete music)
-MUS_INTR ; Jute Gyte (Level complete music)
+MUS_E3M3 ; blas20x.mid by Jute Gyte
+MUS_TITL ; mus_titl.mid by MoonDeLaAxel, remix of blas21.mid by Jute Gyte
+MUS_CPTD ; blas22x.mid by Jute Gyte (Episode complete music)
+MUS_INTR ; blas14x.mid by Jute Gyte (Level complete music)
 
 ; Extra music for advanced ports
 MUS_E2M5 ; "sit on a bench 'n release that tensh'n" by Jazz "jmickle" Mickle (Freedoom attic)
@@ -94,11 +94,11 @@ MUS_E3M4 ; "Ambiguity" by Korp (Double Impact MIDI Pack)
 MUS_E3M5 ; "The Ritual" by continuum.mid
 MUS_E3M6 ; "Death Waltz" by continuum.mid
 MUS_E3M7 ; "Derelict" by continuum.mid
-MUS_E3M8 ; "Mists Over the Mire" by Tyler "Picklehammer" P. (Freedoom)
+MUS_E3M8 ; freedoom.mid by Matias "jupiter_ex" Roldan (Freedoom attic)
 MUS_E3M9 ; "The Deepest Secrets" by continuum.mid (Double Impact MIDI Pack)
 MUS_E4M1 ; "Continuum III - Heretical Triplets" by continuum.mid
 MUS_E4M2 ; "Cemetery" by ax34
-MUS_E4M3 ; Jute Gyte
+MUS_E4M3 ; blas19x.mid by Jute Gyte
 ;MUS_E4M4
 ;MUS_E4M5
 ;MUS_E4M6
@@ -146,58 +146,58 @@ E3M6 		; Ettingrinder
 E3M7 		; Ettingrinder
 E3M8	  	; Catoptromancy
 E3M9 		; Craneo
-E4M1 PH 	; 
-E4M2 PH 	; 
-E4M3 		; Sergeant Mark IV, Craneo
-E4M4 PH 	; 
-E4M5 PH
-E4M6 PH
-E4M7 PH
-E4M8 PH
-E4M9 PH
-E5M1 PH
-E5M2 PH
-E5M3 PH
-E5M4 PH
+E4M1 		; Cacowad
+E4M2 PH
+E4M3 		; Sergeant Mark IV (Conversion by Craneo)
+E4M4 		; Cacowad
+E4M5 PH	
+E4M6 		; Cacowad
+E4M7 		; Amarande (Conversion by Georgy Samoilov)
+E4M8 		; Cacowad
+E4M9 		; Cacowad
+E5M1 		; Devin "Lazer" Afshin (Conversion by Georgy Samoilov)
+E5M2 PH	
+E5M3 PH	
+E5M4 PH	
 E5M5 PH
 E5M6 PH
 E5M7 PH
-E5M8 PH
-E5M9 PH
+E5M8 		; Ettingrinder
+E5M9 PH	
 E6M1	 	; DragonMorpheus
 E6M2 PH
 E6M3	 	; Catoptromancy
 
 ; BlasphDM levels
 #else
-E1M1 dm11     # Xindage
-E1M2 dm12     # Xindage
-E1M3 dm13     # Xindage
-E1M4 dm14     # Xindage
-E1M5 dm15     # Xindage
-E1M6 dm16     # Xindage
-E1M7 dm17     # Original by Jute, edited by Xindage
-E1M8 dm18     # Original by Rellik, edited by Xindage
-E1M9 dm19     # Original by Xindage, edited by Cacowad
-E2M1 dm21     # Cacowad
-E2M2 dm22     # Cacowad
-E2M3 dm23     # Cacowad
-E2M4 dm24     # Cacowad
-E2M5 dm25     # Cacowad
-E2M6 dm26     # Cacowad
-E2M7 dm27     # Cacowad
-E2M8 dm28     # Cacowad
-E2M9 dm29     # Original by Rellik, edited by Cacowad
-E3M1 dm31     # Xindage
-E3M2 dm32     # Xindage
-E3M3 dm33     # Xindage
-E3M4 dm1      # Jute Gyte
-E3M5 dm2      # Rellik (Conversion by Jute)
-E3M6 dm3      # Rellik (Conversion by Jute)	
-E3M7 dm4      # Hellbent (Conversion by Jute)
-E3M8 dm38	# Craneo
-E3M9 dm39	# Craneo
-E4M1 dm41	# Craneo
+E1M1 dm11     	; Xindage
+E1M2 dm12     	; Xindage
+E1M3 dm13     	; Xindage
+E1M4 dm14     	; Xindage
+E1M5 dm15     	; Xindage
+E1M6 dm16     	; Xindage
+E1M7 dm17     	; Original by Jute, edited by Xindage
+E1M8 dm18     	; Original by Rellik, edited by Xindage
+E1M9 dm19     	; Original by Xindage, edited by Cacowad
+E2M1 dm21     	; Cacowad
+E2M2 dm22     	; Cacowad
+E2M3 dm23     	; Cacowad
+E2M4 dm24     	; Cacowad
+E2M5 dm25     	; Cacowad
+E2M6 dm26     	; Cacowad
+E2M7 dm27     	; Cacowad
+E2M8 dm28     	; Cacowad
+E2M9 dm29     	; Original by Rellik, edited by Cacowad
+E3M1 dm31     	; Xindage
+E3M2 dm32     	; Xindage
+E3M3 dm33     	; Xindage
+E3M4 dm34     	; Jute Gyte
+E3M5 dm35     	; Rellik (Conversion by Jute)
+E3M6 dm36    	; Rellik (Conversion by Jute)	
+E3M7 dm37     	; Hellbent (Conversion by Jute)
+E3M8 dm38	; Craneo
+E3M9 dm39	; Craneo
+E4M1 dm41	; Craneo
 E4M2 PH
 E4M3 PH
 E4M4 PH
@@ -470,7 +470,7 @@ SPFLY14  0 0 ; * PLACE HOLDER *
 SPFLY15  0 0 ; * PLACE HOLDER *   
 GOD1     0 0 ; * (Blank) *
 GOD2     0 0 ; * (Blank) *
-M_HTIC   0 0 ; Jute Gyte
+M_HTIC   0 0 ; Jute Gyte, Georgy Samoilov
 M_SLCTR1 10 -1 ; Stilgar 
 M_SLCTR2 10 -1 ; Stilgar
 M_SKL00	 	-10	-4  	;  Amuscaria/Freedoom
@@ -620,6 +620,8 @@ FONTB57  0 0 ; Mechadon
 FONTB58  0 0 ; Mechadon
 FONTB_E  0 0 ; Mechadon
 
+HERECURS	; Georgy Samoilov (Based on GWNDA0)
+
 [flats]
 FLXTR001	; Georgy Samoilov
 FLXTR002	; Georgy Samoilov
@@ -700,6 +702,8 @@ FLTWAWA1  ; Craneo
 FLTWAWA2  ; Craneo
 FLTWAWA3  ; Craneo
 F_SKY1    ; Stilgar
+
+; Blasphemer Extra flats
 FCSTL1    ; Stilgar (Extra)
 FCSTL2    ; Stilgar (Extra)
 FRTHRCK   ; Stilgar (Extra)
@@ -812,14 +816,18 @@ FLTTELE1  ; Stilgar
 FLTTELE2  ; Stilgar
 FLTTELE3  ; Stilgar
 FLTTELE4  ; Stilgar
-RHTP0014  ; raymoohawk (Freedoom attic)
-RHTP0015  ; raymoohawk (Freedoom attic)
-RHTP0016  ; raymoohawk (Freedoom attic)
-RHTP0017  ; raymoohawk (Freedoom attic)
-RHTP0018  ; raymoohawk (Freedoom attic)
-RHTP0019  ; raymoohawk (Freedoom attic)
-RHTP0020  ; raymoohawk (Freedoom attic)
-RHTP0021  ; raymoohawk (Freedoom attic)
+RHTP0014  ; RHTP* by raymoohawk (Freedoom attic)
+RHTP0015
+RHTP0016
+RHTP0017
+RHTP0018
+RHTP0019
+RHTP0020
+RHTP0021
+UT_F01	; UT* by ETTiNGRiNDER
+UT_F02
+UT_F03
+REDWAFL4  ; Stilgar (Extra, Recolor)
 
 [patches]
 #ifdef BLASPHEM
@@ -883,11 +891,11 @@ WPHXA0 10 57   ; Amuscaria
 WSKLA0 18 45   ; Stilgar
 SOARB0 SOARA0 23 25 ; Stilgar (Unanimated!)
 SOARC0 SOARA0 23 25 ; Stilgar (Unanimated!)
-ACLOA0	4	34	; Georgy Samoilov
-ACLOB0	6	37	; Georgy Samoilov
-ACLOC0	9	41	; Georgy Samoilov
-ACLOD0	11	41	; Georgy Samoilov
-ACLOE0 GOD1 0 0  ; * PLACE HOLDER *
+ACLOA0	4	23	; Georgy Samoilov (Based on older ACLO)
+ACLOB0	6	25	; Georgy Samoilov
+ACLOC0	9	28	; Georgy Samoilov
+ACLOD0	11	31	; Georgy Samoilov
+ACLOE0 0 0   ; (this particular one should always be empty)
 AMB2A0 8 13  ; * PLACE HOLDER *
 AMB2B0 8 13  ; * PLACE HOLDER *
 AMB2C0 8 13  ; * PLACE HOLDER *
@@ -1213,19 +1221,19 @@ MNTRA5 	;
 MNTRA6 	; 
 MNTRA7 	; 
 MNTRA8 	; 
-MNTRB1 	; 
+MNTRB1 	54	98	; 
 MNTRB2 	; 
 MNTRB3 	; 
 MNTRB4 	; 
-MNTRB5 	; 
+MNTRB5 	34	96	; 
 MNTRB6 	; 
 MNTRB7 	; 
 MNTRB8 	; 
-MNTRC1 	; 
+MNTRC1 	63	98	; 
 MNTRC2 	; 
 MNTRC3 	; 
 MNTRC4 	; 
-MNTRC5 	; 
+MNTRC5 	32	95	; 
 MNTRC6 	; 
 MNTRC7 	; 
 MNTRC8 	; 
@@ -1237,46 +1245,46 @@ MNTRD5 	;
 MNTRD6 	; 
 MNTRD7 	; 
 MNTRD8 	; 
-MNTRE1 	; 
+MNTRE1 	67	94	; 
 MNTRE2 	; 
 MNTRE3 	; 
 MNTRE4 	; 
-MNTRE5 	; 
+MNTRE5 	28	94	; 
 MNTRE6 	; 
 MNTRE7 	; 
 MNTRE8 	; 
 MNTRF0  	; 
-MNTRG0  	; 
-MNTRH0  	; 
-MNTRI0  	; 
-MNTRJ0  	; 
-MNTRK0  	; 
-MNTRL0  	; 
-MNTRM0  	; 
-MNTRN0  	; 
-MNTRO0  	; 
-MNTRP0  	; 
-MNTRQ0  	; 
-MNTRR0  	; 
-MNTRS0  	; 
-MNTRT0  	; 
-MNTRU1 	; 
+MNTRG0  60	99	; 
+MNTRH0  73	98	; 
+MNTRI0  76	96	; 
+MNTRJ0  82	91	; 
+MNTRK0  81	76	; 
+MNTRL0  83	69	; 
+MNTRM0  83	56	; 
+MNTRN0  83	49	; 
+MNTRO0  83	43	; 
+MNTRP0  83	47	; 
+MNTRQ0  83	43	; 
+MNTRR0  83	38	; 
+MNTRS0  83	38	; 
+MNTRT0  83	38	; 
+MNTRU1 	58	85	; 
 MNTRU2 	; 
 MNTRU3 	; 
 MNTRU4 	;
-MNTRU5 	; 
+MNTRU5 	21	82	; 
 MNTRU6 	; 
 MNTRU7 	; 
 MNTRU8 	; 
-MNTRV1 	; 
+MNTRV1 	44	124	; 
 MNTRV2 	; 
 MNTRV3 	; 
 MNTRV4 	; 
-MNTRV5 	; 
+MNTRV5 	34	126	; 
 MNTRV6 	; 
 MNTRV7 	; 
 MNTRV8 	; 
-MNTRW1 	; 
+MNTRW1 	50	97	; 
 MNTRW2 	; 
 MNTRW3 	; 
 MNTRW4 	; 
@@ -1284,27 +1292,27 @@ MNTRW5 	;
 MNTRW6 	; 
 MNTRW7 	; 
 MNTRW8 	; 
-MNTRX1 	; 
+MNTRX1 	31	96	; 
 MNTRX2 	; 
 MNTRX3 	; 
 MNTRX4 	;
-MNTRX5 	; 
+MNTRX5 	43	80	; 
 MNTRX6 	; 
 MNTRX7 	; 
 MNTRX8 	;
-MNTRY1 	; 
+MNTRY1 	70	98	; 
 MNTRY2 	; 
 MNTRY3 	; 
 MNTRY4 	; 
-MNTRY5 	; 
+MNTRY5 	40	93	; 
 MNTRY6 	; 
 MNTRY7 	; 
 MNTRY8 	; 
-MNTRZ1 	;
+MNTRZ1 	27	92	;
 MNTRZ2 	; 
 MNTRZ3 	;
 MNTRZ4 	;
-MNTRZ5 	;
+MNTRZ5 	48	87	;
 MNTRZ6 	;
 MNTRZ7 	; 
 MNTRZ8 	;
@@ -1635,8 +1643,8 @@ CKYYG0   6 25 ; Stilgar, Georgy Samoilov
 CKYYH0   6 25 ; Stilgar, Georgy Samoilov
 CKYYI0   6 25 ; Stilgar, Georgy Samoilov
 EGGCA0   13 36 ; * PLACE HOLDER *
-EGGCB0   13 36 ; * PLACE HOLDER *
-EGGCC0   13 36 ; * PLACE HOLDER *
+EGGCB0   14 37 ; * PLACE HOLDER *
+EGGCC0   15 38 ; * PLACE HOLDER *
 EGGMA0   6 9 ; * PLACE HOLDER *
 EGGMB0   6 9 ; * PLACE HOLDER *
 EGGMC0   6 9 ; * PLACE HOLDER *
@@ -1665,22 +1673,10 @@ FDTHO0   28 15 ; * PLACE HOLDER *
 FDTHP0   33 9 ; * PLACE HOLDER *
 FDTHQ0   32 8 ; * PLACE HOLDER *
 FDTHR0   32 8 ; * PLACE HOLDER *
-FRB1A1   	17 17 ; Espi
-FRB1A8A2  	28 14  ; Espi
-FRB1A7A3   	33 12 ; Espi
-FRB1A6A4   	27 15 ; Espi
-FRB1A5  	14 15 ; Espi
-FRB1B1   	17 17 ; Espi
-FRB1B8B2   	25 14 ; Espi
-FRB1B7B3   	31 13 ; Espi
-FRB1B6B4  	23 15 ; Espi
-FRB1B5   	12 13 ; Espi
-FRB1C1   	17 17 ; Espi
-FRB1C8C2	28 14 ; Espi
-FRB1C7C3	33 12 ; Espi
-FRB1C6C4	27 15 ; Espi
-FRB1C5   	14 15 ; Espi
-FRB1D0   	12 13 ; Espi
+FRB1A0   9	8	; apophis (Lotan's Tomb)
+FRB1B0   10	9	; apophis (Lotan's Tomb)
+FRB1C0   10	9	; apophis (Lotan's Tomb)
+FRB1D0   	GOD1	12 13 ; Espi
 FRB1E0  	12 13 ; Espi
 FRB1F0   	12 11 ; Espi
 FRB1G0   	12 11 ; Espi
@@ -1775,13 +1771,13 @@ FX05J2J8    ; * PLACE HOLDER *
 FX05J3J7    ; * PLACE HOLDER *
 FX05J4J6   ; * PLACE HOLDER *
 FX05J5    ; * PLACE HOLDER *
-FX06A0   ; * PLACE HOLDER *
-FX06B0    ; * PLACE HOLDER *
-FX06C0    ; * PLACE HOLDER *
-FX06D0    ; * PLACE HOLDER *
-FX06E0    ; * PLACE HOLDER *
-FX06F0    ; * PLACE HOLDER *
-FX06G0    ; * PLACE HOLDER *
+FX06A0	24	13	; FX06* by Fredrik (Freedoom attic)
+FX06B0	23	14
+FX06C0	24	14
+FX06D0	24	24
+FX06E0	30	27
+FX06F0	23	20
+FX06G0	16	12
 FX07A0    ; Craneo
 FX07B0    ; Craneo
 FX07C0    ; Craneo
@@ -1825,16 +1821,16 @@ FX11D0	11	12	; Georgy Samoilov
 FX11E0	7	7	; Georgy Samoilov
 FX11F0	5	5	; Georgy Samoilov
 FX11G0	3	3	; Georgy Samoilov
-FX12A1   	; * PLACE HOLDER *
-FX12A2A8   	; * PLACE HOLDER *
-FX12A3A7   	; * PLACE HOLDER *
-FX12A4A6 	; * PLACE HOLDER *
-FX12A5   	; * PLACE HOLDER *
-FX12B1   	; * PLACE HOLDER *
-FX12B2B8   	; * PLACE HOLDER *
-FX12B3B7   	; * PLACE HOLDER *
-FX12B4B6   	; * PLACE HOLDER *
-FX12B5   	; * PLACE HOLDER *
+FX12A1   	10	15	; FX12* by apophis (Lotan's Tomb)
+FX12A2A8   	26	14
+FX12A3A7   	53	14
+FX12A4A6 	26	14
+FX12A5   	10	15
+FX12B1   	10	17
+FX12B2B8   	29	14
+FX12B3B7   	57	14
+FX12B4B6   	30	14
+FX12B5   	10	17
 FX12C0   	; * PLACE HOLDER *
 FX12D0   	; * PLACE HOLDER *
 FX12E0   	; * PLACE HOLDER *
@@ -1842,18 +1838,18 @@ FX12F0   	; * PLACE HOLDER *
 FX12G0   	; * PLACE HOLDER *
 FX12H0   	; * PLACE HOLDER *
 FX13A0	0	-4	; FX13* by Nmn
-FX13B0	10	28
-FX13C0	10	26
-FX13D0	9	22
-FX13E0	9	26
-FX13F0	10	27
-FX13G0	10	25
-FX13H0	9	21
-FX13I0	9	25
-FX13J0	10	27
-FX13K0	10	25
-FX13L0	9	21
-FX13M0	9	25
+FX13B0	10	29
+FX13C0	8	21
+FX13D0	8	21
+FX13E0	7	21
+FX13F0	5	14
+FX13G0	4	8
+FX13H0	3	5
+FX13I0	XPL1A0	25	40
+FX13J0	XPL1C0	28	51
+FX13K0	XPL1D0	32	67
+FX13L0	XPL1E0	31	65
+FX13M0	XPL1F0	31	54
 FX14A1	10	10	; FX14* by Amuscaria (Demon Eclipse)
 FX14A2A8	20	9
 FX14A3A7	28	8
@@ -2030,23 +2026,23 @@ KGZ1A0   22 61 ; Stilgar
 KGZBA0   13 25 ; Stilgar, Georgy Samoilov
 KGZGA0   13 25 ; Stilgar, Georgy Samoilov
 KGZYA0   13 25 ; Stilgar
-LVASA0    ; * PLACE HOLDER *
-LVASB0    ; * PLACE HOLDER *
-LVASC0    ; * PLACE HOLDER *
-LVASD0    ; * PLACE HOLDER *
-LVASE0    ; * PLACE HOLDER *
-LVASF0    ; * PLACE HOLDER *
-LVASG0    ; * PLACE HOLDER *
-LVASH0    ; * PLACE HOLDER *
-LVASI0   ; * PLACE HOLDER *
-LVASJ0    ; * PLACE HOLDER *
-LVASK0    ; * PLACE HOLDER *
-MACEA0	-70	-100	# Amuscaria
-MACEB0	-81	-100	# Amuscaria
-MACEC0	-81	-95		# Amuscaria
-MACED0	-92	-90		# Amuscaria
-MACEE0	-93	-95		# Amuscaria
-MACEF0	-93	-100	# Amuscaria
+LVASA0   13	10 	; LVAS A-F by 40oz (Recolored SPSH)
+LVASB0   15	15
+LVASC0   15	20
+LVASD0   15	18
+LVASE0   15	19
+LVASF0   14	8
+LVASG0   12	13	; G-K by Talon1024 (Public Domain)
+LVASH0   12	11
+LVASI0   11	11
+LVASJ0   10	9
+LVASK0   9	10
+MACEA0	-70	-100	; Amuscaria
+MACEB0	-81	-100	; Amuscaria
+MACEC0	-81	-95		; Amuscaria
+MACED0	-92	-90		; Amuscaria
+MACEE0	-93	-95		; Amuscaria
+MACEF0	-93	-100	; Amuscaria
 PHNXA0   -92 -86 ; Amuscaria
 PHNXB0   -92 -86 ; Amuscaria
 PHNXC0   -61 -76 ; Amuscaria
@@ -2146,20 +2142,20 @@ PUF4C0   6 6 ; * PLACE HOLDER *
 PUF4D0   6 6 ; * PLACE HOLDER *
 PUF4E0   6 6 ; * PLACE HOLDER *
 PUF4F0   6 6 ; * PLACE HOLDER *
-RAXEA1	12	12	;  AntonR
-RAXEA2A8	13	8	;  AntonR
-RAXEA3A7	25	8	;  AntonR
-RAXEA4A6	14	8	;  AntonR
-RAXEA5	10	9	;  AntonR
-RAXEB1	12	12	;  AntonR
-RAXEB2B8	13	8	;  AntonR
-RAXEB3B7	25	8	;  AntonR
-RAXEB4B6	14	8	;  AntonR
-RAXEB5	10	9	;  AntonR
-RAXEC0    ; BigProjectAlone
-RAXED0    ; BigProjectAlone
-RAXEE0    ; BigProjectAlone
-SDTHA0	24	69 ; SDTH* by Desfar
+RAXEA1		12	12	; AntonR
+RAXEA2A8	13	8	; AntonR
+RAXEA3A7	25	8	; AntonR
+RAXEA4A6	14	8	; AntonR
+RAXEA5		10	9	; AntonR
+RAXEB1		12	12	; AntonR
+RAXEB2B8	13	8	; AntonR
+RAXEB3B7	25	8	; AntonR
+RAXEB4B6	14	8	; AntonR
+RAXEB5		10	9	; AntonR
+RAXEC0    			; BigProjectAlone
+RAXED0    			; BigProjectAlone
+RAXEE0    			; BigProjectAlone
+SDTHA0	24	69 	; SDTH* by Desfar
 SDTHB0	24	72
 SDTHC0	29	70
 SDTHD0	29	70
@@ -2189,60 +2185,60 @@ SKH1A0   5 75 ; Stilgar
 SKH2A0   6 61 ; Stilgar
 SKH3A0   6 50 ; Stilgar
 SKH4A0   7 36 ; Stilgar
-SLDGA0    ; * PLACE HOLDER *
-SLDGB0    ; * PLACE HOLDER *
-SLDGC0    ; * PLACE HOLDER *
-SLDGD0    ; * PLACE HOLDER *
-SLDGE0    ; * PLACE HOLDER *
-SLDGF0    ; * PLACE HOLDER *
-SLDGG0    ; * PLACE HOLDER *
-SLDGH0    ; * PLACE HOLDER *
+SLDGA0    5 6 	; SLDG* by 40oz (Recolored SPSH)
+SLDGB0    5 6
+SLDGC0    5 6
+SLDGD0    7 6
+SLDGE0    13	10
+SLDGF0    15	15
+SLDGG0    15	19
+SLDGH0    14	8
 SMPLA0	32	41	; Craneo
-SNFXA0    ; * PLACE HOLDER *
-SNFXB0    ; * PLACE HOLDER *
-SNFXC0    ; * PLACE HOLDER *
-SNFXD0    ; * PLACE HOLDER *
-SNFXE0    ; * PLACE HOLDER *
-SNFXF0    ; * PLACE HOLDER *
-SNFXG0    ; * PLACE HOLDER *
-SNFXH0    ; * PLACE HOLDER *
-SNFXI0    ; * PLACE HOLDER *
-SNFXJ0	9	12	; apophis (Lotan's Tomb)
-SNFXK0	9	12	; apophis (Lotan's Tomb)
-SNFXL0	26	40	; apophis (Lotan's Tomb)
-SNFXM0	30	59	; apophis (Lotan's Tomb)
-SNFXN0	32	67	; apophis (Lotan's Tomb)
-SNFXO0	32	65	; apophis (Lotan's Tomb)
-SPAXA1	9	10	;  AntonR
-SPAXA2A8	13	5	;  AntonR
-SPAXA3A7	20	6	;  AntonR
-SPAXA4A6	13	6	;  AntonR
-SPAXA5	7	8	;  AntonR
-SPAXB1	9	10	;  AntonR
-SPAXB2B8	13	5	;  AntonR
-SPAXB3B7	20	6	;  AntonR
-SPAXB4B6	13	6	;  AntonR
-SPAXB5	7	8	;  AntonR
-SPAXC1	9	10	;  AntonR	
-SPAXC2C8	13	5	;  AntonR
-SPAXC3C7	20	6	;  AntonR
-SPAXC4C6	13	6	;  AntonR
-SPAXC5	7	8	;  AntonR
-SPAXD0    ; Xindage
-SPAXE0    ; Xindage
-SPAXF0    ; Xindage
+SNFXA0  10	16  	; SNFX* by apophis (Lotan's Tomb)
+SNFXB0  10	16
+SNFXC0  10	16
+SNFXD0  10	16
+SNFXE0  11	15	; E-I by Fredrik (Freedoom)
+SNFXF0  15	19
+SNFXG0  17	24
+SNFXH0  18	27
+SNFXI0  19	30
+SNFXJ0	9	12
+SNFXK0	9	12
+SNFXL0	26	40
+SNFXM0	30	59
+SNFXN0	32	67
+SNFXO0	32	65
+SPAXA1		9	10	; AntonR
+SPAXA2A8	13	5	; AntonR
+SPAXA3A7	20	6	; AntonR
+SPAXA4A6	13	6	; AntonR
+SPAXA5		7	8	; AntonR
+SPAXB1		9	10	; AntonR
+SPAXB2B8	13	5	; AntonR
+SPAXB3B7	20	6	; AntonR
+SPAXB4B6	13	6	; AntonR
+SPAXB5		7	8	; AntonR
+SPAXC1		9	10	; AntonR
+SPAXC2C8	13	5	; AntonR
+SPAXC3C7	20	6	; AntonR
+SPAXC4C6	13	6	; AntonR
+SPAXC5		7	8	; AntonR
+SPAXD0    			; Xindage
+SPAXE0    			; Xindage
+SPAXF0    			; Xindage
 SPHLA0   8 31 	; Stilgar
 SPSHA0   5 6 	; 40oz
 SPSHB0   5 6 	; 40oz
 SPSHC0   5 6 	; 40oz
 SPSHD0   7 6 	; 40oz
-SPSHE0   14 8 	; 40oz
-SPSHF0   16 15	; 40oz
-SPSHG0   16 23	; 40oz
-SPSHH0   16 23	; 40oz
-SPSHI0   16 21	; 40oz
-SPSHJ0   16 23	; 40oz
-SPSHK0   16 10	; 40oz
+SPSHE0   13	10 	; 40oz
+SPSHF0   15	15	; 40oz
+SPSHG0   15	20	; 40oz
+SPSHH0   15	20	; 40oz
+SPSHI0   15	18	; 40oz
+SPSHJ0   15	19	; 40oz
+SPSHK0   14	8	; 40oz
 SRTCA0   7 63	; Stilgar
 SRTCB0   7 63	; Stilgar
 SRTCC0   7 63	; Stilgar
