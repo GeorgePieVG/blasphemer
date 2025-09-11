@@ -820,6 +820,8 @@ RHTP0018  ; raymoohawk (Freedoom attic)
 RHTP0019  ; raymoohawk (Freedoom attic)
 RHTP0020  ; raymoohawk (Freedoom attic)
 RHTP0021  ; raymoohawk (Freedoom attic)
+SCHMEAT1  ; SCHMEAT by Craneo
+SCHMEAT2
 
 [patches]
 #ifdef BLASPHEM
